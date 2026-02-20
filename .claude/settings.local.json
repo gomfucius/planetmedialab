@@ -6,7 +6,10 @@
       "Bash(done)",
       "Bash(ls:*)",
       "Bash(for i in 1 2 3 4 5)",
-      "Bash(do cp /Users/genki/Developer/Personal/planetmedialab/source/eticket/unit1/index.html /Users/genki/Developer/Personal/planetmedialab/source/eticket/review$i/index.html)"
+      "Bash(do cp /Users/genki/Developer/Personal/planetmedialab/source/eticket/unit1/index.html /Users/genki/Developer/Personal/planetmedialab/source/eticket/review$i/index.html)",
+      "Bash(do cp unit1/index.html unit$i/index.html)",
+      "Bash(do cp:*)",
+      "Bash(curl:*)"
     ]
   }
 }

@@ -509,6 +509,327 @@
             padding: 20px;
         }
 
+        /* TOEIC Part 1 - Photo Description */
+        .toeic-photos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .photo-card {
+            background: #f9f9f9;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .photo-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .photo-controls {
+            padding: 15px;
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .audio-btn {
+            padding: 10px 20px;
+            background: #89AF37;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.2s;
+        }
+
+        .audio-btn:hover {
+            background: #6d8a2b;
+            transform: scale(1.05);
+        }
+
+        .audio-btn.playing {
+            background: #4caf50;
+        }
+
+        .audio-btn.intro {
+            background: #324EAC;
+        }
+
+        .audio-btn.intro:hover {
+            background: #263d8a;
+        }
+
+        /* TOEIC Part 2 - Question Response */
+        .toeic-questions {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .question-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            flex-wrap: wrap;
+        }
+
+        .question-label {
+            font-weight: bold;
+            color: #333;
+            min-width: 80px;
+        }
+
+        .question-btns {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .question-btns .audio-btn {
+            min-width: 45px;
+        }
+
+        /* TOEIC Part 3 - Short Conversations */
+        .conversation-section {
+            margin-bottom: 20px;
+        }
+
+        .conversation-section h3 {
+            color: #324EAC;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .speech-list {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .speech-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 15px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .speech-item:hover {
+            background: #e8f5e9;
+        }
+
+        .speech-item.playing {
+            background: #c8e6c9;
+        }
+
+        .speaker-badge {
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.85rem;
+            min-width: 35px;
+            text-align: center;
+        }
+
+        .speaker-badge.M {
+            background: #324EAC;
+            color: white;
+        }
+
+        .speaker-badge.W {
+            background: #CC99CC;
+            color: white;
+        }
+
+        .p3-questions {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .p3-question {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 15px;
+            background: #fff3e0;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .p3-question:hover {
+            background: #ffe0b2;
+        }
+
+        .p3-question.playing {
+            background: #ffcc80;
+        }
+
+        .question-text {
+            flex: 1;
+            color: #333;
+        }
+
+        /* TOEIC Part 4 - Short Talks */
+        .p4-modes {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .p4-mode-btn {
+            padding: 12px 20px;
+            background: #f0f0f0;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.2s;
+        }
+
+        .p4-mode-btn:hover {
+            border-color: #89AF37;
+        }
+
+        .p4-mode-btn.active {
+            background: #89AF37;
+            color: white;
+            border-color: #89AF37;
+        }
+
+        .p4-content {
+            display: none;
+        }
+
+        .p4-content.active {
+            display: block;
+        }
+
+        .chunk-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .chunk-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 15px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+            border-left: 4px solid transparent;
+        }
+
+        .chunk-item:hover {
+            background: #e8f5e9;
+            border-left-color: #89AF37;
+        }
+
+        .chunk-item.playing {
+            background: #c8e6c9;
+            border-left-color: #4caf50;
+        }
+
+        .chunk-num {
+            width: 28px;
+            height: 28px;
+            background: #89AF37;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 0.8rem;
+            flex-shrink: 0;
+        }
+
+        .chunk-text {
+            flex: 1;
+            font-size: 1rem;
+            line-height: 1.4;
+        }
+
+        .shadowing-section {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .shadowing-section .audio-btn {
+            padding: 15px 40px;
+            font-size: 1.1rem;
+        }
+
+        .timed-reading {
+            padding: 20px;
+        }
+
+        .timed-controls {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .timed-text {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 12px;
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        .wpm-display {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #666;
+        }
+
+        .wpm-result {
+            margin-top: 15px;
+            padding: 15px;
+            background: #e8f5e9;
+            border-radius: 8px;
+            text-align: center;
+            display: none;
+        }
+
+        .wpm-result.show {
+            display: block;
+        }
+
+        .wpm-result .score {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #89AF37;
+        }
+
+        .wpm-result .medal {
+            font-size: 1.2rem;
+            margin-top: 5px;
+        }
+
         @media (max-width: 600px) {
             .container {
                 padding: 15px;
@@ -617,18 +938,68 @@
                 <div class="vocab-grid" id="vocab-grid"></div>
             </div>
 
-            <!-- TOEIC Parts (placeholder) -->
+            <!-- TOEIC Part 1 - Photo Description -->
             <div class="activity" id="ToeicP1">
-                <p class="info-text">TOEIC Part 1 - Photo Description (Coming soon)</p>
+                <p class="info-text">Listen to the descriptions and identify which best matches each photo.</p>
+                <div class="toeic-photos" id="p1-photos"></div>
             </div>
+
+            <!-- TOEIC Part 2 - Question Response -->
             <div class="activity" id="ToeicP2">
-                <p class="info-text">TOEIC Part 2 - Question Response (Coming soon)</p>
+                <p class="info-text">Listen to the question and choose the best response (A, B, or C).</p>
+                <div class="toeic-questions" id="p2-questions"></div>
             </div>
+
+            <!-- TOEIC Part 3 - Short Conversations -->
             <div class="activity" id="ToeicP3">
-                <p class="info-text">TOEIC Part 3 - Short Conversations (Coming soon)</p>
+                <p class="info-text">Listen to the conversation and answer the questions.</p>
+                <div class="conversation-section">
+                    <h3><span class="audio-btn intro" id="p3-play-all">▶ Play Conversation</span></h3>
+                    <div class="speech-list" id="p3-speeches"></div>
+                </div>
+                <div class="conversation-section">
+                    <h3>Questions</h3>
+                    <div class="p3-questions" id="p3-questions"></div>
+                </div>
             </div>
+
+            <!-- TOEIC Part 4 - Short Talks -->
             <div class="activity" id="ToeicP4">
-                <p class="info-text">TOEIC Part 4 - Short Talks (Coming soon)</p>
+                <div class="p4-modes">
+                    <button class="p4-mode-btn active" data-mode="chunk">Chunk Reading</button>
+                    <button class="p4-mode-btn" data-mode="shadowing">Shadowing</button>
+                    <button class="p4-mode-btn" data-mode="timed">Timed Reading</button>
+                    <button class="p4-mode-btn" data-mode="questions">Questions</button>
+                </div>
+                <div class="p4-content active" id="p4-chunk">
+                    <p class="info-text">Click each chunk to hear and practice pronunciation.</p>
+                    <div class="chunk-list" id="chunk-list"></div>
+                </div>
+                <div class="p4-content" id="p4-shadowing">
+                    <div class="shadowing-section">
+                        <p class="info-text">Listen to the full talk and repeat along.</p>
+                        <button class="audio-btn" id="shadowing-play">▶ Play Full Talk</button>
+                    </div>
+                </div>
+                <div class="p4-content" id="p4-timed">
+                    <div class="timed-reading">
+                        <p class="info-text">Read the text aloud as fast as you can. Track your WPM!</p>
+                        <div class="timed-controls">
+                            <button class="audio-btn start" id="timed-start">Start Timer</button>
+                            <button class="audio-btn reset" id="timed-stop" style="display:none;">Stop</button>
+                            <div class="wpm-display">Time: <span id="timed-timer">0</span>s</div>
+                        </div>
+                        <div class="timed-text" id="timed-text"></div>
+                        <div class="wpm-result" id="wpm-result">
+                            <div class="score" id="wpm-score">150 WPM</div>
+                            <div class="medal" id="wpm-medal">Gold Medal!</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p4-content" id="p4-questions">
+                    <p class="info-text">Listen to the questions and test your comprehension.</p>
+                    <div class="p3-questions" id="p4-question-list"></div>
+                </div>
             </div>
         </div>
 
@@ -704,6 +1075,10 @@
                         case 'SoundFeatures': initSoundFeatures(); break;
                         case 'DictationRep': initDictation(); break;
                         case 'Vocabulary': initVocabulary(); break;
+                        case 'ToeicP1': initToeicP1(); break;
+                        case 'ToeicP2': initToeicP2(); break;
+                        case 'ToeicP3': initToeicP3(); break;
+                        case 'ToeicP4': initToeicP4(); break;
                     }
                 }
             });
@@ -980,6 +1355,351 @@
             document.getElementById('result-overlay').classList.remove('show');
             document.getElementById('overlay-bg').classList.remove('show');
             resetVocabulary();
+        }
+
+        // TOEIC Part 1 - Photo Description
+        function initToeicP1() {
+            if (!appData.ToeicP1) return;
+            const p1 = appData.ToeicP1;
+            const container = document.getElementById('p1-photos');
+            container.innerHTML = '';
+
+            // Photo 1
+            const card1 = document.createElement('div');
+            card1.className = 'photo-card';
+            card1.innerHTML = `
+                <img src="${materialPath}${p1.pic1Img}" alt="Photo 1">
+                <div class="photo-controls" id="p1-controls-1"></div>
+            `;
+            container.appendChild(card1);
+
+            // Photo 2
+            const card2 = document.createElement('div');
+            card2.className = 'photo-card';
+            card2.innerHTML = `
+                <img src="${materialPath}${p1.pic2Img}" alt="Photo 2">
+                <div class="photo-controls" id="p1-controls-2"></div>
+            `;
+            container.appendChild(card2);
+
+            // Add audio buttons for Photo 1
+            const controls1 = document.getElementById('p1-controls-1');
+            p1.sounds.pic1Sound.forEach((sound, index) => {
+                const label = index === 0 ? '▶ All' : String.fromCharCode(64 + index);
+                const btn = document.createElement('button');
+                btn.className = 'audio-btn' + (index === 0 ? ' intro' : '');
+                btn.textContent = label;
+                btn.addEventListener('click', async () => {
+                    controls1.querySelectorAll('.audio-btn').forEach(b => b.classList.remove('playing'));
+                    btn.classList.add('playing');
+                    await playAudio(sound);
+                    btn.classList.remove('playing');
+                });
+                controls1.appendChild(btn);
+            });
+
+            // Add audio buttons for Photo 2
+            const controls2 = document.getElementById('p1-controls-2');
+            p1.sounds.pic2Sound.forEach((sound, index) => {
+                const label = index === 0 ? '▶ All' : String.fromCharCode(64 + index);
+                const btn = document.createElement('button');
+                btn.className = 'audio-btn' + (index === 0 ? ' intro' : '');
+                btn.textContent = label;
+                btn.addEventListener('click', async () => {
+                    controls2.querySelectorAll('.audio-btn').forEach(b => b.classList.remove('playing'));
+                    btn.classList.add('playing');
+                    await playAudio(sound);
+                    btn.classList.remove('playing');
+                });
+                controls2.appendChild(btn);
+            });
+        }
+
+        // TOEIC Part 2 - Question Response
+        function initToeicP2() {
+            if (!appData.ToeicP2) return;
+            const p2 = appData.ToeicP2;
+            const container = document.getElementById('p2-questions');
+            container.innerHTML = '';
+
+            // Play All button
+            if (p2.sounds.allFirstSound) {
+                const allRow = document.createElement('div');
+                allRow.className = 'question-row';
+                allRow.innerHTML = `<span class="question-label">All Questions</span><div class="question-btns" id="p2-all-btns"></div>`;
+                container.appendChild(allRow);
+
+                const allBtns = allRow.querySelector('#p2-all-btns');
+                const playAllBtn = document.createElement('button');
+                playAllBtn.className = 'audio-btn intro';
+                playAllBtn.textContent = '▶ Play All';
+                playAllBtn.addEventListener('click', async () => {
+                    playAllBtn.classList.add('playing');
+                    await playAudio(p2.sounds.allFirstSound[0]);
+                    playAllBtn.classList.remove('playing');
+                });
+                allBtns.appendChild(playAllBtn);
+            }
+
+            // Question rows (3, 4, 5, 6)
+            const questionSets = [
+                { key: 'question3Sound', label: 'Question 3' },
+                { key: 'question4Sound', label: 'Question 4' },
+                { key: 'question5Sound', label: 'Question 5' },
+                { key: 'question6Sound', label: 'Question 6' }
+            ];
+
+            questionSets.forEach(({ key, label }) => {
+                if (!p2.sounds[key]) return;
+
+                const row = document.createElement('div');
+                row.className = 'question-row';
+                row.innerHTML = `<span class="question-label">${label}</span><div class="question-btns"></div>`;
+                container.appendChild(row);
+
+                const btns = row.querySelector('.question-btns');
+                p2.sounds[key].forEach((sound, index) => {
+                    const btnLabel = index === 0 ? 'Q' : String.fromCharCode(64 + index);
+                    const btn = document.createElement('button');
+                    btn.className = 'audio-btn' + (index === 0 ? ' intro' : '');
+                    btn.textContent = btnLabel;
+                    btn.addEventListener('click', async () => {
+                        btns.querySelectorAll('.audio-btn').forEach(b => b.classList.remove('playing'));
+                        btn.classList.add('playing');
+                        await playAudio(sound);
+                        btn.classList.remove('playing');
+                    });
+                    btns.appendChild(btn);
+                });
+            });
+        }
+
+        // TOEIC Part 3 - Short Conversations
+        function initToeicP3() {
+            if (!appData.ToeicP3) return;
+            const p3 = appData.ToeicP3;
+
+            // Play All button
+            const playAllBtn = document.getElementById('p3-play-all');
+            if (p3.sounds.speechSound && p3.sounds.speechSound.length > 0) {
+                let isPlayingAll = false;
+                playAllBtn.addEventListener('click', async () => {
+                    if (isPlayingAll) return;
+                    isPlayingAll = true;
+                    playAllBtn.classList.add('playing');
+                    playAllBtn.textContent = '▶ Playing...';
+
+                    for (let i = 0; i < p3.sounds.speechSound.length; i++) {
+                        const items = document.querySelectorAll('.speech-item');
+                        items.forEach(item => item.classList.remove('playing'));
+                        if (items[i]) items[i].classList.add('playing');
+                        await playAudio(p3.sounds.speechSound[i]);
+                    }
+
+                    document.querySelectorAll('.speech-item').forEach(item => item.classList.remove('playing'));
+                    playAllBtn.classList.remove('playing');
+                    playAllBtn.textContent = '▶ Play Conversation';
+                    isPlayingAll = false;
+                });
+            }
+
+            // Speech items
+            const speechContainer = document.getElementById('p3-speeches');
+            speechContainer.innerHTML = '';
+
+            if (p3.sounds.speechSound) {
+                p3.sounds.speechSound.forEach((sound, index) => {
+                    const speaker = p3.soundSex ? p3.soundSex[index] : (index % 2 === 0 ? 'W' : 'M');
+                    const div = document.createElement('div');
+                    div.className = 'speech-item';
+                    div.innerHTML = `
+                        <span class="speaker-badge ${speaker}">${speaker}</span>
+                        <span class="play-icon">▶</span>
+                        <span>Speech ${index + 1}</span>
+                    `;
+                    div.addEventListener('click', async () => {
+                        document.querySelectorAll('.speech-item').forEach(s => s.classList.remove('playing'));
+                        div.classList.add('playing');
+                        await playAudio(sound);
+                        div.classList.remove('playing');
+                    });
+                    speechContainer.appendChild(div);
+                });
+            }
+
+            // Questions
+            const questionContainer = document.getElementById('p3-questions');
+            questionContainer.innerHTML = '';
+
+            if (p3.questionText && p3.sounds.questionSound) {
+                p3.questionText.forEach((text, index) => {
+                    const div = document.createElement('div');
+                    div.className = 'p3-question';
+                    div.innerHTML = `
+                        <span class="play-icon">▶</span>
+                        <span class="question-text">${text}</span>
+                    `;
+                    const sound = p3.sounds.questionSound[index];
+                    if (sound) {
+                        div.addEventListener('click', async () => {
+                            document.querySelectorAll('.p3-question').forEach(q => q.classList.remove('playing'));
+                            div.classList.add('playing');
+                            await playAudio(sound);
+                            div.classList.remove('playing');
+                        });
+                    }
+                    questionContainer.appendChild(div);
+                });
+            }
+        }
+
+        // TOEIC Part 4 - Short Talks
+        let timedState = { running: false, startTime: 0, timer: null };
+
+        function initToeicP4() {
+            if (!appData.ToeicP4) return;
+            const p4 = appData.ToeicP4;
+
+            // Mode switching
+            document.querySelectorAll('.p4-mode-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.p4-mode-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    document.querySelectorAll('.p4-content').forEach(c => c.classList.remove('active'));
+                    document.getElementById('p4-' + btn.dataset.mode).classList.add('active');
+                    stopAudio();
+                    resetTimedReading();
+                });
+            });
+
+            // Chunk reading
+            const chunkList = document.getElementById('chunk-list');
+            chunkList.innerHTML = '';
+
+            if (p4.chunks) {
+                p4.chunks.forEach((chunk, index) => {
+                    const div = document.createElement('div');
+                    div.className = 'chunk-item';
+                    div.innerHTML = `
+                        <span class="chunk-num">${index + 1}</span>
+                        <span class="chunk-text">${chunk}</span>
+                    `;
+                    const sound = p4.sounds.chunkSound ? p4.sounds.chunkSound[index] : null;
+                    if (sound) {
+                        div.addEventListener('click', async () => {
+                            document.querySelectorAll('.chunk-item').forEach(c => c.classList.remove('playing'));
+                            div.classList.add('playing');
+                            await playAudio(sound);
+                            div.classList.remove('playing');
+                        });
+                    }
+                    chunkList.appendChild(div);
+                });
+            }
+
+            // Shadowing
+            const shadowingBtn = document.getElementById('shadowing-play');
+            if (p4.sounds.shadowingSound && p4.sounds.shadowingSound[0]) {
+                shadowingBtn.addEventListener('click', async () => {
+                    shadowingBtn.classList.add('playing');
+                    shadowingBtn.textContent = '▶ Playing...';
+                    await playAudio(p4.sounds.shadowingSound[0]);
+                    shadowingBtn.classList.remove('playing');
+                    shadowingBtn.textContent = '▶ Play Full Talk';
+                });
+            }
+
+            // Timed reading
+            const timedText = document.getElementById('timed-text');
+            if (p4.chunks) {
+                timedText.textContent = p4.chunks.join(' ');
+            }
+
+            document.getElementById('timed-start').addEventListener('click', startTimedReading);
+            document.getElementById('timed-stop').addEventListener('click', stopTimedReading);
+
+            // Questions
+            const questionList = document.getElementById('p4-question-list');
+            questionList.innerHTML = '';
+
+            if (p4.questionText && p4.sounds.questionSound) {
+                p4.questionText.forEach((text, index) => {
+                    const div = document.createElement('div');
+                    div.className = 'p3-question';
+                    div.innerHTML = `
+                        <span class="play-icon">▶</span>
+                        <span class="question-text">${index + 9}. ${text}</span>
+                    `;
+                    const sound = p4.sounds.questionSound[index];
+                    if (sound) {
+                        div.addEventListener('click', async () => {
+                            document.querySelectorAll('#p4-question-list .p3-question').forEach(q => q.classList.remove('playing'));
+                            div.classList.add('playing');
+                            await playAudio(sound);
+                            div.classList.remove('playing');
+                        });
+                    }
+                    questionList.appendChild(div);
+                });
+            }
+        }
+
+        function startTimedReading() {
+            timedState.running = true;
+            timedState.startTime = Date.now();
+            document.getElementById('timed-start').style.display = 'none';
+            document.getElementById('timed-stop').style.display = 'inline-block';
+            document.getElementById('wpm-result').classList.remove('show');
+
+            timedState.timer = setInterval(() => {
+                const elapsed = Math.floor((Date.now() - timedState.startTime) / 1000);
+                document.getElementById('timed-timer').textContent = elapsed;
+            }, 100);
+        }
+
+        function stopTimedReading() {
+            if (!timedState.running) return;
+            timedState.running = false;
+            clearInterval(timedState.timer);
+
+            const elapsed = (Date.now() - timedState.startTime) / 1000;
+            const p4 = appData.ToeicP4;
+            const words = p4.words || 70;
+            const wpm = Math.round((words / elapsed) * 60);
+
+            document.getElementById('wpm-score').textContent = wpm + ' WPM';
+
+            let medal = '';
+            let sound = null;
+            if (wpm >= (p4.wpm?.gold || 150)) {
+                medal = '🥇 Gold Medal!';
+                sound = p4.sounds.goldSound?.[0];
+            } else if (wpm >= (p4.wpm?.silver || 120)) {
+                medal = '🥈 Silver Medal!';
+                sound = p4.sounds.silverSound?.[0];
+            } else if (wpm >= (p4.wpm?.bronze || 90)) {
+                medal = '🥉 Bronze Medal!';
+                sound = p4.sounds.bronzeSound?.[0];
+            } else {
+                medal = 'Keep practicing!';
+                sound = p4.sounds.tryagainSound?.[0];
+            }
+
+            document.getElementById('wpm-medal').textContent = medal;
+            document.getElementById('wpm-result').classList.add('show');
+            document.getElementById('timed-start').style.display = 'inline-block';
+            document.getElementById('timed-stop').style.display = 'none';
+
+            if (sound) playAudio(sound);
+        }
+
+        function resetTimedReading() {
+            timedState.running = false;
+            clearInterval(timedState.timer);
+            document.getElementById('timed-timer').textContent = '0';
+            document.getElementById('timed-start').style.display = 'inline-block';
+            document.getElementById('timed-stop').style.display = 'none';
+            document.getElementById('wpm-result').classList.remove('show');
         }
 
         // Logout function
