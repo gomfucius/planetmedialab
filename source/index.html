@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Media Lab - English Learning</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        /* Login Overlay */
+        .login-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .login-overlay.hidden {
+            display: none;
+        }
+
+        .login-box {
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        .login-box h2 {
+            margin: 0 0 10px;
+            color: #333;
+            font-size: 1.8rem;
+        }
+
+        .login-box .subtitle {
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .login-box input {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+        }
+
+        .login-box input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .login-box button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .login-box button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .login-error {
+            color: #e53935;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+            display: none;
+        }
+
+        .login-error.show {
+            display: block;
+        }
+
+        .main-content {
+            display: none;
+        }
+
+        .main-content.visible {
+            display: block;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            color: white;
+        }
+
+        header h1 {
+            font-size: clamp(1.8rem, 5vw, 3rem);
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        header p {
+            font-size: clamp(1rem, 2.5vw, 1.3rem);
+            opacity: 0.9;
+        }
+
+        .courses {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 20px 0 60px;
+        }
+
+        .course-card {
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .course-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .course-header {
+            padding: 30px;
+            color: white;
+            text-align: center;
+        }
+
+        .course-card.eticket .course-header {
+            background: linear-gradient(135deg, #89AF37 0%, #5d7a1f 100%);
+        }
+
+        .course-card.hatsuon .course-header {
+            background: linear-gradient(135deg, #CC99CC 0%, #9966a0 100%);
+        }
+
+        .course-header h2 {
+            font-size: 1.8rem;
+            margin-bottom: 8px;
+        }
+
+        .course-header p {
+            opacity: 0.9;
+            font-size: 0.95rem;
+        }
+
+        .course-body {
+            padding: 25px;
+        }
+
+        .course-body p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .unit-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(45px, 1fr));
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .unit-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 45px;
+            height: 45px;
+            background: #f0f0f0;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+        }
+
+        .unit-link:hover {
+            background: #89AF37;
+            color: white;
+            transform: scale(1.1);
+        }
+
+        .course-card.hatsuon .unit-link:hover {
+            background: #CC99CC;
+        }
+
+        .unit-link.review {
+            background: #FFD701;
+            color: #333;
+        }
+
+        .unit-link.review:hover {
+            background: #e6c200;
+        }
+
+        .section-title {
+            font-size: 0.85rem;
+            color: #999;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 15px;
+        }
+
+        .feature-tag {
+            background: #f5f5f5;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: rgba(255,255,255,0.8);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 640px) {
+            .container {
+                padding: 15px;
+            }
+
+            header {
+                padding: 30px 15px;
+            }
+
+            .courses {
+                gap: 20px;
+            }
+
+            .course-header {
+                padding: 20px;
+            }
+
+            .course-body {
+                padding: 20px;
+            }
+
+            .unit-grid {
+                grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+            }
+
+            .unit-link {
+                width: 40px;
+                height: 40px;
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Login Overlay -->
+    <div class="login-overlay" id="loginOverlay">
+        <div class="login-box">
+            <h2>Planet Media Lab</h2>
+            <p class="subtitle">Please login to continue</p>
+            <div class="login-error" id="loginError">Invalid username or password</div>
+            <input type="text" id="username" placeholder="Username" autocomplete="username">
+            <input type="password" id="password" placeholder="Password" autocomplete="current-password">
+            <button onclick="handleLogin()">Login</button>
+        </div>
+    </div>
+
+    <div class="container main-content" id="mainContent">
+        <header>
+            <h1>Planet Media Lab</h1>
+            <p>Interactive English Learning for TOEIC Success</p>
+        </header>
+
+        <div class="courses">
+            <!-- E-Ticket Course -->
+            <div class="course-card eticket">
+                <div class="course-header">
+                    <h2>E-Ticket</h2>
+                    <p>TOEIC Listening & Vocabulary</p>
+                </div>
+                <div class="course-body">
+                    <p>Master TOEIC listening skills through interactive audio exercises, dictation practice, and vocabulary building games.</p>
+
+                    <div class="section-title">Units</div>
+                    <div class="unit-grid">
+                        <a href="eticket/unit1/index.html" class="unit-link">1</a>
+                        <a href="eticket/unit2/index.html" class="unit-link">2</a>
+                        <a href="eticket/unit3/index.html" class="unit-link">3</a>
+                        <a href="eticket/unit4/index.html" class="unit-link">4</a>
+                        <a href="eticket/unit5/index.html" class="unit-link">5</a>
+                        <a href="eticket/unit6/index.html" class="unit-link">6</a>
+                        <a href="eticket/unit7/index.html" class="unit-link">7</a>
+                        <a href="eticket/unit8/index.html" class="unit-link">8</a>
+                        <a href="eticket/unit9/index.html" class="unit-link">9</a>
+                        <a href="eticket/unit10/index.html" class="unit-link">10</a>
+                        <a href="eticket/unit11/index.html" class="unit-link">11</a>
+                        <a href="eticket/unit12/index.html" class="unit-link">12</a>
+                        <a href="eticket/unit13/index.html" class="unit-link">13</a>
+                        <a href="eticket/unit14/index.html" class="unit-link">14</a>
+                        <a href="eticket/unit15/index.html" class="unit-link">15</a>
+                    </div>
+
+                    <div class="section-title">Reviews</div>
+                    <div class="unit-grid">
+                        <a href="eticket/review1/index.html" class="unit-link review">R1</a>
+                        <a href="eticket/review2/index.html" class="unit-link review">R2</a>
+                        <a href="eticket/review3/index.html" class="unit-link review">R3</a>
+                        <a href="eticket/review4/index.html" class="unit-link review">R4</a>
+                        <a href="eticket/review5/index.html" class="unit-link review">R5</a>
+                    </div>
+
+                    <div class="features">
+                        <span class="feature-tag">Sound Features</span>
+                        <span class="feature-tag">Dictation</span>
+                        <span class="feature-tag">Vocabulary</span>
+                        <span class="feature-tag">TOEIC Parts 1-4</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hatsuon Course -->
+            <div class="course-card hatsuon">
+                <div class="course-header">
+                    <h2>Hatsuon</h2>
+                    <p>English Pronunciation Practice</p>
+                </div>
+                <div class="course-body">
+                    <p>Learn correct English pronunciation through visual guides and audio examples covering all essential phonemes.</p>
+
+                    <div class="section-title">Phoneme Units</div>
+                    <div class="unit-grid">
+                        <a href="hatsuon/unit1/kkz_u1_1.html" class="unit-link">1</a>
+                        <a href="hatsuon/unit2/kkz_u2_1.html" class="unit-link">2</a>
+                        <a href="hatsuon/unit3/kkz_u3_1.html" class="unit-link">3</a>
+                        <a href="hatsuon/unit4/kkz_u4_1.html" class="unit-link">4</a>
+                        <a href="hatsuon/unit5/kkz_u5_1.html" class="unit-link">5</a>
+                        <a href="hatsuon/unit6/kkz_u6_1.html" class="unit-link">6</a>
+                        <a href="hatsuon/unit7/kkz_u7_1.html" class="unit-link">7</a>
+                        <a href="hatsuon/unit8/kkz_u8_1.html" class="unit-link">8</a>
+                        <a href="hatsuon/unit9/kkz_u9_1.html" class="unit-link">9</a>
+                        <a href="hatsuon/unit10/kkz_u10_1.html" class="unit-link">10</a>
+                        <a href="hatsuon/unit11/kkz_u11_1.html" class="unit-link">11</a>
+                        <a href="hatsuon/unit12/kkz_u12_1.html" class="unit-link">12</a>
+                        <a href="hatsuon/unit13/kkz_u13_1.html" class="unit-link">13</a>
+                        <a href="hatsuon/unit14/kkz_u14_1.html" class="unit-link">14</a>
+                        <a href="hatsuon/unit15/kkz_u15_1.html" class="unit-link">15</a>
+                        <a href="hatsuon/unit16/kkz_u16_1.html" class="unit-link">16</a>
+                        <a href="hatsuon/unit17/kkz_u17_1.html" class="unit-link">17</a>
+                        <a href="hatsuon/unit18/kkz_u18_1.html" class="unit-link">18</a>
+                    </div>
+
+                    <div class="features">
+                        <span class="feature-tag">Vowels</span>
+                        <span class="feature-tag">Consonants</span>
+                        <span class="feature-tag">Diphthongs</span>
+                        <span class="feature-tag">Visual Guides</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&copy; Planet Media Lab. <a href="hatsuon/kkz_menu.html">Hatsuon Full Menu</a></p>
+        </footer>
+    </div>
+    <script>
+        const VALID_USER = 'planet';
+        const VALID_PASS = '4vk8xhuh!';
+        const SESSION_KEY = 'pml_logged_in';
+
+        function checkLogin() {
+            if (sessionStorage.getItem(SESSION_KEY) === 'true') {
+                document.getElementById('loginOverlay').classList.add('hidden');
+                document.getElementById('mainContent').classList.add('visible');
+                return true;
+            }
+            return false;
+        }
+
+        function handleLogin() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            if (username === VALID_USER && password === VALID_PASS) {
+                sessionStorage.setItem(SESSION_KEY, 'true');
+                document.getElementById('loginOverlay').classList.add('hidden');
+                document.getElementById('mainContent').classList.add('visible');
+                document.getElementById('loginError').classList.remove('show');
+            } else {
+                document.getElementById('loginError').classList.add('show');
+            }
+        }
+
+        // Handle Enter key
+        document.getElementById('password').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') handleLogin();
+        });
+        document.getElementById('username').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') document.getElementById('password').focus();
+        });
+
+        // Check login on load
+        checkLogin();
+    </script>
+</body>
+</html>
