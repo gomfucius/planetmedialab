@@ -1,0 +1,114 @@
+{
+    "page":"R2",
+    "unit":"Review2",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/02_ReviewTest.png",
+    "EnglishTitle":"Review Test2",
+    "JapaneseTitle":"",
+    "study":"連結",
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/E-Ticket.mp3","sound/RevTest2.mp3","sound/dr/dictation_intro.mp3"],
+            "sentenceSound":["sound/dr/t_2_d_01.mp3","sound/dr/t_2_d_02.mp3","sound/dr/t_2_d_03.mp3","sound/dr/t_2_d_04.mp3","sound/dr/t_2_d_05.mp3","sound/dr/t_2_d_06.mp3","sound/dr/t_2_d_07.mp3","sound/dr/t_2_d_08.mp3","sound/dr/t_2_d_09.mp3","sound/dr/t_2_d_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["Let’s {**** * **** **} the budget again. ",
+			"{*** *** ** ***} satisfied with the design of this product.",
+			"Which stop {****** * *** *** **} to get to the museum?",
+			"What kind of mileage do you {*** *** ** **** *****}?",
+			"My {******** ******* **} almost empty. ",
+			"{**** ** **** ***} playing the piano.",
+			"{******* ** *** ****} in the basement.",
+			"The next one will {***** ** ** ****}.",
+			"{**** ** **** *** *******} in front of the chorus group.",
+			"The nearest {*** ******* ** ******} 20 miles from here. "
+            ],
+        "hashAnswers":["f93fcfeec91259053ade3a144e223386910a30ddb81ebe7828528a8ce5b360dd",
+			"b476b6cacd52ef2f5a92de2dcc7af5f07225ed0bfb1f008fcbe1f896600733b0",
+			"14da7343494a1aefd0e16ee97c265143979e774697b2850ca39bca9dce2679a5",
+			"a865d99320d73987c0e8c5b16b64ca24c5c19ca497ee31088968b4282f0a746e",
+			"da5362bb6928fdbc5ea5be3727c6036738752f0f4a65c158e0c27b5d727da815",
+			"b8e443e0df20e256105ef80bb49fee3ec0de938ed00d282e313bcdb0e2a43475",
+			"1c8fef65b42cb8189b0faa672438f93eb4a72e6b02e19bdff62769182c84256a",
+			"dabe31c1abd1bdabd193ac2111837e1fb9dedb9ff24410e1c60d5281ccef6d19",
+			"57c8bff8a81649c376544205e548a0ee0acba49dfd004b8f65f10504dbde0960",
+			"67fff0625b343b28cf144612c7966fa29529d2fc3835d3bfdf36a050a62aeb7a"
+            ],
+        "sealImage":"./image/01_DI_diamond.jpg"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_title.mp3"],
+            "pic1Sound":["sound/tp1/Q1.mp3","sound/tp1/t_2_p1_01.mp3", "sound/tp1/t_2_p1_02.mp3", "sound/tp1/t_2_p1_03.mp3", "sound/tp1/t_2_p1_04.mp3"],
+            "pic2Sound":["sound/tp1/Q2.mp3","sound/tp1/t_2_p1_05.mp3", "sound/tp1/t_2_p1_06.mp3", "sound/tp1/t_2_p1_07.mp3", "sound/tp1/t_2_p1_08.mp3"]
+        },
+        "pic1Img":"./image/R2-1.jpg",
+        "pic2Img":"./image/R2-2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/part2_title.mp3"],
+            "question3Sound":["sound/ttqr/r2/Q3.mp3","sound/tp2/t_2_p2_01.mp3","sound/tp2/t_2_p2_02.mp3","sound/tp2/t_2_p2_03.mp3"],
+            "question4Sound":["sound/ttqr/r2/Q4.mp3","sound/tp2/t_2_p2_04.mp3","sound/tp2/t_2_p2_05.mp3","sound/tp2/t_2_p2_06.mp3"],
+            "question5Sound":["sound/ttqr/r2/Q5.mp3","sound/tp2/t_2_p2_07.mp3","sound/tp2/t_2_p2_08.mp3","sound/tp2/t_2_p2_09.mp3"],
+            "question6Sound":["sound/ttqr/r2/Q6.mp3","sound/tp2/t_2_p2_10.mp3","sound/tp2/t_2_p2_11.mp3","sound/tp2/t_2_p2_12.mp3"],
+            "question7Sound":["sound/ttqr/r2/Q7.mp3","sound/tp2/t_2_p2_13.mp3","sound/tp2/t_2_p2_14.mp3","sound/tp2/t_2_p2_15.mp3"],
+            "question8Sound":["sound/ttqr/r2/Q8.mp3","sound/tp2/t_2_p2_16.mp3","sound/tp2/t_2_p2_17.mp3","sound/tp2/t_2_p2_18.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/part3_title.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/t_2_p3_01.mp3","sound/tp3/t_2_p3_02.mp3","sound/tp3/t_2_p3_03.mp3","sound/tp3/t_2_p3_04.mp3","sound/tp3/t_2_p3_05.mp3"],
+            "questionSound":["sound/reviewtest2/reviewtest2_Q9.mp3","sound/reviewtest2/reviewtest2_Q10.mp3","sound/reviewtest2/reviewtest2_Q11.mp3"]
+        },
+        "soundSex":["W","M","W","M","W"],
+        "questionText":["9. Who drew the portraits in the national gallery?", "10. When did the artist begin painting?", "11. How does the artist create the portraits?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/part4_title.mp3"],
+            "chunkSound":["sound/tp4/t_2_p4_01.mp3","sound/tp4/t_2_p4_02.mp3","sound/tp4/t_2_p4_03.mp3","sound/tp4/t_2_p4_04.mp3","sound/tp4/t_2_p4_05.mp3",
+                "sound/tp4/t_2_p4_06.mp3","sound/tp4/t_2_p4_07.mp3","sound/tp4/t_2_p4_08.mp3","sound/tp4/t_2_p4_09.mp3","sound/tp4/t_2_p4_10.mp3",
+                "sound/tp4/t_2_p4_11.mp3","sound/tp4/t_2_p4_12.mp3","sound/tp4/t_2_p4_13.mp3","sound/tp4/t_2_p4_14.mp3","sound/tp4/t_2_p4_15.mp3"],
+            "shadowingSound":["sound/tp4/t_2_p4_Story.mp3"],
+            "questionSound":["sound/reviewtest2/reviewtest2_Q12.mp3","sound/reviewtest2/reviewtest2_Q13.mp3","sound/reviewtest2/reviewtest2_Q14.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"./image/01_P4_CHUNK.jpg",
+            "shadowing":"./image/01_P4_SHADOW.jpg",
+            "repeating":"./image/01_P4_REPEAT.jpg",
+            "time":"./image/01_P4_TIME.jpg"
+        },
+        "words":87,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["Transit workers in the Philadelphia area",
+            "have voted to accepted a new two-year contract.",
+            "The agreement between the transportation agency",
+            "and the Transport Workers Union",
+            "provides a five percent pay rise",
+            "over the next two fiscal years.",
+            "The Southeastern Pennsylvania Transportation Authority,",
+            "which has an annual operating budget of $1.3 billion,",
+            "is the sixth-largest transit agency",
+            "in the United States",
+            "and serves nearly 360 million riders a year.",
+            "The average wages",
+            "for a bus or train driver",
+            "are now 5,000 dollars a month",
+            "with overtime."],
+        "questionText":["Who is talking?", "How many passengers ride on the buses and trains in the Southeastern Pennsylvanian area?", "What does a train or bus operator earn per month?"]
+    }
+}

@@ -1,0 +1,145 @@
+{
+    "page":"12",
+    "unit":"UNIT12",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/12_icon.jpg",
+    "EnglishTitle":"Sports",
+    "JapaneseTitle":"スポーツ",
+    "study":"同化（3）：n+t, n+ð",
+    "SoundFeatures":{
+        "sounds":{
+            "introSound":["sound/sf/E-Ticket.mp3","sound/sf/u_12_title.mp3","sound/sf/soundFeatures.mp3"],
+            "sentenceSound":["sound/sf/u_12_sf_01.mp3","sound/sf/u_12_sf_02.mp3","sound/sf/u_12_sf_03.mp3","sound/sf/u_12_sf_04.mp3","sound/sf/u_12_sf_05.mp3","sound/sf/u_12_sf_06.mp3","sound/sf/u_12_sf_07.mp3","sound/sf/u_12_sf_08.mp3","sound/sf/u_12_sf_09.mp3"]
+        },
+        "description":"[n] の後ろに [t] や [ð] が来ると、それらが同化して一つの [n] として発音さることがあります。この同化現象はアメリカ英語に顕著です。",
+        "sentences":["TV i{nt}erview","twe{nt}ieth century","is{n’t} it","wa{nt} it","do{n’t} ask me","o{n th}e ground","i{n th}at case","i{n t}he ce{nt}er court","o{ne th}at you can do"],
+        "coordinate":["0,0", "30%,0", "70%,0", "0,40", "30%,40", "0,80", "40%,80", "0,120", "40%,120"]
+    },
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/dr/DR_intro.mp3"],
+            "sentenceSound":["sound/dr/u_12_d_01.mp3","sound/dr/u_12_d_02.mp3","sound/dr/u_12_d_03.mp3","sound/dr/u_12_d_04.mp3","sound/dr/u_12_d_05.mp3","sound/dr/u_12_d_06.mp3","sound/dr/u_12_d_07.mp3","sound/dr/u_12_d_08.mp3","sound/dr/u_12_d_09.mp3","sound/dr/u_12_d_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["Do you want to play {****** ** ***} team?",
+			"He’s the {*** **** *} depend upon.",
+			"He {******* ******} appear on that kind of TV.",
+			"All the supporters have {***** ** *****} faces.",
+			"There is a microphone {** ***** **} the interviewer.",
+			"The competition is {** *** ****}, isn’t it?",
+			"{** ****} case, there’s plenty of space.",
+			"The teams are {******** *****} dugouts.",
+			"{*****} ask me why he is dressed like {***** *****}.",
+			"Her high school team won {** *************} championship."
+            ],
+        "hashAnswers":["75d6d8cf97006bafd8411c85f8189015c5e61b02bc085b513f6ec0551965a06f",
+			"7c37c8cb0ad426f370264c89c373f6a5af6cf0c0d1178e98fc10bdd09c14d04b",
+			"a1b215b98c200ff6de4ace7e766c1aa19877b1b2562cc571d114993660edf593",
+			"9a68d57f46c4bfe757cebf8501e75d56928d08b70527c9a51ff858ab62196f65",
+			"4d8ec8b91d6e8ec1b5eccc87ac6ea504ab0e6200a1688d128d2ec9d0e47e77ee",
+			"deaff17d836d92f6066648f0ad892415252639fa195c5d72f370b20d3b1c3b1a",
+			"8abd440671eedeab742243c5e85de2f6e105e64503f7134d796f44b7aab5fcf7",
+			"2db8b7c4c6232e8257ecd9636132b81fb8287283b85f6c18a07ee4b229725a93",
+			"40352d50143d56221c8022b52d344e2b0297b50190ae67dffe25c7aadf6613a7",
+			"5a872d249b9b19b10fb8e18e292e9d06e50731ff93402e20a83162e010cd3160"
+            ],
+        "sealImage":"./image/01_DI_diamond.jpg"
+    },
+    "Vocabulary":{
+        "sounds":{
+            "introSound":["sound/vo/vo_intro.mp3","sound/vo/ChooseApproInJapanese.mp3"],
+            "wordSound": ["sound/vo/u_12_01.mp3","sound/vo/u_12_02.mp3","sound/vo/u_12_03.mp3","sound/vo/u_12_04.mp3","sound/vo/u_12_05.mp3","sound/vo/u_12_06.mp3","sound/vo/u_12_07.mp3","sound/vo/u_12_08.mp3","sound/vo/u_12_09.mp3","sound/vo/u_12_10.mp3"],
+            "timeoutSound" : ["sound/effect/DORA.mp3"],
+            "mistakeSound" : ["sound/effect/mistake.mp3"],
+            "platinumSound" : ["sound/effect/goldMedal.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"]
+        },
+        "wordJp":["賛歌、国歌","競争","野球のダイヤモンド","野球のダグアウト（ベンチ）","チームの正規メンバーで","投球","プロの","残念なこと","球場、競技場","サポーター、応援者"],
+        "wordEn":["anthem","competition","diamond","dugout","on the team","pitch","professional","shame","stadium","supporter"],
+        "medalImage":{
+            "platinum":"./image/MedalPlatinum.png",
+            "gold":"./image/MedalGold.png",
+            "silver":"./image/MedalSilver.png",
+            "bronze":"./image/MedalBronze.png"
+        },
+        "plattinumBgImage":"./image/platinum.png"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_title.mp3"],
+            "pic1Sound":["sound/tp1/Q1.mp3", "sound/tp1/u_12_p1_01.mp3", "sound/tp1/u_12_p1_02.mp3", "sound/tp1/u_12_p1_03.mp3", "sound/tp1/u_12_p1_04.mp3"],
+            "pic2Sound":["sound/tp1/Q2.mp3", "sound/tp1/u_12_p1_05.mp3", "sound/tp1/u_12_p1_06.mp3", "sound/tp1/u_12_p1_07.mp3", "sound/tp1/u_12_p1_08.mp3"]
+        },
+        "pic1Img":"./image/u12-1.jpg",
+        "pic2Img":"./image/u12-2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/Part2_title.mp3"],
+            "allFirstSound":[],
+            "question3Sound":["sound/ttqr/u12/Q3.mp3","sound/tp2/u_12_p2_3a.mp3","sound/tp2/u_12_p2_3b.mp3","sound/tp2/u_12_p2_3c.mp3"],
+            "question4Sound":["sound/ttqr/u12/Q4.mp3","sound/tp2/u_12_p2_4a.mp3","sound/tp2/u_12_p2_4b.mp3","sound/tp2/u_12_p2_4c.mp3"],
+            "question5Sound":["sound/ttqr/u12/Q5.mp3","sound/tp2/u_12_p2_5a.mp3","sound/tp2/u_12_p2_5b.mp3","sound/tp2/u_12_p2_5c.mp3"],
+            "question6Sound":["sound/ttqr/u12/Q6.mp3","sound/tp2/u_12_p2_6a.mp3","sound/tp2/u_12_p2_6b.mp3","sound/tp2/u_12_p2_6c.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/part3_title.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/u_12_p3_01.mp3","sound/tp3/u_12_p3_02.mp3","sound/tp3/u_12_p3_03.mp3"],
+            "questionSound":["sound/tp3/u12_p3_Q7.mp3","sound/tp3/u12_p3_Q8.mp3"]
+        },
+        "soundSex":[ "W","M","W"],
+        "questionText":["7. What were the speakers doing?", "8. Where are they?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/part4_title.mp3"],
+            "chunkSound":["sound/tp4/u_12_p4_01.mp3","sound/tp4/u_12_p4_02.mp3","sound/tp4/u_12_p4_03.mp3","sound/tp4/u_12_p4_04.mp3","sound/tp4/u_12_p4_05.mp3","sound/tp4/u_12_p4_06.mp3","sound/tp4/u_12_p4_07.mp3","sound/tp4/u_12_p4_08.mp3","sound/tp4/u_12_p4_09.mp3","sound/tp4/u_12_p4_10.mp3",
+                "sound/tp4/u_12_p4_11.mp3","sound/tp4/u_12_p4_12.mp3","sound/tp4/u_12_p4_13.mp3","sound/tp4/u_12_p4_14.mp3","sound/tp4/u_12_p4_15.mp3","sound/tp4/u_12_p4_16.mp3","sound/tp4/u_12_p4_17.mp3","sound/tp4/u_12_p4_18.mp3"],
+            "shadowingSound":["sound/tp4/u_12_p4_story.mp3"],
+            "questionSound":["sound/tp4/u12_p4_Q9.mp3","sound/tp4/u12_p4_Q10.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"./image/01_P4_CHUNK.jpg",
+            "shadowing":"./image/01_P4_SHADOW.jpg",
+            "repeating":"./image/01_P4_REPEAT.jpg",
+            "time":"./image/01_P4_TIME.jpg"
+        },
+        "words":95,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["On this very day,",
+            "two great teams will meet",
+            "on the same diamond.",
+            "This is one game",
+            "you don't want to miss.",
+            "The stadium is full,",
+            "there are more than twenty thousand excited fans.",
+            "New York's fans are famous",
+            "for their entertaining behavior.",
+            "I see one fan dressed like Santa Claus.",
+            "Don't ask me why.",
+            "The Boston supporters are also here,",
+            "hoping their boys can win the World Series.",
+            "The crowd is going wild,",
+            "the teams are entering their dugouts.",
+            "Soon they'll play the anthem,",
+            "throw out the first pitch,",
+            "and the game will begin."],
+        "questionText":["What will they play at this sports event?", "What is the speaker's job?"]
+    }
+}

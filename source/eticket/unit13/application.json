@@ -1,0 +1,149 @@
+{
+    "page":"13",
+    "unit":"UNIT13",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/13_icon.jpg",
+    "EnglishTitle":"Holidays and Hobbies",
+    "JapaneseTitle":"余暇・趣味",
+    "study":"弱形語（1）：代名詞",
+    "SoundFeatures":{
+        "sounds":{
+            "introSound":["sound/sf/E-Ticket.mp3","sound/sf/u_13_title.mp3","sound/sf/soundFeatures.mp3"],
+            "sentenceSound":["sound/sf/u_13_sf_01.mp3"]
+        },
+        "description":"英語の文は、内容を伝える「内容語」と形式を整える「機能語」から成ります。前者は名詞、動詞、形容詞など、後者は代名詞、前置詞、冠詞などです。内容語は強く読まれ、機能語は弱く読まれることで、英語独特のビートのリズムになります。このUnitでは、リズムの谷間で弱く発音される「代名詞」を聞き取る練習をします。",
+        "sentences":["I visited {my} uncle Sam and {his} wife Sue, who live with {her} mother and {their} sons."],
+        "coordinate":["0,0"]
+    },
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/dr/DR_intro.mp3"],
+            "sentenceSound":["sound/dr/u_13_d﻿_01.mp3","sound/dr/u_13_d﻿_02.mp3","sound/dr/u_13_d﻿_03.mp3","sound/dr/u_13_d﻿_04.mp3","sound/dr/u_13_d﻿_05.mp3","sound/dr/u_13_d﻿_06.mp3","sound/dr/u_13_d﻿_07.mp3","sound/dr/u_13_d﻿_08.mp3","sound/dr/u_13_d﻿_09.mp3","sound/dr/u_13_d﻿_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["What do your parents like to do {** *****} free time?",
+			"How are your aunt {*** ***} son doing?",
+			"Please give {**** **} best wishes.",
+			"Susan enjoys chatting {**** ***} friends.",
+			"The man is handing a drink {** ***} friend.",
+			"Let me see {*****} photos. Who took {****}?",
+			"My cousin {*** ***} partner travel a lot {**** *****} kids.",
+			"The film is about a pair of scientists {*** *****} daughter.",
+			"Lucy's parents decide to {**** ***} to NASA.",
+			"They name the planet {***** ***}."
+            ],
+        "hashAnswers":["4f20c00a39a1172b7bea1439e3131faf20b0d3e9e9a2813afc60b06f057da852",
+			"92b8b5351e4f38cdd93ea1c2903597e0056cbcec8039a63a8bff47461d9875c6",
+			"0919b544ae856843ff72fc50bc27ed9bef9690dc3c9674c203be86650aabd8da",
+			"7fdcef3941297f33929eb542f0f1f87e6f92c87183a7fc5effeb95f5bcd5977e",
+			"a5391ff42d5494e4a064588c775de2f5a07fd1896f294062c06612ca4fafcb7d",
+			"cbeada6ca24a67d130738eccc377ac4ad7eee6f95f281bdcf85c5b7bf900837f",
+			"0e63b2633b4ba97e48a105707c5b8c2a4deca087f7e1f1b4d8b4ceeaac2ee8c8",
+			"624299c2438dd67af185c3b7c135a1e75134a29d78cf397f59e80b90db6c2da1",
+			"3cd3f37b26b8b5f48b618a08a8a91ae91337609d377b4817d365e7349b312ed4",
+			"90dfaf5902650d21e7ad163d06a209225185d3eb6768f9e8e804dc34d235be8b"
+            ],
+        "sealImage":"./image/01_DI_diamond.jpg"
+    },
+    "Vocabulary":{
+        "sounds":{
+            "introSound":["sound/vo/vo_intro.mp3","sound/vo/ChooseApproInJapanese.mp3"],
+            "wordSound": ["sound/vo/u_13_01.mp3","sound/vo/u_13_02.mp3","sound/vo/u_13_03.mp3","sound/vo/u_13_04.mp3","sound/vo/u_13_05.mp3","sound/vo/u_13_06.mp3","sound/vo/u_13_07.mp3","sound/vo/u_13_08.mp3","sound/vo/u_13_09.mp3","sound/vo/u_13_10.mp3"],
+            "timeoutSound" : ["sound/effect/DORA.mp3"],
+            "mistakeSound" : ["sound/effect/mistake.mp3"],
+            "platinumSound" : ["sound/effect/goldMedal.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"]
+        },
+        "wordJp":["宇宙飛行士","天文学者","映画の一場面","空想アドベンチャー","映画","信じ難い、素晴らしい","予告編","脚本","望遠鏡","鉄道撮影"],
+        "wordEn":["astronaut","astronomer","clip","fantasy adventure","film","incredible","preview","script","telescope","trainspotting"],
+        "medalImage":{
+            "platinum":"./image/MedalPlatinum.png",
+            "gold":"./image/MedalGold.png",
+            "silver":"./image/MedalSilver.png",
+            "bronze":"./image/MedalBronze.png"
+        },
+        "plattinumBgImage":"./image/platinum.png"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_title.mp3"],
+            "pic1Sound":["sound/tp1/Q1.mp3", "sound/tp1/u_13_p1_01.mp3", "sound/tp1/u_13_p1_02.mp3", "sound/tp1/u_13_p1_03.mp3", "sound/tp1/u_13_p1_04.mp3"],
+            "pic2Sound":["sound/tp1/Q2.mp3", "sound/tp1/u_13_p1_05.mp3", "sound/tp1/u_13_p1_06.mp3", "sound/tp1/u_13_p1_07.mp3", "sound/tp1/u_13_p1_08.mp3"]
+        },
+        "pic1Img":"./image/u13-1.jpg",
+        "pic2Img":"./image/u13-2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/Part2_title.mp3"],
+            "allFirstSound":[],
+            "question3Sound":["sound/ttqr/u13/Q3.mp3","sound/tp2/u_13_p2_3a.mp3","sound/tp2/u_13_p2_3b.mp3","sound/tp2/u_13_p2_3c.mp3"],
+            "question4Sound":["sound/ttqr/u13/Q4.mp3","sound/tp2/u_13_p2_4a.mp3","sound/tp2/u_13_p2_4b.mp3","sound/tp2/u_13_p2_4c.mp3"],
+            "question5Sound":["sound/ttqr/u13/Q5.mp3","sound/tp2/u_13_p2_5a.mp3","sound/tp2/u_13_p2_5b.mp3","sound/tp2/u_13_p2_5c.mp3"],
+            "question6Sound":["sound/ttqr/u13/Q6.mp3","sound/tp2/u_13_p2_6a.mp3","sound/tp2/u_13_p2_6b.mp3","sound/tp2/u_13_p2_6c.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/part3_title.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/u_13_p3_01.mp3","sound/tp3/u_13_p3_02.mp3","sound/tp3/u_13_p3_03.mp3","sound/tp3/u_13_p3_04.mp3"],
+            "questionSound":["sound/tp3/u13_p3_Q7.mp3","sound/tp3/u13_p3_Q8.mp3"]
+        },
+        "soundSex":[ "M","W","M","W"],
+        "questionText":["7. What is the man's hobby?", "8. What does the woman think the man should do?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/part4_title.mp3"],
+            "chunkSound":["sound/tp4/u_13_p4_01.mp3","sound/tp4/u_13_p4_02.mp3","sound/tp4/u_13_p4_03.mp3","sound/tp4/u_13_p4_04.mp3","sound/tp4/u_13_p4_05.mp3","sound/tp4/u_13_p4_06.mp3","sound/tp4/u_13_p4_07.mp3","sound/tp4/u_13_p4_08.mp3","sound/tp4/u_13_p4_09.mp3","sound/tp4/u_13_p4_10.mp3",
+                "sound/tp4/u_13_p4_11.mp3","sound/tp4/u_13_p4_12.mp3","sound/tp4/u_13_p4_13.mp3","sound/tp4/u_13_p4_14.mp3","sound/tp4/u_13_p4_15.mp3","sound/tp4/u_13_p4_16.mp3","sound/tp4/u_13_p4_17.mp3","sound/tp4/u_13_p4_18.mp3","sound/tp4/u_13_p4_19.mp3","sound/tp4/u_13_p4_20.mp3","sound/tp4/u_13_p4_21.mp3","sound/tp4/u_13_p4_22.mp3"],
+            "shadowingSound":["sound/tp4/u_13_p4_story.mp3"],
+            "questionSound":["sound/tp4/u13_p4_Q9.mp3","sound/tp4/u13_p4_Q10.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"./image/01_P4_CHUNK.jpg",
+            "shadowing":"./image/01_P4_SHADOW.jpg",
+            "repeating":"./image/01_P4_REPEAT.jpg",
+            "time":"./image/01_P4_TIME.jpg"
+        },
+        "words":108,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["The next film,",
+            "a fantasy adventure",
+            "based on a true story,",
+            "is about a pair of scientists",
+            "and their young daughter Lucy.",
+            "Lucy sees a strange star in the sky",
+            "while she's at a barbecue",
+            "with her boyfriend.",
+            "They all go to visit their astronomer friend",
+            "who has a huge telescope.",
+            "The star turns out to be",
+            "an undiscovered planet.",
+            "Lucy's parents",
+            "decide to send her to NASA",
+            "for astronaut training,",
+            "and she finally becomes",
+            "the first human to visit the planet,",
+            "which they name after her.",
+            "The actors are great,",
+            "the script is brilliant,",
+            "and the computer graphics are amazing.",
+            "Let's watch a clip from the preview."],
+        "questionText":["Who is speaking?", "Where is the girl when she discovers the new planet?"]
+    }
+}

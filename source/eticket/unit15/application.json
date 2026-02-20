@@ -1,0 +1,146 @@
+{
+    "page":"15",
+    "unit":"UNIT15",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/15_icon.jpg",
+    "EnglishTitle":"Life & Health",
+    "JapaneseTitle":"生活・健康",
+    "study":"弱形語（3）：冠詞、前置詞、接続詞など",
+    "SoundFeatures":{
+        "sounds":{
+            "introSound":["sound/sf/E-Ticket.mp3","sound/sf/u_15_title.mp3","sound/sf/soundFeatures.mp3"],
+            "sentenceSound":["sound/sf/u_15_sf_01.mp3","sound/sf/u_15_sf_02.mp3","sound/sf/u_15_sf_03.mp3","sound/sf/u_15_sf_04.mp3"]
+        },
+        "description":"英語リズムの谷間で弱く発音される機能語として、冠詞、前置詞、接続詞などの聞き取り練習をします。",
+        "sentences":["I bought this drug {at a} low price.", "I’m going {on a} diet {as} well {as} exercising regularly.", "It looks {as if} it’s going {to} snow again.", "There was no food {to} eat and no shelter {above their} heads {in those} areas."],
+        "coordinate":["0,0", "0,35", "0,70", "0, 105"]
+    },
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/dr/DR_intro.mp3"],
+            "sentenceSound":["sound/dr/u_15_d_01.mp3","sound/dr/u_15_d_02.mp3","sound/dr/u_15_d_03.mp3","sound/dr/u_15_d_04.mp3","sound/dr/u_15_d_05.mp3","sound/dr/u_15_d_06.mp3","sound/dr/u_15_d_07.mp3","sound/dr/u_15_d_08.mp3","sound/dr/u_15_d_09.mp3","sound/dr/u_15_d_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["She is taking the garbage {*** **} the house.",
+			"How much did you gain {** *} week?",
+			"It’s way {***** ***} original target.",
+			"The results were much better {**** *} expected.",
+			"I think I caught a flu {** ***} office.",
+			"That’s the medical check-up {****} I took.",
+			"The patient came in {**** *} fever {*** *} cough.",
+			"I’ll be {***** **** *****} in a minute.",
+			"You need to {** ** *} diet and exercise every day.",
+			"I'd like you to get the opinion {** *} specialist."
+            ],
+        "hashAnswers":["a5a21861848babbf10ad14153a18f73530230cd6362aff141e4ae9e8675eb15f",
+			"966106d452e9005f471b0015d2a902da453f82b224c094d5a7bf61a8d8ca290b",
+			"cf3acae54d2c83f73ee389a13c27e3f99ea45d1163ef569c7fb94bde5ceca444",
+			"ab4351737f3c00175e3b335f8d4afb5fecf735ef6f5fd5a2f775696d4e250c13",
+			"2c72d2494a94236ee06f96514da6488ea46b65dd59bc81daf6f5d58c2cd2dd11",
+			"8e7fc0236af43df9340685fc16f1efe36543cc1707051220a103ad99cf69a2df",
+			"c144a3ac47558adf4465dd3327740aa1e75c4e983f0af7322d8930347e2cd6cc",
+			"9b198364a54a63b72e9d9a3f6af23a1cdbaca5450fe187a5dfd55c5410b87d48",
+			"f460c0b2e4f7e43abf8065f52b57871d4fd1f00cc2a62dd6c94c88d45cabc4dc",
+			"44625108b765cba608de59e81977de42deb702f776a7309f649085cbf570af1b"
+            ],
+        "sealImage":"./image/01_DI_diamond.jpg"
+    },
+    "Vocabulary":{
+        "sounds":{
+            "introSound":["sound/vo/vo_intro.mp3","sound/vo/ChooseApproInJapanese.mp3"],
+            "wordSound": ["sound/vo/u_15_01.mp3","sound/vo/u_15_02.mp3","sound/vo/u_15_03.mp3","sound/vo/u_15_04.mp3","sound/vo/u_15_05.mp3","sound/vo/u_15_06.mp3","sound/vo/u_15_07.mp3","sound/vo/u_15_08.mp3","sound/vo/u_15_09.mp3","sound/vo/u_15_10.mp3"],
+            "timeoutSound" : ["sound/effect/DORA.mp3"],
+            "mistakeSound" : ["sound/effect/mistake.mp3"],
+            "platinumSound" : ["sound/effect/goldMedal.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"]
+        },
+        "wordJp":["血圧","血糖値","咳（をする）","糖尿病","めまい","摂食障害","インフルエンザ、流感","患者","脳卒中","吐く、嘔吐する"],
+        "wordEn":["blood pressure","blood sugar level","cough","diabetes","dizzy","eating disorder","flu","patient","stroke","vomit"],
+        "medalImage":{
+            "platinum":"./image/MedalPlatinum.png",
+            "gold":"./image/MedalGold.png",
+            "silver":"./image/MedalSilver.png",
+            "bronze":"./image/MedalBronze.png"
+        },
+        "plattinumBgImage":"./image/platinum.png"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_title.mp3"],
+            "pic1Sound":["sound/tp1/Q1.mp3", "sound/tp1/u_15_p1_01.mp3", "sound/tp1/u_15_p1_02.mp3", "sound/tp1/u_15_p1_03.mp3", "sound/tp1/u_15_p1_04.mp3"],
+            "pic2Sound":["sound/tp1/Q2.mp3", "sound/tp1/u_15_p1_05.mp3", "sound/tp1/u_15_p1_06.mp3", "sound/tp1/u_15_p1_07.mp3", "sound/tp1/u_15_p1_08.mp3"]
+        },
+        "pic1Img":"./image/u15-1.jpg",
+        "pic2Img":"./image/u15-2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/Part2_title.mp3"],
+            "allFirstSound":[],
+            "question3Sound":["sound/ttqr/u15/Q3.mp3","sound/tp2/u_15_p2_3a.mp3","sound/tp2/u_15_p2_3b.mp3","sound/tp2/u_15_p2_3c.mp3"],
+            "question4Sound":["sound/ttqr/u15/Q4.mp3","sound/tp2/u_15_p2_4a.mp3","sound/tp2/u_15_p2_4b.mp3","sound/tp2/u_15_p2_4c.mp3"],
+            "question5Sound":["sound/ttqr/u15/Q5.mp3","sound/tp2/u_15_p2_5a.mp3","sound/tp2/u_15_p2_5b.mp3","sound/tp2/u_15_p2_5c.mp3"],
+            "question6Sound":["sound/ttqr/u15/Q6.mp3","sound/tp2/u_15_p2_6a.mp3","sound/tp2/u_15_p2_6b.mp3","sound/tp2/u_15_p2_6c.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/part3_title.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/u_15_p3_01.mp3","sound/tp3/u_15_p3_02.mp3","sound/tp3/u_15_p3_03.mp3","sound/tp3/u_15_p3_04.mp3"],
+            "questionSound":["sound/tp3/u15_p3_Q7.mp3","sound/tp3/u15_p3_Q8.mp3"]
+        },
+        "soundSex":["M","W","M","W"],
+        "questionText":["7. Where is this conversation taking place?", "8. What illness did the patient probably have?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/part4_title.mp3"],
+            "chunkSound":["sound/tp4/u_15_p4_01.mp3","sound/tp4/u_15_p4_02.mp3","sound/tp4/u_15_p4_03.mp3","sound/tp4/u_15_p4_04.mp3","sound/tp4/u_15_p4_05.mp3","sound/tp4/u_15_p4_06.mp3","sound/tp4/u_15_p4_07.mp3","sound/tp4/u_15_p4_08.mp3","sound/tp4/u_15_p4_09.mp3","sound/tp4/u_15_p4_10.mp3",
+                "sound/tp4/u_15_p4_11.mp3","sound/tp4/u_15_p4_12.mp3","sound/tp4/u_15_p4_13.mp3","sound/tp4/u_15_p4_14.mp3","sound/tp4/u_15_p4_15.mp3","sound/tp4/u_15_p4_16.mp3","sound/tp4/u_15_p4_17.mp3","sound/tp4/u_15_p4_18.mp3","sound/tp4/u_15_p4_19.mp3"],
+            "shadowingSound":["sound/tp4/u_15_p4_story.mp3"],
+            "questionSound":["sound/tp4/u15_p4_Q9.mp3","sound/tp4/u15_p4_Q10.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"./image/01_P4_CHUNK.jpg",
+            "shadowing":"./image/01_P4_SHADOW.jpg",
+            "repeating":"./image/01_P4_REPEAT.jpg",
+            "time":"./image/01_P4_TIME.jpg"
+        },
+        "words":94,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["I think you need to think carefully",
+        	"about your lifestyle.",
+        	"You are only twenty years old",
+        	"but you are living in the body",
+        	"of a fifty-year old.",
+        	"You have high blood pressure,",
+        	"your blood sugar level is dangerously high,",
+        	"and you are overweight.",
+        	"You are at risk for heart disease,",
+        	"stroke,",
+        	"and diabetes.",
+        	"You need to go on a diet",
+        	"and exercise every day.",
+        	"I am worried",
+        	"that you may have an eating disorder",
+        	"and I'd like you to get the opinion",
+        	"of a specialist.",
+        	"Don't worry,",
+            "it's covered by your health insurance."],
+        "questionText":["Who is speaking?", "Which of the following suggestions did the speaker NOT make?"]
+    }
+}

@@ -1,0 +1,146 @@
+{
+    "page":"5",
+    "unit":"UNIT5",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/05_icon.jpg",
+    "EnglishTitle":"Music and Art",
+    "JapaneseTitle":"音楽・芸術",
+    "study":"連結（2）：鼻音（m, n, ng）＋母音",
+    "SoundFeatures":{
+        "sounds":{
+            "introSound":["sound/sf/E-Ticket.mp3","sound/sf/u_5_title.mp3","sound/sf/soundFeatures.mp3"],
+            "sentenceSound":["sound/sf/u_5_SF_01.mp3","sound/sf/u_5_SF_02.mp3","sound/sf/u_5_SF_03.mp3","sound/sf/u_5_SF_04.mp3", "sound/sf/u_5_SF_05.mp3","sound/sf/u_5_SF_06.mp3","sound/sf/u_5_SF_07.mp3","sound/sf/u_5_SF_08.mp3","sound/sf/u_5_SF_09.mp3","sound/sf/u_5_SF_10.mp3","sound/sf/u_5_SF_11.mp3","sound/sf/u_5_SF_12.mp3"]
+        },
+        "description":"英語の鼻音[m, n, ng] が語尾にあり、次の語が母音で始まると音が連結します。なお、日本語にも「観音」や「因縁」のように「ん」の連結した発音がありますが、一方で「金運」kin-un、「田園」den-enなど「ん」が連結しない発音も多いので、これを英語発音に取り入れないことが重要です。",
+        "sentences":["[m]", "so{me o}f us", "co{me o}n in", "co{me a}nother time", "[n]", "a{n a}rt show", "i{n an ho}ur", "a{n a}ngel of music", "[ng]", "hang in there", "si{ng u}s a song", "si{nging i}n a band"],
+        "coordinate":["0,0", "10%,0", "35%,0", "65%,0", "0,50", "10%,50", "35%,50", "65%,50", "0,100", "10%,100", "35%, 100", "65%, 100"]
+    },
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/dr/DR_intro.mp3"],
+            "sentenceSound":["sound/dr/u_5_d_01.mp3","sound/dr/u_5_d_02.mp3","sound/dr/u_5_d_03.mp3","sound/dr/u_5_d_04.mp3","sound/dr/u_5_d_05.mp3","sound/dr/u_5_d_06.mp3","sound/dr/u_5_d_07.mp3","sound/dr/u_5_d_08.mp3","sound/dr/u_5_d_09.mp3","sound/dr/u_5_d_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["The film {*** ***** ** ****} and a half.",
+            "It was about {** *** ***} in Manhattan.",
+            "Maybe you can {**** *******} time.",
+            "Don’t worry, {*** ******} watching you.",
+            "They're also {****** **} admission-free concert.",
+            "The exhibition at the museum is the {**** ***} stuff.",
+            "The chorus group is famous and their {******* **} beautiful.",
+            "It was {** ***********} and unusual movie theater.",
+            "He was also {** *********} photographer.",
+            "They're also {******* ***} cartoons before the feature film."
+            ],
+        "hashAnswers":["5da79579457c5fba306f1cd1cb0565c9f0d7ff63314456ff13924e8cc28cf8f1",
+            "c71c71ac63ffc5e58dff5a4a3ed8082ce9ac97ce275264d5d1f0bbe2c42c70d5",
+            "9f6ad3ea6755a8a5112ccbf20b3262619284191a6f6b916ab7602ae3254107a6",
+            "7dd9d2ef5e87feab420464541c00047e0703639ac54ccd46eaad1a189bac0430",
+            "c17355a8120b46f7f4ad1ae6c02f349608d2f7a45eae670f4c3d7e0a46cd4d70",
+            "a2a18159205ae06c42f36080ceb9bcb2c44eac93f64421518051420af3b6e995",
+            "af9acef169ef65aa4927c13b95ef3b964361604b6c06a1e2e1bcf4ec84c16393",
+            "781032d86dcca274db75f53fc20ef2bde92252c0e8fb806d06967798c87539ec",
+            "ea848adcf700b4be828699e62fa98084426d7c37d2309e5b75981dd2285cc122",
+            "34b55358a13a9e05e9ba3762eb14e5d4033a8aa497b8b45d9005d0fbae2715eb"
+            ],
+        "sealImage":"./image/01_DI_diamond.jpg"
+    },
+    "Vocabulary":{
+        "sounds":{
+            "introSound":["sound/vo/vo_intro.mp3","sound/vo/ChooseApproInJapanese.mp3"],
+            "wordSound": ["sound/vo/u_5_01.mp3","sound/vo/u_5_02.mp3","sound/vo/u_5_03.mp3","sound/vo/u_5_04.mp3","sound/vo/u_5_05.mp3","sound/vo/u_5_06.mp3","sound/vo/u_5_07.mp3","sound/vo/u_5_08.mp3","sound/vo/u_5_09.mp3","sound/vo/u_5_10.mp3"],
+            "timeoutSound" : ["sound/effect/DORA.mp3"],
+            "mistakeSound" : ["sound/effect/mistake.mp3"],
+            "platinumSound" : ["sound/effect/goldMedal.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"]
+        },
+        "wordJp":["合唱団、聖歌隊","作曲","展覧会","長編映画","美術館、博物館","国歌","演奏する、上演する","演奏、公演","怪人","肖像画"],
+        "wordEn":["choir","composition","exhibition","feature film","museum","national anthem","perform","performance","phantom","portrait"],
+        "medalImage":{
+            "platinum":"./image/MedalPlatinum.png",
+            "gold":"./image/MedalGold.png",
+            "silver":"./image/MedalSilver.png",
+            "bronze":"./image/MedalBronze.png"
+        },
+        "plattinumBgImage":"./image/platinum.png"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_title.mp3"],
+            "pic1Sound":["sound/tp1/Q1.mp3", "sound/tp1/u_5_p1_01.mp3", "sound/tp1/u_5_p1_02.mp3", "sound/tp1/u_5_p1_03.mp3", "sound/tp1/u_5_p1_04.mp3"],
+            "pic2Sound":["sound/tp1/Q2.mp3", "sound/tp1/u_5_p1_05.mp3", "sound/tp1/u_5_p1_06.mp3", "sound/tp1/u_5_p1_07.mp3", "sound/tp1/u_5_p1_08.mp3"]
+        },
+        "pic1Img":"./image/u5-1.jpg",
+        "pic2Img":"./image/u5-2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/Part2_title.mp3"],
+            "allFirstSound":[],
+            "question3Sound":["sound/ttqr/u5/Q3.mp3","sound/tp2/u_5_p2_3a.mp3","sound/tp2/u_5_p2_3b.mp3","sound/tp2/u_5_p2_3c.mp3"],
+            "question4Sound":["sound/ttqr/u5/Q4.mp3","sound/tp2/u_5_p2_4a.mp3","sound/tp2/u_5_p2_4b.mp3","sound/tp2/u_5_p2_4c.mp3"],
+            "question5Sound":["sound/ttqr/u5/Q5.mp3","sound/tp2/u_5_p2_5a.mp3","sound/tp2/u_5_p2_5b.mp3","sound/tp2/u_5_p2_5c.mp3"],
+            "question6Sound":["sound/ttqr/u5/Q6.mp3","sound/tp2/u_5_p2_6a.mp3","sound/tp2/u_5_p2_6b.mp3","sound/tp2/u_5_p2_6c.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/part3_title.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/u_5_p3_01.mp3","sound/tp3/u_5_p3_02.mp3","sound/tp3/u_5_p3_03.mp3"],
+            "questionSound":["sound/tp3/u5_p3_Q7.mp3","sound/tp3/u5_p3_Q8.mp3"]
+        },
+        "soundSex":["W","M","W"],
+        "questionText":["7. Where will they go?", "8. What will the chorus group perform?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/part4_title.mp3"],
+            "chunkSound":["sound/tp4/u_5_p4_01.mp3","sound/tp4/u_5_p4_02.mp3","sound/tp4/u_5_p4_03.mp3","sound/tp4/u_5_p4_04.mp3","sound/tp4/u_5_p4_05.mp3",
+                "sound/tp4/u_5_p4_06.mp3","sound/tp4/u_5_p4_07.mp3","sound/tp4/u_5_p4_08.mp3","sound/tp4/u_5_p4_09.mp3","sound/tp4/u_5_p4_10.mp3",
+                "sound/tp4/u_5_p4_11.mp3","sound/tp4/u_5_p4_12.mp3","sound/tp4/u_5_p4_13.mp3","sound/tp4/u_5_p4_14.mp3","sound/tp4/u_5_p4_15.mp3","sound/tp4/u_5_p4_16.mp3","sound/tp4/u_5_p4_17.mp3","sound/tp4/u_5_p4_18.mp3"],
+            "shadowingSound":["sound/tp4/u_5_p4_story.mp3"],
+            "questionSound":["sound/tp4/u5_p4_Q9.mp3","sound/tp4/u5_p4_Q10.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"./image/01_P4_CHUNK.jpg",
+            "shadowing":"./image/01_P4_SHADOW.jpg",
+            "repeating":"./image/01_P4_REPEAT.jpg",
+            "time":"./image/01_P4_TIME.jpg"
+        },
+        "words":81,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["I went to",
+        	"a really interesting and unusual movie theater",
+        	"last night.",
+        	"This week",
+        	"they are showing",
+        	"all of Akira Kurosawa's films,",
+        	"including one silent film of his.",
+        	"In a room above the theater",
+        	"they're exhibiting images",
+        	"taken by his cameraman,",
+        	"who was also an excellent photographer.",
+        	"They're also showing old cartoons",
+        	"before the feature film,",
+        	"like the first Disney cartoon,",
+        	"“Steamboat Willie.”",
+        	"They also have",
+        	"some interesting books you can read",
+            "while you are sitting and waiting for the show."],
+        "questionText":["What is the speaker excited about?", "What are they showing before the films?"]
+    }
+}

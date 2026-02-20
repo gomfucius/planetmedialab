@@ -1,0 +1,144 @@
+{
+    "page":"8",
+    "unit":"UNIT8",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/08_icon.jpg",
+    "EnglishTitle":"Shopping",
+    "JapaneseTitle":"買い物",
+    "study":"破裂音（2）：子音の前で",
+    "SoundFeatures":{
+        "sounds":{
+            "introSound":["sound/sf/E-Ticket.mp3","sound/sf/u_8_title.mp3","sound/sf/soundFeatures.mp3"],
+            "sentenceSound":["sound/sf/u_8_sf_01.mp3","sound/sf/u_8_sf_02.mp3","sound/sf/u_8_sf_03.mp3","sound/sf/u_8_sf_04.mp3", "sound/sf/u_8_sf_05.mp3","sound/sf/u_8_sf_06.mp3","sound/sf/u_8_sf_07.mp3","sound/sf/u_8_sf_08.mp3","sound/sf/u_8_sf_09.mp3","sound/sf/u_8_sf_10.mp3","sound/sf/u_8_sf_11.mp3"]
+        },
+        "description":"破裂音の次に別の破裂音や子音が続くと、最初の破裂音は破裂しません。ただし、破裂の準備だけはするので、その「間」だけが「っ」のように残ります。日本語でも「6回」を「ろっかい」、「陸海空」を「リッカイクウ」などと言うのに似ています。",
+        "sentences":["dee{p} pond", "par{t} time", "thin{k} carefully", "Bo{b} Baker", "har{d} disk", "di{g} gold", "bul{k} buying", "checkou{t} counter", "plasti{c} bag", "depar{t}men{t} store", "credi{t} card"],
+        "coordinate":["0,0", "30%,0", "60%,0", "0,40", "30%,40", "60%,40", "0,80", "30%,80", "0,120", "30%,120", "60%,120"]
+    },
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/dr/DR_intro.mp3"],
+            "sentenceSound":["sound/dr/u_8_d_01.mp3","sound/dr/u_8_d_02.mp3","sound/dr/u_8_d_03.mp3","sound/dr/u_8_d_04.mp3","sound/dr/u_8_d_05.mp3","sound/dr/u_8_d_06.mp3","sound/dr/u_8_d_07.mp3","sound/dr/u_8_d_08.mp3","sound/dr/u_8_d_09.mp3","sound/dr/u_8_d_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["I {****** ****} at a department store.",
+			"You can’t use your {****** *****} at this shop.",
+			"{**** ** **** ****} at the checkout counter.",
+			"I’m looking for a {*********** ******}.",
+			"Online shopping is much cheaper than the {****** ******}.",
+			"What do you think of my {*** ********}?",
+			"I saw one just like it {** ** ********} boutique.",
+			"I {***** ****} for just twenty eight dollars",
+			"What is {** **** **}? It feels like rubber.",
+			"He said it was his {***** *****} to the supermarket. "
+            ],
+        "hashAnswers":["73ec9afc015887836303544ae9a4a0fa08c155d81ea1abbbf059b88c8474b3e2",
+			"e4809141fc66ce1be95924ad68f25adab59e4c3447aeb47fc41a5eb91886970b",
+			"6b67ba3fd62688eae8c38dafc3d2c584397f4256cdf486d0dcfdbe4ead8bb88a",
+			"5172a5ef488b680841b2f1f504eb5616e5a2ccf4fc17c569c7c3017861bfa8cc",
+			"99efa86e7a063b85592b70d3b0021e7aeea5f31998e10f55246fb48ee972e636",
+			"25ce8786a5e36a7abea3f8716286d9344580e6bb6494ee2f9dec1ccbd5d7a745",
+			"28db99088a3206d5c539c942074077ca5379037b2b9716d83e335db490ede437",
+			"af3e4d298d0f5cfd9707212cc54ed60c5749092995b62610f4df768f580f026c",
+			"eeae85c24202e73f493d6c22f22f93b7cde5b94116a48ef1021f327f988b5579",
+			"364d248cbaff4f85fb542cd0353a11baa8d77f6d5c1dec1c04862d02bec691ce"
+            ],
+        "sealImage":"./image/01_DI_diamond.jpg"
+    },
+    "Vocabulary":{
+        "sounds":{
+            "introSound":["sound/vo/vo_intro.mp3","sound/vo/ChooseApproInJapanese.mp3"],
+            "wordSound": ["sound/vo/u_8_01﻿.mp3","sound/vo/u_8_02.mp3","sound/vo/u_8_03.mp3","sound/vo/u_8_04.mp3","sound/vo/u_8_05.mp3","sound/vo/u_8_06.mp3","sound/vo/u_8_07.mp3","sound/vo/u_8_08.mp3","sound/vo/u_8_09.mp3","sound/vo/u_8_10.mp3"],
+            "timeoutSound" : ["sound/effect/DORA.mp3"],
+            "mistakeSound" : ["sound/effect/mistake.mp3"],
+            "platinumSound" : ["sound/effect/goldMedal.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"]
+        },
+        "wordJp":["入手可能、在庫あり","ブティック","レジ","会計","小切手支払い","ショッピング・モール","ネットオークション","ネットでの買い物","直販店、アウトレット","買う"],
+        "wordEn":["available","boutique","cash register","checkout","cheque payments","mall","online auction","online shopping","outlet store","purchase"],
+        "medalImage":{
+            "platinum":"./image/MedalPlatinum.png",
+            "gold":"./image/MedalGold.png",
+            "silver":"./image/MedalSilver.png",
+            "bronze":"./image/MedalBronze.png"
+        },
+        "plattinumBgImage":"./image/platinum.png"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_title.mp3"],
+            "pic1Sound":["sound/tp1/Q1.mp3", "sound/tp1/u_8_p1_01.mp3", "sound/tp1/u_8_p1_02.mp3", "sound/tp1/u_8_p1_03.mp3", "sound/tp1/u_8_p1_04.mp3"],
+            "pic2Sound":["sound/tp1/Q2.mp3", "sound/tp1/u_8_p1_05.mp3", "sound/tp1/u_8_p1_06.mp3", "sound/tp1/u_8_p1_07.mp3", "sound/tp1/u_8_p1_08.mp3"]
+        },
+        "pic1Img":"./image/u8-1.jpg",
+        "pic2Img":"./image/u8-2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/Part2_title.mp3"],
+            "allFirstSound":[],
+            "question3Sound":["sound/ttqr/u8/Q3.mp3","sound/tp2/u_8_p2_3a.mp3","sound/tp2/u_8_p2_3b.mp3","sound/tp2/u_8_p2_3c.mp3"],
+            "question4Sound":["sound/ttqr/u8/Q4.mp3","sound/tp2/u_8_p2_4a.mp3","sound/tp2/u_8_p2_4b.mp3","sound/tp2/u_8_p2_4c.mp3"],
+            "question5Sound":["sound/ttqr/u8/Q5.mp3","sound/tp2/u_8_p2_5a.mp3","sound/tp2/u_8_p2_5b.mp3","sound/tp2/u_8_p2_5c.mp3"],
+            "question6Sound":["sound/ttqr/u8/Q6.mp3","sound/tp2/u_8_p2_6a.mp3","sound/tp2/u_8_p2_6b.mp3","sound/tp2/u_8_p2_6c.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/part3_title.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/u_8_p3_01.mp3","sound/tp3/u_8_p3_02.mp3","sound/tp3/u_8_p3_03.mp3"],
+            "questionSound":["sound/tp3/u8_p3_Q7.mp3","sound/tp3/u8_p3_Q8.mp3"]
+        },
+        "soundSex":["M","W","M"],
+        "questionText":["7. Who are the speakers?", "8. Where did the man buy his backpack?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/part4_title.mp3"],
+            "chunkSound":["sound/tp4/u_8_p4_01.mp3","sound/tp4/u_8_p4_02.mp3","sound/tp4/u_8_p4_03.mp3","sound/tp4/u_8_p4_04.mp3","sound/tp4/u_8_p4_05.mp3",
+                "sound/tp4/u_8_p4_06.mp3","sound/tp4/u_8_p4_07.mp3","sound/tp4/u_8_p4_08.mp3","sound/tp4/u_8_p4_09.mp3","sound/tp4/u_8_p4_10.mp3",
+                "sound/tp4/u_8_p4_11.mp3","sound/tp4/u_8_p4_12.mp3","sound/tp4/u_8_p4_13.mp3","sound/tp4/u_8_p4_14.mp3","sound/tp4/u_8_p4_15.mp3","sound/tp4/u_8_p4_16.mp3"],
+            "shadowingSound":["sound/tp4/u_8_p4_story.mp3"],
+            "questionSound":["sound/tp4/u8_p4_Q9.mp3","sound/tp4/u8_p4_Q10.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"./image/01_P4_CHUNK.jpg",
+            "shadowing":"./image/01_P4_SHADOW.jpg",
+            "repeating":"./image/01_P4_REPEAT.jpg",
+            "time":"./image/01_P4_TIME.jpg"
+        },
+        "words":84,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["The President visited a Worldmart store today.",
+            "We spoke to him afterwards.",
+            "He said it was his first visit to Worldmart. ",
+            "“I have never seen so many products",
+            "in one place,",
+            "They sell everything a person could need:",
+            "meat, baby food, pet food,",
+            "books, boots, baseball gloves,",
+            "even computers!”",
+            "The president purchased",
+            "a box of hot cereal,",
+            "a six-pack of iced tea,",
+            "and two DVDs.",
+            "The president had some trouble",
+            "at the self-service cash register.",
+            "“It's my first time being a cashier,”"],
+        "questionText":["What kind of story is this?", "What was difficult for the president?"]
+    }
+}

@@ -1,0 +1,148 @@
+{
+    "page":"10",
+    "unit":"UNIT10",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/10_icon.jpg",
+    "EnglishTitle":"Commuting and Transport",
+    "JapaneseTitle":"交通・輸送",
+    "study":"同化（1）：t, d + j",
+    "SoundFeatures":{
+        "sounds":{
+            "introSound":["sound/sf/E-Ticket.mp3","sound/sf/u_10_title.mp3","sound/sf/soundFeatures.mp3"],
+            "sentenceSound":["sound/sf/u_10_sf_01.mp3","sound/sf/u_10_sf_02.mp3"]
+        },
+        "description":"隣り合った音どうしが、発音しやすいように変化することがあります。これを「同化」と言います。このUnitでは、Would youやLet you goのように、[t] や [d] の次に [j] が来たときに、別の音に変化する「融合同化」の聞き取り練習をしましよう。",
+        "sentences":["[t] + [j] → [tʃ] I’ll visi{t y}our city nex{t y}ear.", "[d] + [j] → [dʒ] Di{d y}ou know that I calle{d y}ou last night?"],
+        "coordinate":["0,0", "0,50"]
+    },
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/dr/DR_intro.mp3"],
+            "sentenceSound":["sound/dr/u_10_d_01.mp3","sound/dr/u_10_d_02.mp3","sound/dr/u_10_d_03.mp3","sound/dr/u_10_d_04.mp3","sound/dr/u_10_d_05.mp3","sound/dr/u_10_d_06.mp3","sound/dr/u_10_d_07.mp3","sound/dr/u_10_d_08.mp3","sound/dr/u_10_d_09.mp3","sound/dr/u_10_d_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["Where can I transfer to {***** ****} office?",
+			"I {****** ***} from the Manhattan office.",
+			"His train will arrive {** ****} station soon. ",
+			"I’ll {*** *** ****} the details later.",
+			"I {**** ****} reservation and printed your boarding pass,",
+			"I {**** ***} we have plenty of time.",
+			"Are you going to {*** ****} baggage checked?",
+			"I {**** ***} to wait for me at the duty free shop.",
+			"I {****** ***} to know this right away.",
+			"Should I {**** ***} at the ticket gate or the exit?"
+            ],
+        "hashAnswers":["e22c81d0fd1129fd31fcde74b3d983a7438cbbd5e2602585d3217502fc08932a",
+			"8f2a0faec30914ae85ea13111b01eddf5c73df0d6c8d96dad2aa47df522e4273",
+			"7a78e42cb1fd6f13c4002d977ee5006bc5209514e636efdf3061c81106e970bc",
+			"ae1a9cb9d9264d2e98c177d75cd9441925bb506957b536e374e579660b655fc1",
+			"63c97eeec6d764d17046bf7cccbb82493737e2b13cdeca0b78d6ca5faa6a75d6",
+			"e918734c99d720280b08161f44ed6b17fabe1f33abcb78d6265065e660840453",
+			"9a852b17fc891639051c36988133e0e913c88e77f7c2938e0828d1b50e6bde9a",
+			"0447a7d4eb867bcadd073fe35745554350710e1800abdc0598a40c1585f5b106",
+			"728ad99e88091b3f2007ba22519bb0f5bdb7ae389c24d96c8ba18730d2d71c0f",
+			"f63df64e86b0763bfc4e625d4cc57c3eb74b5d5bb073724df25ac907ae303a0e"
+            ],
+        "sealImage":"./image/01_DI_diamond.jpg"
+    },
+    "Vocabulary":{
+        "sounds":{
+            "introSound":["sound/vo/vo_intro.mp3","sound/vo/ChooseApproInJapanese.mp3"],
+            "wordSound": ["sound/vo/u_10_01.mp3","sound/vo/u_10_02.mp3","sound/vo/u_10_03.mp3","sound/vo/u_10_04.mp3","sound/vo/u_10_05.mp3","sound/vo/u_10_06.mp3","sound/vo/u_10_07.mp3","sound/vo/u_10_08.mp3","sound/vo/u_10_09.mp3","sound/vo/u_10_10.mp3"],
+            "timeoutSound" : ["sound/effect/DORA.mp3"],
+            "mistakeSound" : ["sound/effect/mistake.mp3"],
+            "platinumSound" : ["sound/effect/goldMedal.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"]
+        },
+        "wordJp":["手荷物受取所","搭乗券","（空港で）荷物を預ける","免税店","予想する","航空便","入国審査","予約","おみやげ","乗り換える、転勤する"],
+        "wordEn":["baggage claim","boarding pass","check luggage","duty free shop","estimate","flight","passport control","reservation","souvenir","transfer"],
+        "medalImage":{
+            "platinum":"./image/MedalPlatinum.png",
+            "gold":"./image/MedalGold.png",
+            "silver":"./image/MedalSilver.png",
+            "bronze":"./image/MedalBronze.png"
+        },
+        "plattinumBgImage":"./image/platinum.png"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_title.mp3"],
+            "pic1Sound":["sound/tp1/Q1.mp3", "sound/tp1/u_10_p1_01.mp3", "sound/tp1/u_10_p1_02.mp3", "sound/tp1/u_10_p1_03.mp3", "sound/tp1/u_10_p1_04.mp3"],
+            "pic2Sound":["sound/tp1/Q2.mp3", "sound/tp1/u_10_p1_05.mp3", "sound/tp1/u_10_p1_06.mp3", "sound/tp1/u_10_p1_07.mp3", "sound/tp1/u_10_p1_08.mp3"]
+        },
+        "pic1Img":"./image/u10-1.jpg",
+        "pic2Img":"./image/u10-2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/Part2_title.mp3"],
+            "allFirstSound":[],
+            "question3Sound":["sound/ttqr/u10/Q3.mp3","sound/tp2/u_10_p2_3a.mp3","sound/tp2/u_10_p2_3b.mp3","sound/tp2/u_10_p2_3c.mp3"],
+            "question4Sound":["sound/ttqr/u10/Q4.mp3","sound/tp2/u_10_p2_4a.mp3","sound/tp2/u_10_p2_4b.mp3","sound/tp2/u_10_p2_4c.mp3"],
+            "question5Sound":["sound/ttqr/u10/Q5.mp3","sound/tp2/u_10_p2_5a.mp3","sound/tp2/u_10_p2_5b.mp3","sound/tp2/u_10_p2_5c.mp3"],
+            "question6Sound":["sound/ttqr/u10/Q6.mp3","sound/tp2/u_10_p2_6a.mp3","sound/tp2/u_10_p2_6b.mp3","sound/tp2/u_10_p2_6c.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/part3_title.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/u_10_p3_01.mp3","sound/tp3/u_10_p3_02.mp3","sound/tp3/u_10_p3_03.mp3","sound/tp3/u_10_p3_04.mp3"],
+            "questionSound":["sound/tp3/u10_p3_Q7.mp3","sound/tp3/u10_p3_Q8.mp3"]
+        },
+        "soundSex":["M","W","M","W"],
+        "questionText":["7. Where are the speakers?", "8. How does the man feel?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/part4_title.mp3"],
+            "chunkSound":["sound/tp4/u_10_p4_01.mp3","sound/tp4/u_10_p4_02.mp3","sound/tp4/u_10_p4_03.mp3","sound/tp4/u_10_p4_04.mp3","sound/tp4/u_10_p4_05.mp3",
+                "sound/tp4/u_10_p4_06.mp3","sound/tp4/u_10_p4_07.mp3","sound/tp4/u_10_p4_08.mp3","sound/tp4/u_10_p4_09.mp3","sound/tp4/u_10_p4_10.mp3",
+                "sound/tp4/u_10_p4_11.mp3","sound/tp4/u_10_p4_12.mp3","sound/tp4/u_10_p4_13.mp3","sound/tp4/u_10_p4_14.mp3","sound/tp4/u_10_p4_15.mp3","sound/tp4/u_10_p4_16.mp3","sound/tp4/u_10_p4_17.mp3","sound/tp4/u_10_p4_18.mp3","sound/tp4/u_10_p4_19.mp3","sound/tp4/u_10_p4_20.mp3"],
+            "shadowingSound":["sound/tp4/u_10_p4_story.mp3"],
+            "questionSound":["sound/tp4/u10_p4_Q9.mp3","sound/tp4/u10_p4_Q10.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"./image/01_P4_CHUNK.jpg",
+            "shadowing":"./image/01_P4_SHADOW.jpg",
+            "repeating":"./image/01_P4_REPEAT.jpg",
+            "time":"./image/01_P4_TIME.jpg"
+        },
+        "words":91,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["Hi, this is Maria.",
+        	"Where are you?",
+        	"Waiting for your train?",
+        	"I wanted you to know right away.",
+        	"OK, I'll be quick.",
+        	"Your sister was taken to the hospital today.",
+        	"I told you she looked sick",
+        	"when we saw her last week.",
+        	"Anyway,",
+        	"when will your train arrive?",
+        	"Should I meet you at the ticket gate",
+        	"or at the exit?",
+        	"I think I'll buy",
+        	"a bunch of flowers for her",
+        	"before you arrive.",
+        	"Anyway,",
+        	"would you call me back",
+        	"as soon as you hear this message?",
+        	"See you soon.",
+            "Bye-bye."],
+        "questionText":["What type of message is this?", "What does the speaker offer to do?"]
+    }
+}

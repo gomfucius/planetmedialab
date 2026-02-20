@@ -1,0 +1,116 @@
+{
+    "page":"R3",
+    "unit":"Review3",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/03_ReviewTest.jpg",
+    "EnglishTitle":"Review Test3",
+    "JapaneseTitle":"",
+    "study":"破裂音",
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/E-Ticket.mp3","sound/RevTest3.mp3","sound/dr/dictation_intro.mp3"],
+            "sentenceSound":["sound/dr/t_3_d_01.mp3","sound/dr/t_3_d_02.mp3","sound/dr/t_3_d_03.mp3","sound/dr/t_3_d_04.mp3","sound/dr/t_3_d_05.mp3","sound/dr/t_3_d_06.mp3","sound/dr/t_3_d_07.mp3","sound/dr/t_3_d_08.mp3","sound/dr/t_3_d_09.mp3","sound/dr/t_3_d_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["That girl is carrying a {******** ** *** ****}.",
+			"I’m looking for a {*********** ******** ***}.",
+			"I couldn’t read what the presenter {*** ******* ** *** *****}.",
+			"Hit that button and the file will {***** ** ********}.",
+			"She paid for the flowers {** *** ********} counter.",
+			"How did you {******** ****} screen saver?",
+			"I {***** *****} my emails. Is the Internet down?",
+			"She is {******* ***} the documents to be {******* ***}.",
+			"She is {******* **** **} life without the Internet.",
+			"I {**** *** *******} and {** ****** ******} my attention."
+            ],
+        "hashAnswers":["65b8f92c6cde4aeb94125ca2bc05047ed1a6bba0faba6aed55c8b017469c545c",
+			"a0da2bd98f993072cbdce2f45aa8922ec2da0a1972603cd4e023b7d80d1c0d21",
+			"02554e4c5e23a9d101d6cee1d9e029d2b210931f985d64c16ad4545e87e7b15d",
+			"330e3793f13905ec08f0e1ce5bbd23a85ba30fe0eac29b999e7b11c56a90b51c",
+			"5cc8ce2a8f04e99c7b77c2fe9b36448130d802cfaa6d597b62665b4cafc31bff",
+			"6b277672befc5183a5ae0d2bd15611755eede413519087c8e6ae8db0d4bbb4dc",
+			"cc279a3e0cc0e55c7ede330970d80afecb6d2d513857f1a1106f8ba45c291687",
+			"01679fb912f718c298f6706fbfeeb9f609f1086430d0dd74b20d8b8ddba431a1",
+			"eeb42eecac3d232550378a61053f6b5a754f993ff65289ccbe42240283b19c4d",
+			"fd3bc014ad713ded0d4291cce5f559441161127b69e1e8213b2ef37480222dfa"
+            ],
+        "sealImage":"./image/01_DI_diamond.jpg"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_title.mp3"],
+            "pic1Sound":["sound/tp1/Q1.mp3","sound/tp1/t_3_p1_01.mp3", "sound/tp1/t_3_p1_02.mp3", "sound/tp1/t_3_p1_03.mp3", "sound/tp1/t_3_p1_04.mp3"],
+            "pic2Sound":["sound/tp1/Q2.mp3","sound/tp1/t_3_p1_05.mp3", "sound/tp1/t_3_p1_06.mp3", "sound/tp1/t_3_p1_07.mp3", "sound/tp1/t_3_p1_08.mp3"]
+        },
+        "pic1Img":"./image/R3-1.jpg",
+        "pic2Img":"./image/R3-2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/part2_title.mp3"],
+            "question3Sound":["sound/ttqr/r3/Q3.mp3","sound/tp2/t_3_p2_01.mp3","sound/tp2/t_3_p2_02.mp3","sound/tp2/t_3_p2_03.mp3"],
+            "question4Sound":["sound/ttqr/r3/Q4.mp3","sound/tp2/t_3_p2_04.mp3","sound/tp2/t_3_p2_05.mp3","sound/tp2/t_3_p2_06.mp3"],
+            "question5Sound":["sound/ttqr/r3/Q5.mp3","sound/tp2/t_3_p2_07.mp3","sound/tp2/t_3_p2_08.mp3","sound/tp2/t_3_p2_09.mp3"],
+            "question6Sound":["sound/ttqr/r3/Q6.mp3","sound/tp2/t_3_p2_10.mp3","sound/tp2/t_3_p2_11.mp3","sound/tp2/t_3_p2_12.mp3"],
+            "question7Sound":["sound/ttqr/r3/Q7.mp3","sound/tp2/t_3_p2_13.mp3","sound/tp2/t_3_p2_14.mp3","sound/tp2/t_3_p2_15.mp3"],
+            "question8Sound":["sound/ttqr/r3/Q8.mp3","sound/tp2/t_3_p2_16.mp3","sound/tp2/t_3_p2_17.mp3","sound/tp2/t_3_p2_18.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/part3_title.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/t_3_p3_01.mp3","sound/tp3/t_3_p3_02.mp3","sound/tp3/t_3_p3_03.mp3","sound/tp3/t_3_p3_04.mp3","sound/tp3/t_3_p3_05.mp3","sound/tp3/t_3_p3_06.mp3"],
+            "questionSound":["sound/reviewtest3/reviewtest3_Q9.mp3","sound/reviewtest3/reviewtest3_Q10.mp3","sound/reviewtest3/reviewtest3_Q11.mp3"]
+        },
+        "soundSex":["M","W","M","W","M","W"],
+        "questionText":["9. Where did the symposium take place?", "10. How many key experts were invited to the symposium?", "11. Which of these issues was discussed?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/part4_title.mp3"],
+            "chunkSound":["sound/tp4/t_3_p4_01.mp3","sound/tp4/t_3_p4_02.mp3","sound/tp4/t_3_p4_03.mp3","sound/tp4/t_3_p4_04.mp3","sound/tp4/t_3_p4_05.mp3",
+                "sound/tp4/t_3_p4_06.mp3","sound/tp4/t_3_p4_07.mp3","sound/tp4/t_3_p4_08.mp3","sound/tp4/t_3_p4_09.mp3","sound/tp4/t_3_p4_10.mp3",
+                "sound/tp4/t_3_p4_11.mp3","sound/tp4/t_3_p4_12.mp3","sound/tp4/t_3_p4_13.mp3","sound/tp4/t_3_p4_14.mp3","sound/tp4/t_3_p4_15.mp3","sound/tp4/t_3_p4_16.mp3","sound/tp4/t_3_p4_17.mp3"],
+            "shadowingSound":["sound/tp4/t_3_p4_story.mp3"],
+            "questionSound":["sound/reviewtest3/reviewtest3_Q12.mp3","sound/reviewtest3/reviewtest3_Q13.mp3","sound/reviewtest3/reviewtest3_Q14.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"./image/01_P4_CHUNK.jpg",
+            "shadowing":"./image/01_P4_SHADOW.jpg",
+            "repeating":"./image/01_P4_REPEAT.jpg",
+            "time":"./image/01_P4_TIME.jpg"
+        },
+        "words":79,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["Here’s a little trick",
+            "to improve the security",
+            "of your Dropbox account.",
+            "First",
+            "log into your Dropbox account",
+            "in the usual way",
+            "and open your ‘Account menu’.",
+            "Click on ‘Settings’",
+            "and select the Security tab.",
+            "Look for a section called ‘Two-step Protection’.",
+            "Click on this section",
+            "to get your six-digit security code.",
+            "The next time you use your Dropbox account",
+            "to share information",
+            "between your computer, phone or tablet,",
+            "you’ll need your password",
+            "and that new code."],
+        "questionText":["What is this talk about?", "How do you get your new security code?", "What does the security code look like?"]
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "page":"R4",
+    "unit":"Review4",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/04_ReviewTest.jpg",
+    "EnglishTitle":"Review Test4",
+    "JapaneseTitle":"",
+    "study":"同化",
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/E-Ticket.mp3","sound/RevTest4.mp3","sound/dr/dictation_intro.mp3"],
+            "sentenceSound":["sound/dr/t_4_d_01.mp3","sound/dr/t_4_d_02.mp3","sound/dr/t_4_d_03.mp3","sound/dr/t_4_d_04.mp3","sound/dr/t_4_d_05.mp3","sound/dr/t_4_d_06.mp3","sound/dr/t_4_d_07.mp3","sound/dr/t_4_d_08.mp3","sound/dr/t_4_d_09.mp3","sound/dr/t_4_d_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["{**** ***} must do here is {*** ****} passport checked.",
+			"This sign {**** *** **** **** ****} flight has been cancelled.",
+			"{*** *** **** **** ****} to work this morning?",
+			"{**** ******* **** ***} through to Toronto.",
+			"{***** ***} please go to your departure gate as soon as you can?",
+			"{** ***} know, the idiom means {******** ****} money.",
+			"Thank you, sir. {****** ****} boarding pass.",
+			"Please {***** ****} report {** ****} form.",
+			"They were working in an {************* **********}.",
+			"{** **** ****} I’ll take the train to the office."
+            ],
+        "hashAnswers":["a47f99b2489b45b57fd548e4f26f6e9626376db217994d965dc11dfeb7a89fab",
+			"4aeb17b0c66889c13f3450a46b486bd3a98affa33a8a1bf46d4199ca446276a4",
+			"0a1753f51ad193a030de9cc4b83e89de602472055678f129279734a13548c9f9",
+			"b8afd193e113f5edaea7ae109093fb06b0702ae5a51e3c18256d78e4ad5b78ed",
+			"de29bd695ac6594e01416fe32a177f361935d4cc506668b7c9a27fa3b69166d3",
+			"1257bd5f29cef0047c6dd2f98be01b4aae68958d0597131a5e7897c55064ec65",
+			"51462f4bb843069d559f9a6b4ed629e71f2950f606f46a8a18df9b8097a715f5",
+			"7c3382e93b8a216f3c8bec7cdeb23bbb18f03a3da30c81efe5d46ebe32b4cf70",
+			"4f1bd20e3078e7112820601d9d767aa596cdede12fe721a50e926b77600d4f8e",
+			"bdb583146caafbe77793c51dd2bb72b81f221a73533c50605dbbae334a661dbd"
+            ],
+        "sealImage":"./image/01_DI_diamond.jpg"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_title.mp3"],
+            "pic1Sound":["sound/tp1/Q1.mp3","sound/tp1/t_4_p1_01.mp3", "sound/tp1/t_4_p1_02.mp3", "sound/tp1/t_4_p1_03.mp3", "sound/tp1/t_4_p1_04.mp3"],
+            "pic2Sound":["sound/tp1/Q2.mp3","sound/tp1/t_4_p1_05.mp3", "sound/tp1/t_4_p1_06.mp3", "sound/tp1/t_4_p1_07.mp3", "sound/tp1/t_4_p1_08.mp3"]
+        },
+        "pic1Img":"./image/R4-1.jpg",
+        "pic2Img":"./image/R4-2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/part2_title.mp3"],
+            "question3Sound":["sound/ttqr/r4/Q3.mp3","sound/tp2/t_4_p2_01.mp3","sound/tp2/t_4_p2_02.mp3","sound/tp2/t_4_p2_03.mp3"],
+            "question4Sound":["sound/ttqr/r4/Q4.mp3","sound/tp2/t_4_p2_04.mp3","sound/tp2/t_4_p2_05.mp3","sound/tp2/t_4_p2_06.mp3"],
+            "question5Sound":["sound/ttqr/r4/Q5.mp3","sound/tp2/t_4_p2_07.mp3","sound/tp2/t_4_p2_08.mp3","sound/tp2/t_4_p2_09.mp3"],
+            "question6Sound":["sound/ttqr/r4/Q6.mp3","sound/tp2/t_4_p2_10.mp3","sound/tp2/t_4_p2_11.mp3","sound/tp2/t_4_p2_12.mp3"],
+            "question7Sound":["sound/ttqr/r4/Q7.mp3","sound/tp2/t_4_p2_13.mp3","sound/tp2/t_4_p2_14.mp3","sound/tp2/t_4_p2_15.mp3"],
+            "question8Sound":["sound/ttqr/r4/Q8.mp3","sound/tp2/t_4_p2_16.mp3","sound/tp2/t_4_p2_17.mp3","sound/tp2/t_4_p2_18.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/part3_title.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/t_4_p3_01.mp3","sound/tp3/t_4_p3_02.mp3","sound/tp3/t_4_p3_03.mp3","sound/tp3/t_4_p3_04.mp3"],
+            "questionSound":["sound/reviewtest4/reviewtest4_Q9.mp3","sound/reviewtest4/reviewtest4_Q10.mp3","sound/reviewtest4/reviewtest4_Q11.mp3"]
+        },
+        "soundSex":["W","M","W","M"],
+        "questionText":["9. Where is the man flying to today?", "10. Where is the man likely to be delayed?", "11. What will the passenger buy in the duty free shop?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/part4_title.mp3"],
+            "chunkSound":["sound/tp4/t_4_p4_01.mp3","sound/tp4/t_4_p4_02.mp3","sound/tp4/t_4_p4_03.mp3","sound/tp4/t_4_p4_04.mp3","sound/tp4/t_4_p4_05.mp3",
+                "sound/tp4/t_4_p4_06.mp3","sound/tp4/t_4_p4_07.mp3","sound/tp4/t_4_p4_08.mp3","sound/tp4/t_4_p4_09.mp3","sound/tp4/t_4_p4_10.mp3",
+                "sound/tp4/t_4_p4_11.mp3","sound/tp4/t_4_p4_12.mp3","sound/tp4/t_4_p4_13.mp3","sound/tp4/t_4_p4_14.mp3","sound/tp4/t_4_p4_15.mp3","sound/tp4/t_4_p4_16.mp3","sound/tp4/t_4_p4_17.mp3","sound/tp4/t_4_p4_18.mp3","sound/tp4/t_4_p4_19.mp3"],
+            "shadowingSound":["sound/tp4/t_4_p4_story.mp3"],
+            "questionSound":["sound/reviewtest4/reviewtest4_Q12.mp3","sound/reviewtest4/reviewtest4_Q13.mp3","sound/reviewtest4/reviewtest4_Q14.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"./image/01_P4_CHUNK.jpg",
+            "shadowing":"./image/01_P4_SHADOW.jpg",
+            "repeating":"./image/01_P4_REPEAT.jpg",
+            "time":"./image/01_P4_TIME.jpg"
+        },
+        "words":80,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["As you know,",
+        	"idioms are often a problem",
+        	"for language learners.",
+        	"If I say",
+        	"‘Mike should bury the hatchet,’",
+        	"I don’t mean that",
+        	"Mike should put the axe in the ground",
+        	"– I mean that",
+        	"Mike should stop arguing and make peace.",
+        	"Similarly,",
+        	"if I say",
+        	"the boss threw Susan a curveball in the meeting,",
+        	"I mean that he confused Susan",
+        	"with a difficult question.",
+        	"It’s not easy",
+        	"to become culturally literate",
+        	"and understand",
+        	"idioms, jokes, famous names",
+            "and sporting references."],
+        "questionText":["What does ‘bury the hatchet’ mean?", "What expression means ‘to confuse someone’?", "Which examples of cultural literacy does the speaker use?"]
+    }
+}

@@ -1,0 +1,140 @@
+{
+    "page":"3",
+    "unit":"UNIT3",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/03_icon.jpg",
+    "EnglishTitle":"Sales and Marketing",
+    "JapaneseTitle":"販売・営業",
+    "study":"短縮形（3）：否定の助動詞、助動詞＋have",
+    "SoundFeatures":{
+        "sounds":{
+            "introSound":["sound/sf/E-Ticket.mp3","sound/sf/u_3_title.mp3","sound/sf/soundFeatures.mp3"],
+            "sentenceSound":["sound/sf/u_3_SF_01.mp3","sound/sf/u_3_SF_02.mp3","sound/sf/u_3_SF_03.mp3","sound/sf/u_3_SF_04.mp3", "sound/sf/u_3_SF_05.mp3","sound/sf/u_3_SF_06.mp3","sound/sf/u_3_SF_07.mp3","sound/sf/u_3_SF_08.mp3","sound/sf/u_3_SF_09.mp3","sound/sf/u_3_SF_10.mp3","sound/sf/u_3_SF_11.mp3","sound/sf/u_3_SF_12.mp3","sound/sf/u_3_SF_13.mp3","sound/sf/u_3_SF_14.mp3"]
+        },
+        "description":"様々な助動詞の否定形と過去助動詞の音を覚えましょう。とくに注意して欲しい音は、canの否定形can’tと willの否定形won’tです。can’tは語尾のtが聞こえないとcanと区別が難しくなり、won’tはwantと似ています。両方とも強く発音されるということと、チャンク単位での聞き取りが重要なポイントです。また、助動詞はhaveを伴って過去助動詞の短縮形を作りますが、例えばmust’veはマスタブのように一つの音として覚えましょう。",
+        "sentences":["I {can} do that for you.", "←→　　I {can’t} do that for you.", "I {want} to do that again.", "←→　　I {won’t} do that again.", "{wouldn’t}", "{mustn’t}", "{mightn’t}", "{couldn’t}", "{shouldn’t}", "{would’ve}", "{must’ve}", "{might’ve}", "{could’ve}", "{should’ve}"],
+        "coordinate":["0,0", "40%,0", "0,30", "40%,30", "0,60", "20%,60", "40%,60", "60%,60", "80%,60", "0,90", "20%,90", "40%,90", "60%,90", "80%,90"]
+    },
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/dr/DR_intro.mp3"],
+            "sentenceSound":["sound/dr/u3_d_01.mp3","sound/dr/u3_d_02.mp3","sound/dr/u3_d_03.mp3","sound/dr/u3_d_04.mp3","sound/dr/u3_d_05.mp3","sound/dr/u3_d_06.mp3","sound/dr/u3_d_07.mp3","sound/dr/u3_d_08.mp3","sound/dr/u3_d_09.mp3","sound/dr/u3_d_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["The product {******* ****} very popular.",
+            "The merchandise {******** ****} out of date.",
+            "Teenagers {***** **} interested in the product.",
+            "You {********* ********} the sales figures by now.",
+            "You {******* **} afraid of promotional campaigns.",
+            "I {***** ******} to buy the product.",
+            "How much {***** ** **** **} pay?",
+            "It {******** ** *****} for us to charge our normal fee.",
+            "We {********* *****} more drastic action.",
+            "You all {******* ****} the sales figures for the last month."
+            ],
+        "hashAnswers":["3101bb3f0da7e487b18beb436514d75b011c16d9a173073bc694dc8b57648965",
+            "e0ce16aa3e280dba400275ad967883d8098bc5ffbfe77ea34af8435074cf8c7e",
+            "c78ca73624ead1bce0e617fb323f832c1181ba8dafda1dece424a39464140a9a",
+            "651bbf87ef8c20ea859b22b0bd415b27a00e26a579adc864737fb8e74cc966ff",
+            "63b9f228221d9b4378caac081207d9116a745b9d5e28de732cf1ef3e64be0136",
+            "11030d0c7ed3f3d65d990f69371b813f98f46993db9ae863eea1aba59f9c8a1a",
+            "034257ca4bc94f9ce3f9383dd18db316fae17d0fd69bb16691bac0d791f34f3d",
+            "3c3590b3b898c4700f0624dac9420fbefe65fbb3ed92f840ec284b06572b588f",
+            "06c28ed87458be5a6e1c945a05937d561bbf76049c6446c168708406c0781f52",
+            "0bf37a5d8123430b037f040d0e30d7136348f1fa04b6abb4c6e00a2361f27f17"
+            ],
+        "sealImage":"image/01_DI_diamond.jpg"
+    },
+    "Vocabulary":{
+        "sounds":{
+            "introSound":["sound/vo/vo_intro.mp3"],
+            "wordSound": ["sound/vo/u3_v_01.mp3","sound/vo/u3_v_02.mp3","sound/vo/u3_v_03.mp3","sound/vo/u3_v_04.mp3","sound/vo/u3_v_05.mp3","sound/vo/u3_v_06.mp3","sound/vo/u3_v_07.mp3","sound/vo/u3_v_08.mp3","sound/vo/u3_v_09.mp3","sound/vo/u3_v_10.mp3"],
+            "timeoutSound" : ["sound/effect/DORA.mp3"],
+            "mistakeSound" : ["sound/effect/mistake.mp3"],
+            "platinumSound" : ["sound/effect/goldMedal.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"]
+        },
+        "wordJp":["小売","卸売り","フェアトレード、公正取引","販売促進活動","広報活動","非営利組織、NPO","売上高","通信販売","競争","リストラ、改革"],
+        "wordEn":["retail","wholesale","fair-trade","promotional campaign","public relations","non-profit organization","sales figures","mail order","competition","restructuring"],
+        "medalImage":{
+            "platinum":"image/MedalPlatinum.png",
+            "gold":"image/MedalGold.png",
+            "silver":"image/MedalSilver.png",
+            "bronze":"image/MedalBronze.png"
+        },
+        "plattinumBgImage":"image/platinum.png"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_tittle.mp3"],
+            "pic1Sound":["sound/tp1/u_1_p_01.mp3", "sound/tp1/u_3_p_02.mp3", "sound/tp1/u_3_p_03.mp3", "sound/tp1/u_3_p_04.mp3", "sound/tp1/u_3_p_05.mp3"],
+            "pic2Sound":["sound/tp1/u_1_p_06.mp3", "sound/tp1/u_3_p_07.mp3", "sound/tp1/u_3_p_08.mp3", "sound/tp1/u_3_p_09.mp3", "sound/tp1/u_3_p_10.mp3"]
+        },
+        "pic1Img":"image/u3-1.jpg",
+        "pic2Img":"image/u3-2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/u_3_p2_01.mp3"],
+            "allFirstSound":["sound/tp2/u_1_p2_play.mp3"],
+            "question3Sound":["sound/tp2/u_3_p2_02.mp3","sound/tp2/u_3_p2_03.mp3","sound/tp2/u_3_p2_04.mp3","sound/tp2/u_3_p2_05.mp3"],
+            "question4Sound":["sound/tp2/u_3_p2_07.mp3","sound/tp2/u_3_p2_08.mp3","sound/tp2/u_3_p2_09.mp3","sound/tp2/u_3_p2_10.mp3"],
+            "question5Sound":["sound/tp2/u_3_p2_12.mp3","sound/tp2/u_3_p2_13.mp3","sound/tp2/u_3_p2_14.mp3","sound/tp2/u_3_p2_15.mp3"],
+            "question6Sound":["sound/tp2/u_3_p2_17.mp3","sound/tp2/u_3_p2_18.mp3","sound/tp2/u_3_p2_19.mp3","sound/tp2/u_3_p2_20.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/p3_shortCnv.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/u_3_p3_01.mp3","sound/tp3/u_3_p3_02.mp3","sound/tp3/u_3_p3_03.mp3","sound/tp3/u_3_p3_04.mp3"],
+            "questionSound":["sound/tp3/Q7.mp3","sound/tp3/Q8.mp3"]
+        },
+        "soundSex":["W","M","W","M"],
+        "questionText":["7. What are these people talking about?", "8. Why does the man offer the woman an 80% discount?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/u_3_p4_title.mp3"],
+            "chunkSound":["sound/tp4/u_3_p4_01.mp3","sound/tp4/u_3_p4_02.mp3","sound/tp4/u_3_p4_03.mp3","sound/tp4/u_3_p4_04.mp3","sound/tp4/u_3_p4_05.mp3",
+                "sound/tp4/u_3_p4_06.mp3","sound/tp4/u_3_p4_07.mp3","sound/tp4/u_3_p4_08.mp3","sound/tp4/u_3_p4_09.mp3","sound/tp4/u_3_p4_10.mp3",
+                "sound/tp4/u_3_p4_11.mp3","sound/tp4/u_3_p4_12.mp3"],
+            "shadowingSound":["sound/tp4/u_3_p4_story.mp3"],
+            "questionSound":["sound/tp4/Q9.mp3","sound/tp4/Q10.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"image/01_P4_CHUNK.jpg",
+            "shadowing":"image/01_P4_SHADOW.jpg",
+            "repeating":"image/01_P4_REPEAT.jpg",
+            "time":"image/01_P4_TIME.jpg"
+        },
+        "words":71,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["This meeting should've been held yesterday",
+        	"but we had to cancel",
+        	"because we couldn’t get some of the figures.",
+        	"You all must've seen the sales figures",
+        	"for the last month.",
+        	"Our mail order sales are down.",
+        	"Our competition is killing us.",
+        	"We could’ve done better.",
+        	"We should’ve taken more drastic action",
+        	"before we started losing our customers.",
+        	"If we can't get our sales up",
+            "we may have to think about restructuring."],
+        "questionText":["Who is speaking?", "What is the problem?"]
+    }
+}

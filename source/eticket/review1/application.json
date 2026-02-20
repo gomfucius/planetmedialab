@@ -1,0 +1,118 @@
+{
+    "page":"R1",
+    "unit":"Review1",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/01_ReviewTest.jpg",
+    "EnglishTitle":"Review Test1",
+    "JapaneseTitle":"",
+    "study":"短縮形",
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/E-Ticket.mp3","sound/RevTest1.mp3","sound/dr/dictation_intro.mp3"],
+            "sentenceSound":["sound/dr/t_1_d_01.mp3","sound/dr/t_1_d_02.mp3","sound/dr/t_1_d_03.mp3","sound/dr/t_1_d_04.mp3","sound/dr/t_1_d_05.mp3","sound/dr/t_1_d_06.mp3","sound/dr/t_1_d_07.mp3","sound/dr/t_1_d_08.mp3","sound/dr/t_1_d_09.mp3","sound/dr/t_1_d_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["{******* *** **********} for the sales staff.",
+			"{******** *******} different flavors of ice cream.",
+			"{***** ****** ****} to the personnel department.",
+			"{***** ** *******} his supervisor to report the sales results.",
+			"{******* ** *** ****** *****} of our fair-trade tea?",
+			"{****** ******} that fair-trade rice is up two percent.",
+			"Teenagers {***** ** **********} in this product.",
+			"{******** ** *****} the promotional campaign a bit earlier?",
+			"{***** ******** ****} some mistakes in the sales figures.",
+			"{*** ********* *****} the sales representative for that product."
+            ],
+        "hashAnswers":["644764f9774e6452f1f8dcaaef934000843f983121c9a65bbfe91a83f553d055",
+			"e27bb72412dd882d2220c76afd1eb5ef3aaf081c071ed07270226796a299dc4d",
+			"461a0103dcfad8df58d5c7daf91a46bce97008bad81166f55d3aa8dd827a3eb0",
+			"51de15b0a41a76490f8f95eba2c015011dff7d21766b04a02f9499131526585f",
+			"4b2300d64cbbc60ae889f0df1d6f4b7720bde27ef53a2df187001078996f2fa8",
+			"0e0640332ee2c66917040070cdce804e48e646265ba72eb9ce8c3afcec13dd71",
+			"7045ed38a747576dba68e101d5b1353dde875cea965ec04344db00000a9e5097",
+			"dbbfae1251308213414e8b5f2936bff76e91031c81552dcd1bd3eeb27ce4e5a8",
+			"406252c8fb16652099ff8350fa6c19b9d0eeb0e6139413b88dfb22dd481f5441",
+			"5ba4742563381eb57c86f04f40781ef9e79b2ef2d69a94992faafc0cf4a2ea34"
+            ],
+        "sealImage":"./image/01_DI_diamond.jpg"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_title.mp3"],
+            "pic1Sound":["sound/tp1/Q1.mp3","sound/tp1/t_1_p1_01.mp3", "sound/tp1/t_1_p1_02.mp3", "sound/tp1/t_1_p1_03.mp3", "sound/tp1/t_1_p1_04.mp3"],
+            "pic2Sound":["sound/tp1/Q2.mp3","sound/tp1/t_1_p1_05.mp3", "sound/tp1/t_1_p1_06.mp3", "sound/tp1/t_1_p1_07.mp3", "sound/tp1/t_1_p1_08.mp3"]
+        },
+        "pic1Img":"./image/R1-1.jpg",
+        "pic2Img":"./image/R1-2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/part2_title.mp3"],
+            "question3Sound":["sound/ttqr/r1/Q3.mp3","sound/tp2/t_1_p2_01.mp3","sound/tp2/t_1_p2_02.mp3","sound/tp2/t_1_p2_03.mp3"],
+            "question4Sound":["sound/ttqr/r1/Q4.mp3","sound/tp2/t_1_p2_04.mp3","sound/tp2/t_1_p2_05.mp3","sound/tp2/t_1_p2_06.mp3"],
+            "question5Sound":["sound/ttqr/r1/Q5.mp3","sound/tp2/t_1_p2_07.mp3","sound/tp2/t_1_p2_08.mp3","sound/tp2/t_1_p2_09.mp3"],
+            "question6Sound":["sound/ttqr/r1/Q6.mp3","sound/tp2/t_1_p2_10.mp3","sound/tp2/t_1_p2_11.mp3","sound/tp2/t_1_p2_12.mp3"],
+            "question7Sound":["sound/ttqr/r1/Q7.mp3","sound/tp2/t_1_p2_13.mp3","sound/tp2/t_1_p2_14.mp3","sound/tp2/t_1_p2_15.mp3"],
+            "question8Sound":["sound/ttqr/r1/Q8.mp3","sound/tp2/t_1_p2_16.mp3","sound/tp2/t_1_p2_17.mp3","sound/tp2/t_1_p2_18.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/part3_title.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/t1_p3_01.mp3","sound/tp3/t1_p3_02.mp3","sound/tp3/t1_p3_03.mp3","sound/tp3/t1_p3_04.mp3","sound/tp3/t1_p3_05.mp3","sound/tp3/t1_p3_06.mp3"],
+            "questionSound":["sound/tp3/Q9.mp3","sound/tp3/Q10.mp3","sound/tp3/Q11.mp3"]
+        },
+        "soundSex":["M","W","M","W","M","W"],
+        "questionText":["9. Where does this conversation take place?", "10. What did the customer eat?", "11. What drink does the customer ask for?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/part4_title.mp3"],
+            "chunkSound":["sound/tp4/t_1_p4_01.mp3","sound/tp4/t_1_p4_02.mp3","sound/tp4/t_1_p4_03.mp3","sound/tp4/t_1_p4_04.mp3","sound/tp4/t_1_p4_05.mp3",
+                "sound/tp4/t_1_p4_06.mp3","sound/tp4/t_1_p4_07.mp3","sound/tp4/t_1_p4_08.mp3","sound/tp4/t_1_p4_09.mp3","sound/tp4/t_1_p4_10.mp3",
+                "sound/tp4/t_1_p4_11.mp3","sound/tp4/t_1_p4_12.mp3","sound/tp4/t_1_p4_13.mp3","sound/tp4/t_1_p4_14.mp3","sound/tp4/t_1_p4_15.mp3","sound/tp4/t_1_p4_16.mp3","sound/tp4/t_1_p4_17.mp3","sound/tp4/t_1_p4_18.mp3","sound/tp4/t_1_p4_19.mp3"],
+            "shadowingSound":["sound/tp4/t_1_p4_story.mp3"],
+            "questionSound":["sound/tp4/Q12.mp3","sound/tp4/Q13.mp3","sound/tp4/Q14.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"./image/01_P4_CHUNK.jpg",
+            "shadowing":"./image/01_P4_SHADOW.jpg",
+            "repeating":"./image/01_P4_REPEAT.jpg",
+            "time":"./image/01_P4_TIME.jpg"
+        },
+        "words":87,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["And here are the sales figures",
+            "for the last quarter:",
+            "April through June.",
+            "You’ll notice",
+            "that Fair-trade rice is up two percent. ",
+            "Fair-trade coffee's up five percent.",
+            "Fair-trade chocolate's up",
+            "by a massive 14 percent.",
+            "The overall message is clear",
+            "shoppers are buying products",
+            "from developing countries.",
+            "it’s time for a promotional campaign",
+            "of our products of that kind.",
+            "I think",
+            "we can sell more fair-trade products,",
+            "such as sugar,",
+            "olive oil and honey.",
+            "We should’ve expanded our range",
+            "months ago."],
+        "questionText":["Who is talking?", "Which fair-trade product is most popular?", "What new fair-trade products might the store sell?"]
+    }
+}

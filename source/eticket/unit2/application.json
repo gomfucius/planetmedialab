@@ -1,0 +1,141 @@
+{
+    "page":"2",
+    "unit":"UNIT2",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/02_icon.jpg",
+    "EnglishTitle":"Eating & Restaurant",
+    "JapaneseTitle":"食事・レストラン",
+    "study":"短縮形（2）：主語＋will, would",
+    "SoundFeatures":{
+        "sounds":{
+            "introSound":["sound/sf/E-Ticket.mp3","sound/sf/u_2_title.mp3"],
+            "sentenceSound":["sound/sf/u_2_SF_01.mp3","sound/sf/u_2_SF_02.mp3","sound/sf/u_2_SF_03.mp3","sound/sf/u_2_SF_04.mp3", "sound/sf/u_2_SF_05.mp3","sound/sf/u_2_SF_06.mp3","sound/sf/u_2_SF_07.mp3","sound/sf/u_2_SF_08.mp3","sound/sf/u_2_SF_09.mp3","sound/sf/u_2_SF_10.mp3","sound/sf/u_2_SF_11.mp3"]
+        },
+        "description":"助動詞のwillや過去形wouldの短縮形の音を覚えましょう。/l/ の音は「ウ」と「オ」の中間のような暗い響きの音で、I’ll なら「アイオ」に似た音です。一方、I wouldの短縮形I’dは「アイッ」のように詰まった音です。始めは聞き取りにくいですが、慣れて来れば短縮形の音だけで区別が付きます。さらにチャンク単位で理解すれば自動的に判断がつくはずです。例を聞いてみましょう。",
+        "sentences":["he’ll", "he’d", "she’ll", "she’d", "we’ll", "we’d", "it’ll", "that’ll", "{I} play tennis every day.", "{I’ll} play tennis this weekend.", "{I’d} play tennis if I had the time."],
+        "coordinate":["0,0", "10%,0", "25%,0", "35%,0", "50%,0", "60%,0", "75%,0", "85%,0", "0,35", "0,70", "0,105"]
+    },
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/dr/DR_intro.mp3"],
+            "sentenceSound":["sound/dr/u2_d_01.mp3","sound/dr/u2_d_02.mp3","sound/dr/u2_d_03.mp3","sound/dr/u2_d_04.mp3","sound/dr/u2_d_05.mp3","sound/dr/u2_d_06.mp3","sound/dr/u2_d_07.mp3","sound/dr/u2_d_08.mp3","sound/dr/u2_d_09.mp3","sound/dr/u2_d_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["{***** *****} a cup of coffee at the cafeteria.",
+            "{****** *******} the food for the luncheon?",
+			"{******** **} enough food and drinks.",
+			"{******* **} nineteen dollars in total.",
+			"OK. {**** **} get some ingredients.",
+			"{*** ****} recommend the continental breakfast.",
+			"I guess {***** ****} something more nutritious.",
+			"{****** ****} the appetizers on the left page of the menu.",
+			"{**** **} happy to make it for you.",
+			"I hope {******** **} something you like in our collection."
+            ],
+        "hashAnswers":["19a200699e28c0f48360ae0ec6b099297a510a0a7a02850ef12b3f2fc326728c",
+            "8b332f57ab7d381ff62e023ee646feaf0fe84e4a51e076bae4c650990afa6343",
+			"f39815281aacca8468e6f50571d8cba24441e84e9e8bdafdd99e7460126f8b15",
+			"776050127a326fcfb31570ee4dbdb8f42acdae8d13f1c7ecfec03e5560ae8672",
+			"370485185cf9d4a722ccff6081aed437c5f0effa41567e1f9e44440d8f3bf5cc",
+			"31172ea1e089b32fe3337a63d2b86d68085599c5471b5f093e6e819c557b744e",
+			"e7f2b4d1f05c1b32182438af3284095cce444628e68e7e993c5716282a2f2df2",
+			"148e98532eca252362089a6799de322dd89777ad5555f188aff710bd0223e21e",
+			"0b0c734a2de71bc69d9b2b0d458d9a65ec1313ed83bfdd4b83d0f8ef08f5f66e",
+			"76e862f3c5c8bd044c9e1883c7b87412e01e83d3dc2867bed9ae68f04a83d532"
+            ],
+        "sealImage":"image/01_DI_diamond.jpg"
+    },
+    "Vocabulary":{
+        "sounds":{
+            "introSound":["sound/vo/vo_intro.mp3"],
+            "wordSound": ["sound/vo/u2_v_01.mp3","sound/vo/u2_v_02.mp3","sound/vo/u2_v_03.mp3","sound/vo/u2_v_04.mp3","sound/vo/u2_v_05.mp3","sound/vo/u2_v_06.mp3","sound/vo/u2_v_07.mp3","sound/vo/u2_v_08.mp3","sound/vo/u2_v_09.mp3","sound/vo/u2_v_10.mp3"],
+            "timeoutSound" : ["sound/effect/DORA.mp3"],
+            "mistakeSound" : ["sound/effect/mistake.mp3"], 
+            "platinumSound" : ["sound/effect/goldMedal.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"]
+        },
+        "wordJp":["前菜","宴会","料理","ご馳走","材料","昼食会","栄養のある","お勧めする","全粒の","ワイン貯蔵室"],
+        "wordEn":["appetizer","banquet","dish","feast","ingredient","luncheon","nutritious","recommend","whole grain","wine cellar"],
+        "medalImage":{
+            "platinum":"image/MedalPlatinum.png",
+            "gold":"image/MedalGold.png",
+            "silver":"image/MedalSilver.png",
+            "bronze":"image/MedalBronze.png"
+        },
+        "plattinumBgImage":"image/platinum.png"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_tittle.mp3"],
+            "pic1Sound":["sound/tp1/u_2_p_01.mp3", "sound/tp1/u_2_p_02.mp3", "sound/tp1/u_2_p_03.mp3", "sound/tp1/u_2_p_04.mp3", "sound/tp1/u_2_p_05.mp3"],
+            "pic2Sound":["sound/tp1/u_2_p_06.mp3", "sound/tp1/u_2_p_07.mp3", "sound/tp1/u_2_p_08.mp3", "sound/tp1/u_2_p_09.mp3", "sound/tp1/u_2_p_10.mp3"]
+        },
+        "pic1Img":"image/u2-1.jpg",
+        "pic2Img":"image/u2-2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/u_2_p2_01.mp3"],
+            "allFirstSound":["sound/tp2/u_1_p2_play.mp3"],
+            "question3Sound":["sound/tp2/u_2_p2_02.mp3","sound/tp2/u_2_p2_03.mp3","sound/tp2/u_2_p2_04.mp3","sound/tp2/u_2_p2_05.mp3"],
+            "question4Sound":["sound/tp2/u_2_p2_07.mp3","sound/tp2/u_2_p2_08.mp3","sound/tp2/u_2_p2_09.mp3","sound/tp2/u_2_p2_10.mp3"],
+            "question5Sound":["sound/tp2/u_2_p2_12.mp3","sound/tp2/u_2_p2_13.mp3","sound/tp2/u_2_p2_14.mp3","sound/tp2/u_2_p2_15.mp3"],
+            "question6Sound":["sound/tp2/u_2_p2_17.mp3","sound/tp2/u_2_p2_18.mp3","sound/tp2/u_2_p2_19.mp3","sound/tp2/u_2_p2_20.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/p3_shortCnv.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/u2_p3_01.mp3","sound/tp3/u2_p3_02.mp3","sound/tp3/u2_p3_03.mp3"],
+            "questionSound":["sound/tp3/u2_p3_Q7.mp3","sound/tp3/u2_p3_Q8.mp3"]
+        },
+        "soundSex":["M","W","M"],
+        "questionText":["7. Where are the people going to eat?", "8. What will they eat?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/u_2_p4_title.mp3"],
+            "chunkSound":["sound/tp4/u_2_p4_01.mp3","sound/tp4/u_2_p4_02.mp3","sound/tp4/u_2_p4_03.mp3","sound/tp4/u_2_p4_04.mp3","sound/tp4/u_2_p4_05.mp3",
+                "sound/tp4/u_2_p4_06.mp3","sound/tp4/u_2_p4_07.mp3","sound/tp4/u_2_p4_08.mp3","sound/tp4/u_2_p4_09.mp3","sound/tp4/u_2_p4_10.mp3","sound/tp4/u_2_p4_11.mp3","sound/tp4/u_2_p4_12.mp3","sound/tp4/u_2_p4_13.mp3","sound/tp4/u_2_p4_14.mp3"],
+            "shadowingSound":["sound/tp4/u_2_p4_story.mp3"],
+            "questionSound":["sound/tp4/Q9.mp3","sound/tp4/Q10.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"image/01_P4_CHUNK.jpg",
+            "shadowing":"image/01_P4_SHADOW.jpg",
+            "repeating":"image/01_P4_REPEAT.jpg",
+            "time":"image/01_P4_TIME.jpg"
+        },
+        "words":76,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["Happy anniversary!",
+        	"We'll prepare a feast for you!",
+        	"Please order anything you like.",
+        	"You'll find the appetizers",
+        	"on the left page of the menu,",
+        	"the main dishes on the right,",
+        	"and the side dishes at the bottom.",
+        	"If you'd like something",
+        	"that is not on the menu,",
+        	"we'd be happy to make it for you.",
+        	"When you are ready,",
+        	"won't you come see our wine cellar?",
+        	"I hope there’ll be something you like",
+            "in our collection."],
+        "questionText":["Who is the speaker talking to?", "Where are the side dishes listed?"]
+    }
+}

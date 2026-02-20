@@ -1,0 +1,147 @@
+{
+    "page":"11",
+    "unit":"UNIT11",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/11_icon.jpg",
+    "EnglishTitle":"Global Human Resources",
+    "JapaneseTitle":"人材育成・教育",
+    "study":"同化（2）：s, z + j",
+    "SoundFeatures":{
+        "sounds":{
+            "introSound":["sound/sf/E-Ticket.mp3","sound/sf/u_11_title.mp3","sound/sf/soundFeatures.mp3"],
+            "sentenceSound":["sound/sf/u_11_sf_01.mp3","sound/sf/u_11_sf_02.mp3"]
+        },
+        "description":"[s] や [z] の次に [j] が来たときに、別の音に変化する「融合同化」の聞き取り練習をしましよう。",
+        "sentences":["[s] + [j] → [ʃ] Thi{s y}ear you need to increa{se y}our TOEIC score by 100.", "[z] + [j] → [ʒ] A{s y}ou know, it i{s y}our duty to apply for the internship."],
+        "coordinate":["0,0", "0,50"]
+    },
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/dr/DR_intro.mp3"],
+            "sentenceSound":["sound/dr/u_11_d_01.mp3","sound/dr/u_11_d_02.mp3","sound/dr/u_11_d_03.mp3","sound/dr/u_11_d_04.mp3","sound/dr/u_11_d_05.mp3","sound/dr/u_11_d_06.mp3","sound/dr/u_11_d_07.mp3","sound/dr/u_11_d_08.mp3","sound/dr/u_11_d_09.mp3","sound/dr/u_11_d_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["{*** ****} decision been made?",
+			"{***** ***} to develop leadership ability.",
+			"I’ve not made up my {**** ***}.",
+			"I’ve been working there {**** ****}.",
+			"You should learn some Spanish {** **** ***} need it.",
+			"I understand your point. I {***** ******} right.",
+			"I worked in a home for {******** *****}.",
+			"I {**** ********* ***} to your non-Japanese colleagues.",
+			"{** *** ****}, you are here because you have the social skills.",
+			"I want you to {******** ****} competencies in cultural literacy."
+            ],
+        "hashAnswers":["ea13888fe41169e61ed64c59f8f9a525c985d6bae8e94ab3ede927d138cf2e73",
+			"d4938769e79f763223554d79965347482429f93603b49062cba44b22e6838c01",
+			"0efcc3d0a1dd6d1318553b09e22b4d4be10be55631091282b1c0088aabfbd59c",
+			"ee7ca167efc7a256e30dc2cceb48823cc9a1edc30ba9b17920b42de3cfa13579",
+			"bd5f0140b5a52cdf02a337c0629841921627e2fdf59405dfb5bccc810bb15114",
+			"dd841fd8d89435923d61fa64a4cba1c87a8dfb8707c38ccbf3fb2a4ee882c2ba",
+			"3e0d0ab56b6a423dc6d2c75c269a966a1494c97a2a6f6e94656a32cb8e556de2",
+			"906041d392d1f96cdc4fa7726c281ec9550a8997b6cd8d8348f199a3614ba9f8",
+			"74a832c3e4cc166794533cee718bbc65881e7fb72f8657bfab083f7f8d50c64f",
+			"4cff41b96d4b839a00d5a1ed6e4b5b873aa115b7055b41c2382fa59b34be8517"
+            ],
+        "sealImage":"./image/01_DI_diamond.jpg"
+    },
+    "Vocabulary":{
+        "sounds":{
+            "introSound":["sound/vo/vo_intro.mp3","sound/vo/ChooseApproInJapanese.mp3"],
+            "wordSound": ["sound/vo/u_11_01.mp3","sound/vo/u_11_02.mp3","sound/vo/u_11_03.mp3","sound/vo/u_11_04.mp3","sound/vo/u_11_05.mp3","sound/vo/u_11_06.mp3","sound/vo/u_11_07.mp3","sound/vo/u_11_08.mp3","sound/vo/u_11_09.mp3","sound/vo/u_11_10.mp3"],
+            "timeoutSound" : ["sound/effect/DORA.mp3"],
+            "mistakeSound" : ["sound/effect/mistake.mp3"],
+            "platinumSound" : ["sound/effect/goldMedal.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"]
+        },
+        "wordJp":["達成する","同僚","能力","文化的背景","文化的教養","発展途上国","任務","視点、見通し","社交術","国連"],
+        "wordEn":["accomplish","colleagues","competency","cultural background","cultural literacy","developing nation","mission","perspective","social skills","United Nations"],
+        "medalImage":{
+            "platinum":"./image/MedalPlatinum.png",
+            "gold":"./image/MedalGold.png",
+            "silver":"./image/MedalSilver.png",
+            "bronze":"./image/MedalBronze.png"
+        },
+        "plattinumBgImage":"./image/platinum.png"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_title.mp3"],
+            "pic1Sound":["sound/tp1/Q1.mp3", "sound/tp1/u_11_p1_01.mp3", "sound/tp1/u_11_p1_02.mp3", "sound/tp1/u_11_p1_03.mp3", "sound/tp1/u_11_p1_04.mp3"],
+            "pic2Sound":["sound/tp1/Q2.mp3", "sound/tp1/u_11_p1_05.mp3", "sound/tp1/u_11_p1_06.mp3", "sound/tp1/u_11_p1_07.mp3", "sound/tp1/u_11_p1_08.mp3"]
+        },
+        "pic1Img":"./image/u11-1.jpg",
+        "pic2Img":"./image/u11-2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/Part2_title.mp3"],
+            "allFirstSound":[],
+            "question3Sound":["sound/ttqr/u11/Q3.mp3","sound/tp2/u_11_p2_3a.mp3","sound/tp2/u_11_p2_3b.mp3","sound/tp2/u_11_p2_3c.mp3"],
+            "question4Sound":["sound/ttqr/u11/Q4.mp3","sound/tp2/u_11_p2_4a.mp3","sound/tp2/u_11_p2_4b.mp3","sound/tp2/u_11_p2_4c.mp3"],
+            "question5Sound":["sound/ttqr/u11/Q5.mp3","sound/tp2/u_11_p2_5a.mp3","sound/tp2/u_11_p2_5b.mp3","sound/tp2/u_11_p2_5c.mp3"],
+            "question6Sound":["sound/ttqr/u11/Q6.mp3","sound/tp2/u_11_p2_6a.mp3","sound/tp2/u_11_p2_6b.mp3","sound/tp2/u_11_p2_6c.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/part3_title.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/u_11_p3_01.mp3","sound/tp3/u_11_p3_02.mp3","sound/tp3/u_11_p3_03.mp3","sound/tp3/u_11_p3_04.mp3"],
+            "questionSound":["sound/tp3/u11_p3_Q7.mp3","sound/tp3/u11_p3_Q8.mp3"]
+        },
+        "soundSex":[ "W","M","W","M"],
+        "questionText":["7. What kind of conversation is this?", "8. What kind of organization is this?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/part4_title.mp3"],
+            "chunkSound":["sound/tp4/u_11_p4_01.mp3","sound/tp4/u_11_p4_02.mp3","sound/tp4/u_11_p4_03.mp3","sound/tp4/u_11_p4_04.mp3","sound/tp4/u_11_p4_05.mp3",
+                "sound/tp4/u_11_p4_06.mp3","sound/tp4/u_11_p4_07.mp3","sound/tp4/u_11_p4_08.mp3","sound/tp4/u_11_p4_09.mp3","sound/tp4/u_11_p4_10.mp3",
+                "sound/tp4/u_11_p4_11.mp3","sound/tp4/u_11_p4_12.mp3","sound/tp4/u_11_p4_13.mp3","sound/tp4/u_11_p4_14.mp3","sound/tp4/u_11_p4_15.mp3","sound/tp4/u_11_p4_16.mp3","sound/tp4/u_11_p4_17.mp3","sound/tp4/u_11_p4_18.mp3","sound/tp4/u_11_p4_19.mp3"],
+            "shadowingSound":["sound/tp4/u_11_p4_story.mp3"],
+            "questionSound":["sound/tp4/u11_p4_Q9.mp3","sound/tp4/u11_p4_Q10.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"./image/01_P4_CHUNK.jpg",
+            "shadowing":"./image/01_P4_SHADOW.jpg",
+            "repeating":"./image/01_P4_REPEAT.jpg",
+            "time":"./image/01_P4_TIME.jpg"
+        },
+        "words":85,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["Welcome to",
+            "the United Nations Development Program.",
+            "As you know,",
+            "you are here",
+            "because you have the social skills,",
+            "communication abilities,",
+            "and leadership ability we need",
+            "to accomplish our mission.",
+            "Before I introduce you",
+            "to the headquarters staff,",
+            "and your non-Japanese colleagues,",
+            "I want to stress one point.",
+            "In the global age",
+            "we need to think of our mission",
+            "not as helping developing nations,",
+            "but of working together",
+            "to build a global network.",
+            "I want you to increase your competencies",
+            "in global cultural literacy."],
+        "questionText":["Who is speaking?", "Where will the group go next?"]
+    }
+}

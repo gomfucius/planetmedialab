@@ -1,0 +1,146 @@
+{
+    "page":"9",
+    "unit":"UNIT9",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/09_icon.jpg",
+    "EnglishTitle":"Meeting",
+    "JapaneseTitle":"会議",
+    "study":"破裂音（3）：様々な [t]",
+    "SoundFeatures":{
+        "sounds":{
+            "introSound":["sound/sf/E-Ticket.mp3","sound/sf/u_9_title.mp3","sound/sf/soundFeatures.mp3"],
+            "sentenceSound":["sound/sf/u_9_sf_01.mp3","sound/sf/u_9_sf_02.mp3","sound/sf/u_9_sf_03.mp3","sound/sf/u_9_sf_04.mp3", "sound/sf/u_9_sf_05.mp3","sound/sf/u_9_sf_06.mp3","sound/sf/u_9_sf_07.mp3","sound/sf/u_9_sf_08.mp3","sound/sf/u_9_sf_09.mp3","sound/sf/u_9_sf_10.mp3","sound/sf/u_9_sf_11.mp3","sound/sf/u_9_sf_12.mp3","sound/sf/u_9_sf_13.mp3","sound/sf/u_9_sf_14.mp3","sound/sf/u_9_sf_15.mp3","sound/sf/u_9_sf_16.mp3","sound/sf/u_9_sf_17.mp3","sound/sf/u_9_sf_18.mp3","sound/sf/u_9_sf_19.mp3"]
+        },
+        "description":"[t] は現れる位置によって様々な音に変化します。また、話者や話す速度によっても変化の度合いは異なります。以下の例はアメリカ英語で顕著です。なお、[d] も同様の変化をすることがあります。",
+        "sentences":["軟らかい [t] compu{t}er", "le{tt}er", "wai{t}ing", "ci{t}y", "Harry Po{tt}er", "Le{t} it go", "[n] の前の [t] wri{tten}", "cer{tain}", "moun{tain}", "La{tin}", "su{dden}ly", "hi{dden}", "[l] の前の [t] ti{tl}e", "li{ttl}e", "Sea{ttl}e", "tha{t’ll}", "recen{tl}y", "absolu{tely}", "la{tel}y"],
+        "coordinate":["0,0", "40%,0", "60%,0", "80%,0", "17%,30", "40%,30", "0,60", "40%,60", "60%,60", "80%,60", "17%,90", "40%,90", "0,120", "40%,120", "60%,120", "80%,120", "17%,150", "40%,150", "60%,150"]
+    },
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/dr/DR_intro.mp3"],
+            "sentenceSound":["sound/dr/u_9_d_01.mp3","sound/dr/u_9_d_02.mp3","sound/dr/u_9_d_03.mp3","sound/dr/u_9_d_04.mp3","sound/dr/u_9_d_05.mp3","sound/dr/u_9_d_06.mp3","sound/dr/u_9_d_07.mp3","sound/dr/u_9_d_08.mp3","sound/dr/u_9_d_09.mp3","sound/dr/u_9_d_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["They’re all {******* ****} in the meeting room.",
+			"They’re {******* *** **} the conference room. ",
+			"The chair is {******* **} the middle of the room.",
+			"I guess her presentation was {********* *******}.",
+			"Portland is {** **********} beautiful city.",
+			"What is the {***** **} the symposium?",
+			"Have you been to the conference {**** ******}?",
+			"You’d {****** ***********} in the workshop.",
+			"{*** *******} of her talk was quite clear.",
+			"His talk was {*******} perfect for that {**** **} event."
+            ],
+        "hashAnswers":["3bfd43bf27dfcee11edf4ed741a4d11678900dae369ffe699f8ec19690e20bb8",
+			"d2003704c6478a702e878c08f697ea9a4b3ee6a9be5e10242a8ee76e097bfd42",
+			"cbc8af6d81657fd5ea0cfc27e02b29f0e093ac11003d07fc54e44b3d9d9c64e5",
+			"2e70c71d860661e1dd52682fc57e35f95240aab39bc60f7224827deec51aa921",
+			"a208b72fda6ef0a424ee69a3512755d46562898338e69cf0e5ffb17b80a96ba7",
+			"416ace5d11c06dd5e4f7127110519da18a45f5bfdab47d8f8e65e44644e26b9b",
+			"b5dd71948f35a2ccb349116ce18586bf0b6884e751620e44845c7a2137d38672",
+			"75f57ec6fd9b375356de8d19c8a7c46b971c2ea26f12f8ba68789e2d934cb85f",
+			"b8629fee08e59c8f1325a073fd19e02f5d2a58080ebd5c7d3ed2339293b3184a",
+			"b1cf103cc4a9b017fe4b5197fedb80673f2457a1181fec8d690b4f83817d584f"
+            ],
+        "sealImage":"./image/01_DI_diamond.jpg"
+    },
+    "Vocabulary":{
+        "sounds":{
+            "introSound":["sound/vo/vo_intro.mp3","sound/vo/ChooseApproInJapanese.mp3"],
+            "wordSound": ["sound/vo/u_9_01.mp3","sound/vo/u_9_02.mp3","sound/vo/u_9_03.mp3","sound/vo/u_9_04.mp3","sound/vo/u_9_05.mp3","sound/vo/u_9_06.mp3","sound/vo/u_9_07.mp3","sound/vo/u_9_08.mp3","sound/vo/u_9_09.mp3","sound/vo/u_9_10.mp3"],
+            "timeoutSound" : ["sound/effect/DORA.mp3"],
+            "mistakeSound" : ["sound/effect/mistake.mp3"],
+            "platinumSound" : ["sound/effect/goldMedal.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"]
+        },
+        "wordJp":["議題","注目、注意","会議、学会","（国際）会議場","要点","参加する","登録","シャトルバス","シンポジウム","テーマ、主題"],
+        "wordEn":["agenda","attention","conference","convention center","outline","participate","registration","shuttle bus","symposium","theme"],
+        "medalImage":{
+            "platinum":"./image/MedalPlatinum.png",
+            "gold":"./image/MedalGold.png",
+            "silver":"./image/MedalSilver.png",
+            "bronze":"./image/MedalBronze.png"
+        },
+        "plattinumBgImage":"./image/platinum.png"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_title.mp3"],
+            "pic1Sound":["sound/tp1/Q1.mp3", "sound/tp1/u_9_p1_01.mp3", "sound/tp1/u_9_p1_02.mp3", "sound/tp1/u_9_p1_03.mp3", "sound/tp1/u_9_p1_04.mp3"],
+            "pic2Sound":["sound/tp1/Q2.mp3", "sound/tp1/u_9_p1_05.mp3", "sound/tp1/u_9_p1_06.mp3", "sound/tp1/u_9_p1_07.mp3", "sound/tp1/u_9_p1_08.mp3"]
+        },
+        "pic1Img":"./image/u9-1.jpg",
+        "pic2Img":"./image/u9-2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/Part2_title.mp3"],
+            "allFirstSound":[],
+            "question3Sound":["sound/ttqr/u9/Q3.mp3","sound/tp2/u_9_p2_3a.mp3","sound/tp2/u_9_p2_3b.mp3","sound/tp2/u_9_p2_3c.mp3"],
+            "question4Sound":["sound/ttqr/u9/Q4.mp3","sound/tp2/u_9_p2_4a.mp3","sound/tp2/u_9_p2_4b.mp3","sound/tp2/u_9_p2_4c.mp3"],
+            "question5Sound":["sound/ttqr/u9/Q5.mp3","sound/tp2/u_9_p2_5a.mp3","sound/tp2/u_9_p2_5b.mp3","sound/tp2/u_9_p2_5c.mp3"],
+            "question6Sound":["sound/ttqr/u9/Q6.mp3","sound/tp2/u_9_p2_6a.mp3","sound/tp2/u_9_p2_6b.mp3","sound/tp2/u_9_p2_6c.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/part3_title.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/u_9_p3_01.mp3","sound/tp3/u_9_p3_02.mp3","sound/tp3/u_9_p3_03.mp3"],
+            "questionSound":["sound/tp3/u9_p3_Q7.mp3","sound/tp3/u9_p3_Q8.mp3"]
+        },
+        "soundSex":["W","M","W"],
+        "questionText":["7. What kind of event are the speakers talking about?", "8. What was strange about Betty's talk?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/part4_title.mp3"],
+            "chunkSound":["sound/tp4/u_9_p4_01.mp3","sound/tp4/u_9_p4_02.mp3","sound/tp4/u_9_p4_03.mp3","sound/tp4/u_9_p4_04.mp3","sound/tp4/u_9_p4_05.mp3",
+                "sound/tp4/u_9_p4_06.mp3","sound/tp4/u_9_p4_07.mp3","sound/tp4/u_9_p4_08.mp3","sound/tp4/u_9_p4_09.mp3","sound/tp4/u_9_p4_10.mp3",
+                "sound/tp4/u_9_p4_11.mp3","sound/tp4/u_9_p4_12.mp3","sound/tp4/u_9_p4_13.mp3","sound/tp4/u_9_p4_14.mp3","sound/tp4/u_9_p4_15.mp3","sound/tp4/u_9_p4_16.mp3","sound/tp4/u_9_p4_17.mp3","sound/tp4/u_9_p4_18.mp3"],
+            "shadowingSound":["sound/tp4/u_9_p4_story.mp3"],
+            "questionSound":["sound/tp4/u9_p4_Q9.mp3","sound/tp4/u9_p4_Q10.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"./image/01_P4_CHUNK.jpg",
+            "shadowing":"./image/01_P4_SHADOW.jpg",
+            "repeating":"./image/01_P4_REPEAT.jpg",
+            "time":"./image/01_P4_TIME.jpg"
+        },
+        "words":80,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["We have a big conference this week.",
+        	"You all have the written agenda.",
+        	"Your tasks should be totally clear,",
+        	"but let's quickly review.",
+        	"We have four teams.",
+        	"Team One",
+        	"will run the registration desk",
+        	"at the convention center.",
+        	"Team Two",
+        	"is in charge of the computer center.",
+        	"Team Three",
+        	"will take care of the shuttle buses",
+        	"to and from the airport,",
+        	"and Team Four and I",
+        	"will jointly run everything else.",
+        	"Any questions?",
+        	"That'll be all.",
+            "Let's get to work!"],
+        "questionText":["What are they preparing for?", "Which team is responsible for the transport?"]
+    }
+}

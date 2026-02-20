@@ -1,0 +1,147 @@
+{
+    "page":"4",
+    "unit":"UNIT4",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/04_icon.jpg",
+    "EnglishTitle":"Money",
+    "JapaneseTitle":"お金",
+    "study":"連結（1）：破裂音（p, t, k, b, d, g）＋母音",
+    "SoundFeatures":{
+        "sounds":{
+            "introSound":["sound/sf/E-Ticket.mp3","sound/sf/u_4_title.mp3"],
+            "sentenceSound":["sound/sf/u_4_SF_01.mp3","sound/sf/u_4_SF_02.mp3","sound/sf/u_4_SF_03.mp3","sound/sf/u_4_SF_04.mp3", "sound/sf/u_4_SF_05.mp3","sound/sf/u_4_SF_06.mp3","sound/sf/u_4_SF_07.mp3","sound/sf/u_4_SF_08.mp3","sound/sf/u_4_SF_09.mp3","sound/sf/u_4_SF_10.mp3", "sound/sf/u_4_SF_11.mp3","sound/sf/u_4_SF_12.mp3"]
+        },
+        "description":"子音で終わる単語の次に母音や[j]で始まる単語が来て、それらが一つの意味の塊を成すとき、音の連結が起こります。このUnitでは、破裂音と母音の連結聞き取る練習をします。とりわけ単語間の破裂音の連結は句動詞に多く起こりますが、tやdが連結するときは、ラ行音に近くなります。",
+        "sentences":["hel{p y}ourself", "le{t i}t go", "sha{ke i}t", "ru{b o}ff", "goo{d i}dea", "do{g-e}ar", "ge{t o}ff", "se{t u}p", "ta{ke o}ff", "ma{ke u}p", "sen{d it o}ut", "che{ck it o}ut"],
+        "coordinate":["0,0", "22%,0", "36%,0", "51%,0", "65%,0", "85%,0", "0, 80", "13%, 80", "27%, 80", "43%, 80", "60%, 80", "80%, 80"]
+    },
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/dr/u_1_intro.mp3"],
+            "sentenceSound":["sound/dr/u4_d_01.mp3","sound/dr/u4_d_02.mp3","sound/dr/u4_d_03.mp3","sound/dr/u4_d_04.mp3","sound/dr/u4_d_05.mp3","sound/dr/u4_d_06.mp3","sound/dr/u4_d_07.mp3","sound/dr/u4_d_08.mp3","sound/dr/u4_d_09.mp3","sound/dr/u4_d_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["I’ve {******* ***} the budget again.",
+            "I think I’ll {**** *** *} loan.",
+            "Sorry, I’m {*** ** ***} satisfied.",
+            "Could I {**** * **** **} the bill?",
+            "Would you deposit the amount into my {**** *******}?",
+            "You have {****** **} profits by 40%.",
+            "We should {***** ** ***} stock price to raise more capital.",
+            "That will {**** ** ******} to create jobs.",
+            "The phone company will {*** ***} my service.",
+            "You gave me fifteen hundred dollars, {*** * **** ** **}."
+            ],
+        "hashAnswers":["7901037f90dc20cb7816205b2662cda19c5540da90d1c4bcae4aed8eb2766c9d",
+            "0ea55b48925760173068c5e1c6f8a78dc56e4a29ed89da584377514af736a6c3",
+            "d440a63a2025f47b42d3a44ec2697f78f012dde5f559003754cfa2e3dedb948e",
+            "f93fcfeec91259053ade3a144e223386910a30ddb81ebe7828528a8ce5b360dd",
+            "34896d2f7c8b29f721f0b487883295f20be9982f594184e82dc8bc58d2a90261",
+            "059a07db6db183f15e5280cc5d3dd57450ad3337b341751ed98e5d3aa5ae0d01",
+            "92d6f45ca154404b8849978c1097391c1fcb3c77b5a9d91945649715a8a2b826",
+            "d9851f9f2bdfa87cdbd2853b626b1e06461437941fdf3ec690aca40e4eacc415",
+            "117b48570e0122b8c42ee601f86b652c1e747d596b895d4a51c75f11ad852309",
+            "1e60226a246e72dd6442304763e8bb616e11a3647999b3c513ae0d3c97df6694"
+            ],
+        "sealImage":"image/01_DI_diamond.jpg"
+    },
+    "Vocabulary":{
+        "sounds":{
+            "introSound":["sound/vo/vo_intro.mp3"],
+            "wordSound": ["sound/vo/u4_v_01.mp3","sound/vo/u4_v_02.mp3","sound/vo/u4_v_03.mp3","sound/vo/u4_v_04.mp3","sound/vo/u4_v_05.mp3","sound/vo/u4_v_06.mp3","sound/vo/u4_v_07.mp3","sound/vo/u4_v_08.mp3","sound/vo/u4_v_09.mp3","sound/vo/u4_v_10.mp3"],
+            "timeoutSound" : ["sound/effect/DORA.mp3"],
+            "mistakeSound" : ["sound/effect/mistake.mp3"],
+            "platinumSound" : ["sound/effect/goldMedal.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"]
+        },
+        "wordJp":["銀行口座","請求書","予算","資本","赤字","会計年度","残業代","利益、利潤","賃金","引き出す"],
+        "wordEn":["bank account","bill","budget","capital","deficit","fiscal year","overtime pay","profit","wage","withdraw"],
+        "medalImage":{
+            "platinum":"image/MedalPlatinum.png",
+            "gold":"image/MedalGold.png",
+            "silver":"image/MedalSilver.png",
+            "bronze":"image/MedalBronze.png"
+        },
+        "plattinumBgImage":"image/platinum.png"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_title.mp3"],
+            "pic1Sound":["sound/tp1/u_1_p_01.mp3", "sound/tp1/u_4_p_02.mp3", "sound/tp1/u_4_p_03.mp3", "sound/tp1/u_4_p_04.mp3", "sound/tp1/u_4_p_05.mp3"],
+            "pic2Sound":["sound/tp1/u_1_p_06.mp3", "sound/tp1/u_4_p_07.mp3", "sound/tp1/u_4_p_08.mp3", "sound/tp1/u_4_p_09.mp3", "sound/tp1/u_4_p_10.mp3"]
+        },
+        "pic1Img":"image/u4-1.jpg",
+        "pic2Img":"image/u4-2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/u_4_p2_01.mp3"],
+            "allFirstSound":["sound/tp2/u_1_p2_play.mp3"],
+            "question3Sound":["sound/tp2/u_4_p2_02.mp3","sound/tp2/u_4_p2_03.mp3","sound/tp2/u_4_p2_04.mp3","sound/tp2/u_4_p2_05.mp3"],
+            "question4Sound":["sound/tp2/u_4_p2_07.mp3","sound/tp2/u_4_p2_08.mp3","sound/tp2/u_4_p2_09.mp3","sound/tp2/u_4_p2_10.mp3"],
+            "question5Sound":["sound/tp2/u_4_p2_12.mp3","sound/tp2/u_4_p2_13.mp3","sound/tp2/u_4_p2_14.mp3","sound/tp2/u_4_p2_15.mp3"],
+            "question6Sound":["sound/tp2/u_4_p2_17.mp3","sound/tp2/u_4_p2_18.mp3","sound/tp2/u_4_p2_19.mp3","sound/tp2/u_4_p2_20.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/p3_shortCnv.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/u_4_p3_01.mp3","sound/tp3/u_4_p3_02.mp3","sound/tp3/u_4_p3_03.mp3"],
+            "questionSound":["sound/tp3/u4_p3_Q7.mp3","sound/tp3/u4_p3_Q8.mp3"]
+        },
+        "soundSex":["W","M","W"],
+        "questionText":["7. What kind of discussion is this?", "8. What does the chart show?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/part4_title.mp3"],
+            "chunkSound":["sound/tp4/u_4_p4_01.mp3","sound/tp4/u_4_p4_02.mp3","sound/tp4/u_4_p4_03.mp3","sound/tp4/u_4_p4_04.mp3","sound/tp4/u_4_p4_05.mp3",
+                "sound/tp4/u_4_p4_06.mp3","sound/tp4/u_4_p4_07.mp3","sound/tp4/u_4_p4_08.mp3","sound/tp4/u_4_p4_09.mp3","sound/tp4/u_4_p4_10.mp3",
+                "sound/tp4/u_4_p4_11.mp3","sound/tp4/u_4_p4_12.mp3","sound/tp4/u_4_p4_13.mp3","sound/tp4/u_4_p4_14.mp3","sound/tp4/u_4_p4_15.mp3","sound/tp4/u_4_p4_16.mp3","sound/tp4/u_4_p4_17.mp3","sound/tp4/u_4_p4_18.mp3","sound/tp4/u_4_p4_19.mp3"],
+            "shadowingSound":["sound/tp4/u_4_p4_story.mp3"],
+            "questionSound":["sound/tp4/u4_p4_Q9.mp3","sound/tp4/u4_p4_Q10.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"image/01_P4_CHUNK.jpg",
+            "shadowing":"image/01_P4_SHADOW.jpg",
+            "repeating":"image/01_P4_REPEAT.jpg",
+            "time":"image/01_P4_TIME.jpg"
+        },
+        "words":90,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["Hi mom,",
+            "it's me, Emily.",
+            "I have a problem.",
+            "I took out a loan",
+            "to cover my medical costs last year",
+            "but I can't make all the payments on time.",
+            "I'm afraid",
+            "the phone company",
+            "is going to cut off my service.",
+            "My checking account is almost empty",
+            "and I have other bills to pay.",
+            "Can you send a check",
+            "for five hundred dollars?",
+            "I know",
+            "you gave me fifteen hundred last year,",
+            "but I used it up.",
+            "You know",
+            "I’m cutting back on my spending,",
+            "but it’s an emergency."],
+        "questionText":["How much money does the speaker ask for?", "What does the speaker need money for?"]
+    }
+}

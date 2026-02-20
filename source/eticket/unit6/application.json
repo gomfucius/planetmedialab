@@ -1,0 +1,143 @@
+{
+    "page":"6",
+    "unit":"UNIT6",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/06_icon.jpg",
+    "EnglishTitle":"Figures and Units",
+    "JapaneseTitle":"数字・単位",
+    "study":"連結（3）：その他の子音＋母音",
+    "SoundFeatures":{
+        "sounds":{
+            "introSound":["sound/sf/E-Ticket.mp3","sound/sf/u_6_title.mp3"],
+            "sentenceSound":["sound/sf/u_6_sf_01.mp3","sound/sf/u_6_sf_02.mp3","sound/sf/u_6_sf_03.mp3","sound/sf/u_6_sf_04.mp3"]
+        },
+        "description":"破裂音、鼻音以外の子音でも同様に音の連結が起こります。",
+        "sentences":["{Both of us are} fond of {fish and} chips.", "Could I {have a glass of iced} tea?", "Can you sneeze {with your eyes open}?", "{It’s a} small world {after all}."],
+        "coordinate":["0,0", "0,40", "0,80", "0,120"]
+    },
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/dr/DR_intro.mp3"],
+            "sentenceSound":["sound/dr/u_6_d_01.mp3","sound/dr/u_6_d_02.mp3","sound/dr/u_6_d_03.mp3","sound/dr/u_6_d_04.mp3","sound/dr/u_6_d_05.mp3","sound/dr/u_6_d_06.mp3","sound/dr/u_6_d_07.mp3","sound/dr/u_6_d_08.mp3","sound/dr/u_6_d_09.mp3","sound/dr/u_6_d_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["The tax is {******** **} the price, isn’t it?",
+            "How far is one {**** **} kilometers?",
+            "It looks {** ** ****} going down.",
+            "That costs {*******} plus 8% tax.",
+            "I {**** **} companies would use the metric system.",
+            "All the {******* ***}  in Fahrenheit.",
+            "The office park is about 200 {****** *****}.",
+            "{****** *****} 80 hectares, almost one square kilometer.",
+            "The average {******* **} about 20 miles per gallon.",
+            "I hear {****** **********} in buying one of our trucks."
+            ],
+        "hashAnswers":["b55a50269fb1252193db494250c3e1c45955fbdd2a5f651b435d469b6a721913",
+            "51fb7342f66710ef722f146bf8c2ada2e123574a5cea6e9b9e8cacc9c93df3ad",
+            "8282829d29e7092d6aa879559dab604e3410f961b1461b306a45a7e57ce7f96c",
+            "36e655ed9e197ce8ef0da5ef448af850f5ac119c5232fe8349bbb693a0c3b90d",
+            "c5d45e3c958a7aaeb1fafb6de95fd6d63fcd74e695d15513d6c6b4b00f416637",
+            "65a7c42bc635fad224a44044480986c19da84f1a34373c2494535c10e59f3e86",
+            "751ee3307b59e9fe0811176cd2b64e1ef488ce3270f4a4e7951bc06d20d8c33e",
+            "f3ba3039044e8b3b4071421d24b2be78f6406567f11d6fd99160d2e235deeabe",
+            "f9a771e4b58b24dcc277b2d7ebfa6dd7f91ae20aa5eec1021d00b28d83ed5bed",
+            "eb432fdf88214b85cb8cc2858541110b39b79e4e8ea5c8a5513d805f4a7db75d"
+            ],
+        "sealImage":"./image/01_DI_diamond.jpg"
+    },
+    "Vocabulary":{
+        "sounds":{
+            "introSound":["sound/vo/vo_intro.mp3","sound/vo/ChooseApproInJapanese.mp3"],
+            "wordSound": ["sound/vo/u_6_01.mp3","sound/vo/u_6_02.mp3","sound/vo/u_6_03.mp3","sound/vo/u_6_04.mp3","sound/vo/u_6_05.mp3","sound/vo/u_6_06.mp3","sound/vo/u_6_07.mp3","sound/vo/u_6_08.mp3","sound/vo/u_6_09.mp3","sound/vo/u_6_10.mp3"],
+            "timeoutSound" : ["sound/effect/DORA.mp3"],
+            "mistakeSound" : ["sound/effect/mistake.mp3"],
+            "platinumSound" : ["sound/effect/goldMedal.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"]
+        },
+        "wordJp":["エーカー","縦列","立方ヤード","華氏","ガロン（3.785リットル）","ヘクタール（2.471エーカー）","メートル法","燃費、走行可能距離","横列、行","単位換算"],
+        "wordEn":["acres","column","cubic yards","Fahrenheit","gallon","hectare","metric system","mileage","row","unit conversion"],
+        "medalImage":{
+            "platinum":"./image/MedalPlatinum.png",
+            "gold":"./image/MedalGold.png",
+            "silver":"./image/MedalSilver.png",
+            "bronze":"./image/MedalBronze.png"
+        },
+        "plattinumBgImage":"./image/platinum.png"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_title.mp3"],
+            "pic1Sound":["sound/tp1/Q1.mp3", "sound/tp1/u_6_p1_01.mp3", "sound/tp1/u_6_p1_02.mp3", "sound/tp1/u_6_p1_03.mp3", "sound/tp1/u_6_p1_04.mp3"],
+            "pic2Sound":["sound/tp1/Q2.mp3", "sound/tp1/u_6_p1_05.mp3", "sound/tp1/u_6_p1_06.mp3", "sound/tp1/u_6_p1_07.mp3", "sound/tp1/u_6_p1_08.mp3"]
+        },
+        "pic1Img":"./image/u6-1.jpg",
+        "pic2Img":"./image/u6-2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/Part2_title.mp3"],
+            "allFirstSound":[],
+            "question3Sound":["sound/ttqr/u6/Q3.mp3","sound/tp2/u_6_p2_3a.mp3","sound/tp2/u_6_p2_3b.mp3","sound/tp2/u_6_p2_3c.mp3"],
+            "question4Sound":["sound/ttqr/u6/Q4.mp3","sound/tp2/u_6_p2_4a.mp3","sound/tp2/u_6_p2_4b.mp3","sound/tp2/u_6_p2_4c.mp3"],
+            "question5Sound":["sound/ttqr/u6/Q5.mp3","sound/tp2/u_6_p2_5a.mp3","sound/tp2/u_6_p2_5b.mp3","sound/tp2/u_6_p2_5c.mp3"],
+            "question6Sound":["sound/ttqr/u6/Q6.mp3","sound/tp2/u_6_p2_6a.mp3","sound/tp2/u_6_p2_6b.mp3","sound/tp2/u_6_p2_6c.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/part3_title.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/u_6_p3_01.mp3","sound/tp3/u_6_p3_02.mp3","sound/tp3/u_6_p3_03.mp3"],
+            "questionSound":["sound/tp3/u6_p3_Q7.mp3","sound/tp3/u6_p3_Q8.mp3"]
+        },
+        "soundSex":["M","W","M"],
+        "questionText":["7. Who are the speakers?", "8. What would the speakers like U.S. companies to do?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/part4_title.mp3"],
+            "chunkSound":["sound/tp4/u_6_p4_01.mp3","sound/tp4/u_6_p4_02.mp3","sound/tp4/u_6_p4_03.mp3","sound/tp4/u_6_p4_04.mp3","sound/tp4/u_6_p4_05.mp3",
+                "sound/tp4/u_6_p4_06.mp3","sound/tp4/u_6_p4_07.mp3","sound/tp4/u_6_p4_08.mp3","sound/tp4/u_6_p4_09.mp3","sound/tp4/u_6_p4_10.mp3",
+                "sound/tp4/u_6_p4_11.mp3","sound/tp4/u_6_p4_12.mp3","sound/tp4/u_6_p4_13.mp3","sound/tp4/u_6_p4_14.mp3","sound/tp4/u_6_p4_15.mp3"],
+            "shadowingSound":["sound/tp4/u_6_p4_story.mp3"],
+            "questionSound":["sound/tp4/u6_p4_Q9.mp3","sound/tp4/u6_p4_Q10.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"./image/01_P4_CHUNK.jpg",
+            "shadowing":"./image/01_P4_SHADOW.jpg",
+            "repeating":"./image/01_P4_REPEAT.jpg",
+            "time":"./image/01_P4_TIME.jpg"
+        },
+        "words":84,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["I hear you’re interested in buying",
+            "one of our professional-use trucks.",
+            "First, let me show you",
+            "the 10th anniversary edition",
+            "of our classic B-450 pickup truck.",
+            "Here's the data sheet:",
+            "the average mileage is",
+            "20 miles per gallon,",
+            "that's 8.5 kilometers per liter.",
+            "It can carry up to 31,000 pounds.",
+            "That's ten cubic yards of sand!",
+            "Two thirds of the trucks we sell",
+            "are used by construction companies,",
+            "so you know they are reliable.",
+            "Would you like to take a test drive?"],
+        "questionText":["What is the speaker trying to do?", "How many miles per gallon does the truck get?"]
+    }
+}

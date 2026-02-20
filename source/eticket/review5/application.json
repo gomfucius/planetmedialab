@@ -1,0 +1,122 @@
+{
+    "page":"R5",
+    "unit":"Review5",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/05_ReviewTest.jpg",
+    "EnglishTitle":"Review Test5",
+    "JapaneseTitle":"",
+    "study":"弱形go",
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/E-Ticket.mp3","sound/RevTest5.mp3","sound/dr/dictation_intro.mp3"],
+            "sentenceSound":["sound/dr/t_5_d_01.mp3","sound/dr/t_5_d_02.mp3","sound/dr/t_5_d_03.mp3","sound/dr/t_5_d_04.mp3","sound/dr/t_5_d_05.mp3","sound/dr/t_5_d_06.mp3","sound/dr/t_5_d_07.mp3","sound/dr/t_5_d_08.mp3","sound/dr/t_5_d_09.mp3","sound/dr/t_5_d_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["The man {** ** ***} pharmacy.",
+			"I think you have {* ***** ** ***} flu.",
+			"The man {** ********* ***} body temperature.",
+			"She likes to {***** *** *****} pressure once a month.",
+			"Why don’t you just put it down {**** ***** ** ***} table?",
+			"She is researching ocean bacteria {**** *** **** **} eat the oil.",
+			"What {*** **** ** ***} special features of this dairy factory?",
+			"{*** ** ***} cheese is made to the highest standards.",
+			"We are very pleased that so many {** *** **** ****** **}.",
+			"We need to reduce the stress {** *** *****}."
+            ],
+        "hashAnswers":["ab98e220a39bee569d6cdbb44cbc297a0cedbcea379b101a497ef10414a76ab7",
+        	"0703e5fac6e1c736f4e59f4e3a8d1f5dd87562ef9bd058bf5b4e8a477fa18cfc",
+        	"ad5be003247a5b3801ac6ba55dca2a61fbf8b5855304b701e3d6b7116a3227e8",
+        	"08b405b9e63e9602774eeb0bddbb8b73f4090c6b6cc389ab46cf5289ec4187b6",
+        	"911fc39e3bfd0d66b1425cbb8d3eaec0f5ef943d0c1ca5cf812b536b01162201",
+        	"5e2fc832a353c95e1fb630481f520967ccac11804909f77428c5397b1f274fa1",
+        	"f3509d1b9114e898549df65a5796eb86f8647a1b2435e99395ac92edf7ad0b22",
+        	"ef895b4c820d4dca2cc47d2a10e9f9506dfc08e9f77051c41bb18578eb8f84da",
+        	"a92232bbec9b652f0d0edccdd587952625a75ab1d5e15773d08965c1395e353a",
+			"137a307ab6e60b6eca300737e1cc3b34dfded798a9be5d457419d35e9e01715a"
+            ],
+        "sealImage":"./image/01_DI_diamond.jpg"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_title.mp3"],
+            "pic1Sound":["sound/tp1/Q1.mp3","sound/tp1/t_5_p1_01.mp3", "sound/tp1/t_5_p1_02.mp3", "sound/tp1/t_5_p1_03.mp3", "sound/tp1/t_5_p1_04.mp3"],
+            "pic2Sound":["sound/tp1/Q2.mp3","sound/tp1/t_5_p1_05.mp3", "sound/tp1/t_5_p1_06.mp3", "sound/tp1/t_5_p1_07.mp3", "sound/tp1/t_5_p1_08.mp3"]
+        },
+        "pic1Img":"./image/R5-1.jpg",
+        "pic2Img":"./image/R5-2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/part2_title.mp3"],
+            "question3Sound":["sound/ttqr/r5/Q3.mp3","sound/tp2/t_5_p2_01.mp3","sound/tp2/t_5_p2_02.mp3","sound/tp2/t_5_p2_03.mp3"],
+            "question4Sound":["sound/ttqr/r5/Q4.mp3","sound/tp2/t_5_p2_04.mp3","sound/tp2/t_5_p2_05.mp3","sound/tp2/t_5_p2_06.mp3"],
+            "question5Sound":["sound/ttqr/r5/Q5.mp3","sound/tp2/t_5_p2_07.mp3","sound/tp2/t_5_p2_08.mp3","sound/tp2/t_5_p2_09.mp3"],
+            "question6Sound":["sound/ttqr/r5/Q6.mp3","sound/tp2/t_5_p2_10.mp3","sound/tp2/t_5_p2_11.mp3","sound/tp2/t_5_p2_12.mp3"],
+            "question7Sound":["sound/ttqr/r5/Q7.mp3","sound/tp2/t_5_p2_13.mp3","sound/tp2/t_5_p2_14.mp3","sound/tp2/t_5_p2_15.mp3"],
+            "question8Sound":["sound/ttqr/r5/Q8.mp3","sound/tp2/t_5_p2_16.mp3","sound/tp2/t_5_p2_17.mp3","sound/tp2/t_5_p2_18.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/part3_title.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/t_5_p3_01.mp3","sound/tp3/t_5_p3_02.mp3","sound/tp3/t_5_p3_03.mp3","sound/tp3/t_5_p3_04.mp3"],
+            "questionSound":["sound/reviewtest5/reviewtest5_Q9.mp3","sound/reviewtest5/reviewtest5_Q10.mp3","sound/reviewtest5/reviewtest5_Q11.mp3"]
+        },
+        "soundSex":["W","M","W","M"],
+        "questionText":["9. Who is the reporter talking to?", "10. What does Dingle’s produce?", "11. Which of the following does Dingle’s boast?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/part4_title.mp3"],
+            "chunkSound":["sound/tp4/t_5_p4_01.mp3","sound/tp4/t_5_p4_02.mp3","sound/tp4/t_5_p4_03.mp3","sound/tp4/t_5_p4_04.mp3","sound/tp4/t_5_p4_05.mp3",
+                "sound/tp4/t_5_p4_06.mp3","sound/tp4/t_5_p4_07.mp3","sound/tp4/t_5_p4_08.mp3","sound/tp4/t_5_p4_09.mp3","sound/tp4/t_5_p4_10.mp3",
+                "sound/tp4/t_5_p4_11.mp3","sound/tp4/t_5_p4_12.mp3","sound/tp4/t_5_p4_13.mp3","sound/tp4/t_5_p4_14.mp3","sound/tp4/t_5_p4_15.mp3","sound/tp4/t_5_p4_16.mp3","sound/tp4/t_5_p4_17.mp3","sound/tp4/t_5_p4_18.mp3","sound/tp4/t_5_p4_19.mp3","sound/tp4/t_5_p4_20.mp3","sound/tp4/t_5_p4_21.mp3","sound/tp4/t_5_p4_22.mp3","sound/tp4/t_5_p4_23.mp3"],
+            "shadowingSound":["sound/tp4/t_5_p4_story.mp3"],
+            "questionSound":["sound/reviewtest5/reviewtest5_Q12.mp3","sound/reviewtest5/reviewtest5_Q13.mp3","sound/reviewtest5/reviewtest5_Q14.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"./image/01_P4_CHUNK.jpg",
+            "shadowing":"./image/01_P4_SHADOW.jpg",
+            "repeating":"./image/01_P4_REPEAT.jpg",
+            "time":"./image/01_P4_TIME.jpg"
+        },
+        "words":106,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["Good morning everybody.",
+        	"Welcome to this weekend’s workshop",
+        	"on Healthy Living.",
+        	"We are very pleased",
+        	"that so many of you have joined us.",
+        	"Some of the topics",
+        	"we will be covering today",
+        	"are Living with Less Salt,",
+        	"How to Cut Down on Alcohol,",
+        	"Good Cholesterol,",
+        	"and Bad Fats.",
+        	"After a delicious low-calorie lunch",
+        	"we’re going to try",
+        	"some simple exercise routines.",
+        	"Losing just a few kilos",
+        	"will make a big difference",
+        	"to lowering your blood pressure.",
+        	"So, that’s the introduction over",
+        	"and now to start today’s workshop.",
+        	"Here’s Dr. Miles Porter",
+        	"who’s going to explain",
+        	"why we need to reduce the stress",
+            "in our lives."],
+        "questionText":["What is the focus of this weekend workshop?", "What will Dr. Porter talk about?", "What will the course participants do after lunch?"]
+    }
+}

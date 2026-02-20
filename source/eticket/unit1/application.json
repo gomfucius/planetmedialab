@@ -1,0 +1,143 @@
+{
+    "page":"1",
+    "unit":"UNIT1",
+    "materialPath":"https://s3-ap-northeast-1.amazonaws.com/pmltokyobucket/",
+    "iconImage":"./image/01_DI_icon.jpg",
+    "EnglishTitle":"Office and Personnel",
+    "JapaneseTitle":"会社・人事",
+    "study":"短縮形（１）：主語+be動詞、has, have, had",
+    "SoundFeatures":{
+        "sounds":{
+            "introSound":["sound/sf/E-Ticket.mp3","sound/sf/u_1_tittle.mp3","sound/sf/soundFeatures.mp3"],
+            "sentenceSound":["sound/sf/u_1_SF_01.mp3","sound/sf/u_1_SF_02.mp3","sound/sf/u_1_SF_03.mp3","sound/sf/u_1_SF_04.mp3", "sound/sf/u_1_SF_05.mp3","sound/sf/u_1_SF_06.mp3"]
+        },
+        "description":"英語ではふつう、主語とbe動詞・助動詞が一語のように弱く発音されます。You areもyourと似た音で発音され、You'reと表記されます。これは日本語の「それは」が「そりゃ」、「僕は」が「ぼかー」に聞こえるのと似た現象です。以下の短縮形は、一息で話される意味内容「チャンク」を聞き取りの単位にすれば、たいてい区別がつきます。他の例も見てみましょう。",
+        "sentences":["{He's} a new boss.", "{his} new boss", "{They're} working.", "{Their} desks are over there.", "The {employee's} working.", "The {employees} are working."],
+        "coordinate":["0,0", "50%,0", "0,40", "50%,40", "0,80", "50%,80"]
+    },
+    "DictationRep":{
+        "sounds":{
+            "introSound":["sound/dr/u_1_intro.mp3"],
+            "sentenceSound":["sound/dr/u1_d_1.mp3","sound/dr/u1_d_2.mp3","sound/dr/u1_d_3.mp3","sound/dr/u1_d_4.mp3","sound/dr/u1_d_5.mp3","sound/dr/u1_d_6.mp3","sound/dr/u1_d_7.mp3","sound/dr/u1_d_8.mp3","sound/dr/u1_d_9.mp3","sound/dr/u1_d_10.mp3"],
+            "mistakeSound":["sound/effect/mistake.mp3"],
+            "hitSound":["sound/effect/hit.mp3"],
+            "clapSound":["sound/effect/clap.mp3"],
+            "answerShowSound":["sound/effect/AnswerShow.mp3"]
+        },
+        "sentences":["{********} piles of documents on the desk.",
+            "{*****} in charge of the new project?",
+            "{******} the next meeting with the client?",
+            "{***** ******} go to the personnel department.",
+            "{**** *******} for the sales representative position in your branch.",
+            "{******} scheduled for 10:00 o'clock, right?",
+            "{*******} probably just about finished.",
+            "I think {****** ***} seen my memo.",
+            "{**** ***} an impressive resume.",
+            "{*******} every reason to believe {****} a good candidate."
+            ],
+        "hashAnswers":["d8ab23095bc6b0710d37a4906bd3de832317735ddb39de807241aee1c4631135",
+            "543ac12928906e468af922e52fe1ae1bf4769c1c960f9fd9e25388057a970285",
+            "66acbeccdee679b6787d3288be52ed15e941c51e31926fc74721adb9cc8ab7d7",
+            "0dfe5dc1fbb1ec0f3ae8d6952395a3ef18171e32350516632ccbc9af5a21f1b8",
+            "216d4ce742eb919aec7cd8e5d31b5b3146199b462e333cfcaf4c103924ed8262",
+            "c0212a81b08c69f2012a22ccde46fa877b00d21dcc0c1fbd7c2152cd389e274a",
+            "021d449ecf8eea9ee013fd7dad67483f0926d4b4adbf5dce81c1030e54b12cd9",
+            "94ccc6791c3ff6d21de6e3bf2e3a26af3129b4dcadb06318b1ff7bd472c187d3",
+            "feb1db0c0d6f20825ed2e5fa56cd7ef357e0926f4081cad9f3f6a0e1d7f8f1e7",
+            "c9d5dd620a8c27fcf8cb1cfc7230d3f149913e49fa2d7b5bfbf51cf0d528e262"
+            ],
+        "sealImage":"./image/01_DI_diamond.jpg"
+    },
+    "Vocabulary":{
+        "sounds":{
+            "introSound":["sound/vo/vo_intro.mp3"],
+            "wordSound": ["sound/vo/1.mp3","sound/vo/2.mp3","sound/vo/3.mp3","sound/vo/4.mp3","sound/vo/5.mp3","sound/vo/6.mp3","sound/vo/7.mp3","sound/vo/8.mp3","sound/vo/9.mp3","sound/vo/10.mp3"],
+            "timeoutSound" : ["sound/effect/DORA.mp3"],
+            "mistakeSound" : ["sound/effect/mistake.mp3"],
+            "platinumSound" : ["sound/effect/goldMedal.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"]
+        },
+        "wordJp":["応募者","支店","候補者","顧客","本部長、支配人","職","求人・採用","履歴書","販売員","転勤する"],
+        "wordEn":["applicant","branch","candidate","client","general manager","position","recruitment","resume","sales representative","transfer"],
+        "medalImage":{
+            "platinum":"./image/MedalPlatinum.png",
+            "gold":"./image/MedalGold.png",
+            "silver":"./image/MedalSilver.png",
+            "bronze":"./image/MedalBronze.png"
+        },
+        "plattinumBgImage":"./image/platinum.png"
+    },
+    "ToeicP1":{
+        "sounds":{
+            "introSound":["sound/tp1/part1_tittle.mp3"],
+            "pic1Sound":["sound/tp1/u_1_p_01.mp3", "sound/tp1/u_1_p_02.mp3", "sound/tp1/u_1_p_03.mp3", "sound/tp1/u_1_p_04.mp3", "sound/tp1/u_1_p_05.mp3"],
+            "pic2Sound":["sound/tp1/u_1_p_06.mp3", "sound/tp1/u_1_p_07.mp3", "sound/tp1/u_1_p_08.mp3", "sound/tp1/u_1_p_09.mp3", "sound/tp1/u_1_p_10.mp3"]
+        },
+        "pic1Img":"./image/01_P1_1.jpg",
+        "pic2Img":"./image/01_P1_2.jpg"
+    },
+    "ToeicP2":{
+        "sounds":{
+            "introSound":["sound/tp2/u_1_p2_01.mp3"],
+            "allFirstSound":["sound/tp2/u_1_p2_play.mp3"],
+            "question3Sound":["sound/tp2/u_1_p2_02.mp3","sound/tp2/u_1_p2_03.mp3","sound/tp2/u_1_p2_04.mp3","sound/tp2/u_1_p2_05.mp3"],
+            "question4Sound":["sound/tp2/u_1_p2_07.mp3","sound/tp2/u_1_p2_08.mp3","sound/tp2/u_1_p2_09.mp3","sound/tp2/u_1_p2_10.mp3"],
+            "question5Sound":["sound/tp2/u_1_p2_12.mp3","sound/tp2/u_1_p2_13.mp3","sound/tp2/u_1_p2_14.mp3","sound/tp2/u_1_p2_15.mp3"],
+            "question6Sound":["sound/tp2/u_1_p2_17.mp3","sound/tp2/u_1_p2_18.mp3","sound/tp2/u_1_p2_19.mp3","sound/tp2/u_1_p2_20.mp3"]
+        }
+    },
+    "ToeicP3":{
+        "sounds":{
+            "introSound":["sound/tp3/p3_shortCnv.mp3"],
+            "directionSound":["sound/tp3/chooseBestAns.mp3"],
+            "speechSound":["sound/tp3/u1_p3_01.mp3","sound/tp3/u1_p3_02.mp3","sound/tp3/u1_p3_03.mp3","sound/tp3/u1_p3_04.mp3"],
+            "questionSound":["sound/tp3/u1_p3_Q7.mp3","sound/tp3/u1_p3_Q8.mp3"]
+        },
+        "soundSex":["W","M","W","M"],
+        "questionText":["7. Where does this conversation take place?", "8. What is the sales manager doing?"]
+    },
+    "ToeicP4":{
+        "sounds":{
+            "introSound":["sound/tp4/u1_p4_tittle.mp3"],
+            "chunkSound":["sound/tp4/ch1.mp3","sound/tp4/ch2.mp3","sound/tp4/ch3.mp3","sound/tp4/ch4.mp3","sound/tp4/ch5.mp3",
+                "sound/tp4/ch6.mp3","sound/tp4/ch7.mp3","sound/tp4/ch8.mp3","sound/tp4/ch9.mp3","sound/tp4/ch10.mp3",
+                "sound/tp4/ch11.mp3","sound/tp4/ch12.mp3","sound/tp4/ch13.mp3","sound/tp4/ch14.mp3","sound/tp4/ch15.mp3"],
+            "shadowingSound":["sound/tp4/u1_p4_story.mp3"],
+            "questionSound":["sound/tp4/U1_number9.mp3","sound/tp4/U1_number10.mp3"],
+            "goldSound" : ["sound/effect/E-TicketGold.mp3"],
+            "silverSound" : ["sound/effect/E-TicketSilver.mp3"],
+            "bronzeSound" : ["sound/effect/clap.mp3"],
+            "tryagainSound":["sound/effect/E-TicketTryAgain.mp3"]
+        },
+        "categoryImage":{
+            "chunk":"./image/01_P4_CHUNK.jpg",
+            "shadowing":"./image/01_P4_SHADOW.jpg",
+            "repeating":"./image/01_P4_REPEAT.jpg",
+            "time":"./image/01_P4_TIME.jpg"
+        },
+        "words":70,
+        "wpm":{
+            "gold":150,
+            "silver":120,
+            "bronze":90
+        },
+        "chunks":["Ladies and Gentlemen,",
+            "our next candidate",
+            "for the position of the general manager",
+            "is Allan Pinker. ",
+            "I think you've all seen my memo.",
+            "He's got an impressive resume. ",
+            "When he was transferred to Chicago ",
+            "he'd already been the director",
+            "of recruitment at the main office",
+            "for ten years.",
+            "He was vice-president",
+            "of the Chicago branch,",
+            "which quickly became our biggest. ",
+            "There’s every reason to believe",
+            "he's a very strong candidate."],
+        "questionText":["What kind of meeting is this?", "What does the speaker think the board should do?"]
+    }
+}
