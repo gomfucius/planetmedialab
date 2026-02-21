@@ -9,7 +9,12 @@
       "Bash(do cp /Users/genki/Developer/Personal/planetmedialab/source/eticket/unit1/index.html /Users/genki/Developer/Personal/planetmedialab/source/eticket/review$i/index.html)",
       "Bash(do cp unit1/index.html unit$i/index.html)",
       "Bash(do cp:*)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "Bash(find:*)",
+      "Bash(python3:*)",
+      "Bash(for file in 5789a9305f4a03ae3e28.wasm b5eaf4cb09f26605b9d1.wasm core.ruffle.1a27d068ceff72436da0.js core.ruffle.b74fb31c1a33a18573f7.js)",
+      "Bash(do)",
+      "Bash(echo:*)"
     ]
   }
 }
