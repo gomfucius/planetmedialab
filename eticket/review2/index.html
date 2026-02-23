@@ -340,6 +340,41 @@
             background: #e8f5e9;
         }
 
+        .dictation-text .blank.correct {
+            background: #c8e6c9;
+            border-color: #4caf50;
+            color: #2e7d32;
+        }
+
+        .dictation-text .blank.incorrect {
+            background: #ffcdd2;
+            border-color: #e53935;
+            color: #c62828;
+        }
+
+        .dictation-text .blank-input {
+            display: inline-block;
+            min-width: 100px;
+            width: auto;
+            border: none;
+            border-bottom: 2px solid #324EAC;
+            background: #f5f5f5;
+            color: #333;
+            font-weight: bold;
+            text-align: center;
+            padding: 4px 8px;
+            margin: 0 3px;
+            font-size: inherit;
+            font-family: inherit;
+            outline: none;
+        }
+
+        .dictation-text .blank-input:focus {
+            background: #e3f2fd;
+            border-color: #1976d2;
+        }
+
+
         .dictation-check {
             color: #009900;
             font-size: 1.5rem;
@@ -920,7 +955,7 @@
 
             <!-- Dictation Activity -->
             <div class="activity" id="DictationRep">
-                <p class="info-text">Click the number to hear the sentence. Click blanks to reveal answers.</p>
+                <p class="info-text">Click the number to hear the sentence. Click on *** blanks to type your answer, then press Enter to check.</p>
                 <div id="dictation-list"></div>
             </div>
 
@@ -1164,6 +1199,14 @@
             });
         }
 
+        // SHA-256 hash function
+        async function sha256(message) {
+            const msgBuffer = new TextEncoder().encode(message);
+            const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        }
+
         // Dictation
         function initDictation() {
             if (!appData.DictationRep) return;
@@ -1174,10 +1217,16 @@
             dict.sentences.forEach((sentence, index) => {
                 const div = document.createElement('div');
                 div.className = 'dictation-item';
+                div.dataset.index = index;
 
                 // Parse sentence - {****} becomes blanks
+                // Count blanks in this sentence to handle multiple blanks
+                const blanks = sentence.match(/{[^}]+}/g) || [];
+                let blankIndex = 0;
+
                 let html = sentence.replace(/{([^}]+)}/g, (match, p1) => {
-                    return `<span class="blank" data-answer="${p1}">${'_'.repeat(p1.length)}</span>`;
+                    const bi = blankIndex++;
+                    return `<span class="blank" data-answer="${p1}" data-blank-index="${bi}" data-length="${p1.length}">${'*'.repeat(p1.length)}</span>`;
                 });
 
                 div.innerHTML = `
@@ -1193,16 +1242,166 @@
                     numBtn.addEventListener('click', () => playAudio(soundFile));
                 }
 
-                // Reveal answer on blank click
+                // Click blank to type answer
                 div.querySelectorAll('.blank').forEach(blank => {
                     blank.addEventListener('click', () => {
-                        blank.textContent = blank.dataset.answer;
-                        blank.classList.add('revealed');
+                        // Don't allow editing if already correct
+                        if (blank.classList.contains('correct')) return;
+
+                        // Create input field
+                        const input = document.createElement('input');
+                        input.type = 'text';
+                        input.className = 'blank-input';
+                        input.placeholder = '*'.repeat(parseInt(blank.dataset.length));
+                        input.style.width = Math.max(100, blank.dataset.length * 12) + 'px';
+
+                        // Store reference to original blank
+                        input.dataset.answer = blank.dataset.answer;
+                        input.dataset.sentenceIndex = index;
+                        input.dataset.blankIndex = blank.dataset.blankIndex;
+
+                        // Replace blank with input
+                        blank.style.display = 'none';
+                        blank.parentNode.insertBefore(input, blank.nextSibling);
+                        input.focus();
+
+                        // Handle Enter key
+                        input.addEventListener('keydown', async (e) => {
+                            if (e.key === 'Enter') {
+                                await checkDictationAnswer(input, blank, div, dict);
+                            } else if (e.key === 'Escape') {
+                                // Cancel input
+                                input.remove();
+                                blank.style.display = 'inline-block';
+                            }
+                        });
+
+                        // Handle blur (click away)
+                        input.addEventListener('blur', async () => {
+                            if (input.value.trim()) {
+                                await checkDictationAnswer(input, blank, div, dict);
+                            } else {
+                                input.remove();
+                                blank.style.display = 'inline-block';
+                            }
+                        });
                     });
                 });
 
                 container.appendChild(div);
             });
+        }
+
+        async function checkDictationAnswer(input, blank, itemDiv, dict) {
+            const userAnswer = input.value.trim();
+            const correctAnswer = blank.dataset.answer;
+            const sentenceIndex = parseInt(input.dataset.sentenceIndex);
+
+            // Check hash if available
+            const hashAnswer = dict.hashAnswers ? dict.hashAnswers[sentenceIndex] : null;
+
+            let isCorrect = false;
+
+            // Generate variations of user input to try
+            function generateVariations(text) {
+                const variations = new Set();
+                const apostrophes = ["'", "'", "'", "`"];
+
+                // Original
+                variations.add(text);
+
+                // Capitalize first letter
+                const capitalized = text.charAt(0).toUpperCase() + text.slice(1);
+                variations.add(capitalized);
+
+                // Lowercase
+                variations.add(text.toLowerCase());
+
+                // Uppercase
+                variations.add(text.toUpperCase());
+
+                // Try different apostrophe types
+                for (const a1 of apostrophes) {
+                    for (const a2 of apostrophes) {
+                        variations.add(text.replace(/['''`]/g, a2));
+                        variations.add(capitalized.replace(/['''`]/g, a2));
+                    }
+                }
+
+                // Common contractions expansions
+                const contractions = {
+                    "there are": ["There're", "there're"],
+                    "there're": ["There are", "there are"],
+                    "who is": ["Who's", "who's"],
+                    "who's": ["Who is", "who is"],
+                    "when is": ["When's", "when's"],
+                    "when's": ["When is", "when is"],
+                    "it is": ["It's", "it's"],
+                    "it's": ["It is", "it is"],
+                    "he is": ["He's", "he's"],
+                    "he's": ["He is", "he is"],
+                    "she is": ["She's", "she's"],
+                    "she's": ["She is", "she is"],
+                    "they are": ["They're", "they're"],
+                    "they're": ["They are", "they are"],
+                    "you will": ["You'll", "you'll"],
+                    "you'll": ["You will", "you will"],
+                    "i have": ["I've", "i've"],
+                    "i've": ["I have", "i have"],
+                    "she has": ["She's", "she's"],
+                    "he has": ["He's", "he's"],
+                    "it has": ["It's", "it's"],
+                };
+
+                const lowerText = text.toLowerCase();
+                if (contractions[lowerText]) {
+                    contractions[lowerText].forEach(v => variations.add(v));
+                }
+
+                return Array.from(variations);
+            }
+
+            if (hashAnswer) {
+                const variations = generateVariations(userAnswer);
+
+                for (const variation of variations) {
+                    const hash = await sha256(variation);
+                    if (hash === hashAnswer) {
+                        isCorrect = true;
+                        break;
+                    }
+                }
+            }
+
+            // Also check direct match (case-insensitive)
+            if (!isCorrect && userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
+                isCorrect = true;
+            }
+
+            // Update UI
+            input.remove();
+            blank.style.display = 'inline-block';
+
+            if (isCorrect) {
+                blank.textContent = blank.dataset.answer;
+                blank.classList.add('correct');
+                playAudio(dict.sounds.hitSound[0]);
+
+                // Check if all blanks in this sentence are correct
+                const allBlanks = itemDiv.querySelectorAll('.blank');
+                const allCorrect = Array.from(allBlanks).every(b => b.classList.contains('correct'));
+                if (allCorrect) {
+                    itemDiv.classList.add('correct');
+                }
+            } else {
+                blank.classList.add('incorrect');
+                playAudio(dict.sounds.mistakeSound[0]);
+
+                // Show hint and reset after delay
+                setTimeout(() => {
+                    blank.classList.remove('incorrect');
+                }, 1000);
+            }
         }
 
         // Vocabulary
