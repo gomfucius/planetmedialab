@@ -1339,6 +1339,7 @@
             let isCorrect = false;
 
             // Generate variations of user input to try
+            // Case-sensitive variations (only apostrophe types and equivalent contractions)
             function generateVariations(text) {
                 const variations = new Set();
                 const apostrophes = ["'", "'", "'", "`"];
@@ -1346,52 +1347,63 @@
                 // Original
                 variations.add(text);
 
-                // Capitalize first letter
-                const capitalized = text.charAt(0).toUpperCase() + text.slice(1);
-                variations.add(capitalized);
-
-                // Lowercase
-                variations.add(text.toLowerCase());
-
-                // Uppercase
-                variations.add(text.toUpperCase());
-
-                // Try different apostrophe types
-                for (const a1 of apostrophes) {
-                    for (const a2 of apostrophes) {
-                        variations.add(text.replace(/['''`]/g, a2));
-                        variations.add(capitalized.replace(/['''`]/g, a2));
-                    }
+                // Try different apostrophe types (same case)
+                for (const a of apostrophes) {
+                    variations.add(text.replace(/['''`]/g, a));
                 }
 
-                // Common contractions expansions
+                // Equivalent contractions (case-sensitive)
+                // Only match if capitalization is correct
                 const contractions = {
-                    "there are": ["There're", "there're"],
-                    "there're": ["There are", "there are"],
-                    "who is": ["Who's", "who's"],
-                    "who's": ["Who is", "who is"],
-                    "when is": ["When's", "when's"],
-                    "when's": ["When is", "when is"],
-                    "it is": ["It's", "it's"],
-                    "it's": ["It is", "it is"],
-                    "he is": ["He's", "he's"],
-                    "he's": ["He is", "he is"],
-                    "she is": ["She's", "she's"],
-                    "she's": ["She is", "she is"],
-                    "they are": ["They're", "they're"],
-                    "they're": ["They are", "they are"],
-                    "you will": ["You'll", "you'll"],
-                    "you'll": ["You will", "you will"],
-                    "i have": ["I've", "i've"],
-                    "i've": ["I have", "i have"],
-                    "she has": ["She's", "she's"],
-                    "he has": ["He's", "he's"],
-                    "it has": ["It's", "it's"],
+                    "There are": ["There're"],
+                    "There're": ["There are"],
+                    "Who is": ["Who's"],
+                    "Who's": ["Who is"],
+                    "When is": ["When's"],
+                    "When's": ["When is"],
+                    "It is": ["It's"],
+                    "It's": ["It is"],
+                    "He is": ["He's"],
+                    "He's": ["He is"],
+                    "She is": ["She's"],
+                    "She's": ["She is"],
+                    "They are": ["They're"],
+                    "They're": ["They are"],
+                    "You will": ["You'll"],
+                    "You'll": ["You will"],
+                    "I have": ["I've"],
+                    "I've": ["I have"],
+                    "She has": ["She's"],
+                    "He has": ["He's"],
+                    "It has": ["It's"],
+                    "You have": ["You've"],
+                    "You've": ["You have"],
+                    "We have": ["We've"],
+                    "We've": ["We have"],
+                    "They have": ["They've"],
+                    "They've": ["They have"],
                 };
 
-                const lowerText = text.toLowerCase();
-                if (contractions[lowerText]) {
-                    contractions[lowerText].forEach(v => variations.add(v));
+                // Check exact match for contractions
+                if (contractions[text]) {
+                    contractions[text].forEach(v => {
+                        variations.add(v);
+                        // Also try different apostrophes for the contraction
+                        for (const a of apostrophes) {
+                            variations.add(v.replace(/['''`]/g, a));
+                        }
+                    });
+                }
+
+                // Also check with normalized apostrophe
+                const normalizedText = text.replace(/['''`]/g, "'");
+                if (contractions[normalizedText]) {
+                    contractions[normalizedText].forEach(v => {
+                        variations.add(v);
+                        for (const a of apostrophes) {
+                            variations.add(v.replace(/['''`]/g, a));
+                        }
+                    });
                 }
 
                 return Array.from(variations);
@@ -1407,11 +1419,6 @@
                         break;
                     }
                 }
-            }
-
-            // Also check direct match (case-insensitive)
-            if (!isCorrect && userAnswer.toLowerCase() === correctAnswer.toLowerCase()) {
-                isCorrect = true;
             }
 
             // Update UI
