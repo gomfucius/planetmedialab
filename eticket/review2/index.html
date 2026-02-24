@@ -346,10 +346,26 @@
             color: #2e7d32;
         }
 
+        .dictation-text .blank.correct.answer-visible {
+            color: #2e7d32;
+        }
+
         .dictation-text .blank.incorrect {
             background: #ffcdd2;
             border-color: #e53935;
             color: #c62828;
+        }
+
+        .dictation-check {
+            cursor: pointer;
+        }
+
+        .dictation-check:hover {
+            transform: scale(1.2);
+        }
+
+        .dictation-item.correct .dictation-check.answers-showing {
+            color: #4caf50;
         }
 
         .dictation-text .blank-input {
@@ -955,7 +971,7 @@
 
             <!-- Dictation Activity -->
             <div class="activity" id="DictationRep">
-                <p class="info-text">Click the number to hear the sentence. Click on *** blanks to type your answer, then press Enter to check.</p>
+                <p class="info-text">Click the number to hear the sentence. Click on *** to type your answer, press Enter to check. Click ✓ to hide/show answers.</p>
                 <div id="dictation-list"></div>
             </div>
 
@@ -1288,6 +1304,26 @@
                     });
                 });
 
+                // Click checkmark to toggle answer visibility (for anti-cheating)
+                const checkMark = div.querySelector('.dictation-check');
+                checkMark.addEventListener('click', () => {
+                    const blanks = div.querySelectorAll('.blank.correct');
+                    if (blanks.length === 0) return; // No correct answers yet
+
+                    const isShowing = checkMark.classList.toggle('answers-showing');
+                    blanks.forEach(blank => {
+                        if (isShowing) {
+                            // Show the user's correct answer
+                            blank.textContent = blank.dataset.correctAnswer || blank.dataset.answer;
+                            blank.classList.add('answer-visible');
+                        } else {
+                            // Hide answer - show asterisks
+                            blank.textContent = '*'.repeat(blank.dataset.length);
+                            blank.classList.remove('answer-visible');
+                        }
+                    });
+                });
+
                 container.appendChild(div);
             });
         }
@@ -1383,7 +1419,10 @@
             blank.style.display = 'inline-block';
 
             if (isCorrect) {
-                blank.textContent = blank.dataset.answer;
+                // Store the correct answer the user typed
+                blank.dataset.correctAnswer = userAnswer;
+                // Show asterisks by default (click ✓ to reveal answer)
+                blank.textContent = '*'.repeat(blank.dataset.length);
                 blank.classList.add('correct');
                 playAudio(dict.sounds.hitSound[0]);
 
