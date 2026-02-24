@@ -61,20 +61,23 @@
         /* Navigation Tabs */
         .tabs {
             display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
+            flex-wrap: nowrap;
+            gap: 6px;
             margin-bottom: 20px;
+            overflow-x: auto;
         }
 
         .tab {
-            padding: 10px 16px;
+            padding: 8px 12px;
             background: white;
             border: 2px solid #ddd;
             border-radius: 8px;
             cursor: pointer;
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             transition: all 0.2s;
             display: none;
+            white-space: nowrap;
+            flex-shrink: 0;
         }
 
         .tab.available {
@@ -537,20 +540,6 @@
             background: #e6c200;
         }
 
-        .logout-btn {
-            padding: 6px 12px;
-            background: #e0e0e0;
-            color: #666;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 0.8rem;
-        }
-
-        .logout-btn:hover {
-            background: #d32f2f;
-            color: white;
-        }
 
         /* Info text */
         .info-text {
@@ -938,7 +927,6 @@
                 <a href="../review4/index.html" class="review" data-unit="review4">R4</a>
                 <a href="../review5/index.html" class="review" data-unit="review5">R5</a>
             </div>
-            <button class="logout-btn" onclick="logout()">Logout</button>
         </div>
 
         <div class="header">
@@ -951,10 +939,10 @@
             <div class="tab" data-activity="SoundFeatures">Sound Features</div>
             <div class="tab" data-activity="DictationRep">Dictation</div>
             <div class="tab" data-activity="Vocabulary">Vocabulary</div>
-            <div class="tab" data-activity="ToeicP1">TOEIC Part 1</div>
-            <div class="tab" data-activity="ToeicP2">TOEIC Part 2</div>
-            <div class="tab" data-activity="ToeicP3">TOEIC Part 3</div>
-            <div class="tab" data-activity="ToeicP4">TOEIC Part 4</div>
+            <div class="tab" data-activity="ToeicP1">Part 1</div>
+            <div class="tab" data-activity="ToeicP2">Part 2</div>
+            <div class="tab" data-activity="ToeicP3">Part 3</div>
+            <div class="tab" data-activity="ToeicP4">Part 4</div>
         </div>
 
         <div class="content">
@@ -1947,11 +1935,6 @@
             document.getElementById('wpm-result').classList.remove('show');
         }
 
-        // Logout function
-        function logout() {
-            sessionStorage.removeItem('pml_logged_in');
-            window.location.href = '../../index.html';
-        }
 
         // Highlight current unit in navigation
         function highlightCurrentUnit() {
